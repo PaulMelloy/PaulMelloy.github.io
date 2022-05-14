@@ -1,0 +1,14 @@
+name: "Paul Melloy"
+navbar:
+  title: "Paul Melloy"
+  left:
+    - text: "Home"
+      href: index.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:<paul@melloy.com.au>
+    - icon: fa-github fa-lg
+      href: http://github.com/PaulMelloy/
+output:
+  html_document:
+    theme: darkly
