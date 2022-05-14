@@ -1,5 +1,7 @@
 ---
 title: "Paul Melloy"
+author: "Dr Paul Melloy" 
+date: "2022-05-15"
 ---
 
 Welcome to my website.  
@@ -7,4 +9,5 @@ Welcome to my website.
 I am a Plant Pathologist at the University of Queensland.
 I specialise in modelling crop diseases and building decision support tools.
 
-<img src="files/img/PaulinQUTlab.jpg", style="width:50%>
+![](files/img/PaulinQUTlab.jpg)  
+
