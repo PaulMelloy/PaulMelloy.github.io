@@ -11,3 +11,26 @@ I specialise in modelling crop diseases and building decision support tools.
 
 ![](files/img/PaulinQUTlab.jpg)  
 
+## Recent work  
+
+### 2022 Election shiny app  
+
+I have been working on a shiny app to help a political party I am a member of, 
+the [Fusion Party, *Science, Pirate, Secular and Climate Emergency Parties*](https://www.fusionparty.org.au/)  
+The shiny app was made to easily convert electoral boundaries data from shape file
+to `KML` file so they could be uploaded on a shared google maps. 
+Needless to say the app expanded monstrously when I found more data on the [AEC website](https://results.aec.gov.au/24310/Website/HouseDownloadsMenu-24310-Csv.htm).  
+
+I included some analysis of voting preferences by division and voting booth, including
+expected voter turnout to booths.  
+Check out the app at https://paulmelloy.shinyapps.io/22_electoralboundaries/  
+
+### Estimating leaf temperature from NASA satalite data  
+
+I wrote a blog, published on OpenPlantPathology's website, for how to use R to 
+estimate leaf temperatures from data retrieved using the `nasapower` R package. 
+Then plugging the data into functions from the R package `tealeaves`.
+The result is being able to estimate the leaf temperature for any where on the planet.
+
+[Click here to read the blog post](https://openplantpathology.netlify.app/posts/2022-04-01-powerful-tea-using-nasapower-and-tealeaves-to-obtain-leaf-temperatures/)
+

@@ -9,6 +9,8 @@ navbar:
       href: mailto:<paul@melloy.com.au>
     - icon: fa-github fa-lg
       href: http://github.com/PaulMelloy/
+    - icon: fa-brands fa-twitter
+      href: https://twitter.com/PaulMelloy
 output:
   html_document:
     theme: darkly
