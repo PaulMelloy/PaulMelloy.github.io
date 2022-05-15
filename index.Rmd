@@ -17,7 +17,7 @@ I specialise in modelling crop diseases and building decision support tools.
 
 `ascotraceR` is an R package which simulates ascochyta blight epidemics in chickpea
 crops.
-You can find `ascotraceR` on CRAN, and a reasource annoucement in phytopathology.
+You can find `ascotraceR` on CRAN, and a resource announcement in phytopathology.
 
 [ascotraceR: An R Package Resource to Simulate the Spatiotemporal Spread of Ascochyta Blight in a Chickpea Field Over a Growing Season](https://apsjournals.apsnet.org/doi/10.1094/PHYTO-01-22-0016-A)
 
@@ -28,7 +28,7 @@ You can find `ascotraceR` on CRAN, and a reasource annoucement in phytopathology
 I have been working on a shiny app to help a political party I am a member of, 
 the [Fusion Party, *Science, Pirate, Secular and Climate Emergency Parties*](https://www.fusionparty.org.au/)  
 The shiny app was made to easily convert electoral boundaries data from shape file
-to `KML` file so they could be uploaded on a shared google maps. 
+to `KML` file so they could be uploaded on a shared Google maps. 
 Needless to say the app expanded monstrously when I found more data on the [AEC website](https://results.aec.gov.au/24310/Website/HouseDownloadsMenu-24310-Csv.htm).  
 
 I included some analysis of voting preferences by division and voting booth, including
