@@ -13,6 +13,16 @@ I specialise in modelling crop diseases and building decision support tools.
 
 ## Recent work  
 
+### Simulation model for ascochyta blight  
+
+`ascotraceR` is an R package which simulates ascochyta blight epidemics in chickpea
+crops.
+You can find `ascotraceR` on CRAN, and a reasource annoucement in phytopathology.
+
+[ascotraceR: An R Package Resource to Simulate the Spatiotemporal Spread of Ascochyta Blight in a Chickpea Field Over a Growing Season](https://apsjournals.apsnet.org/doi/10.1094/PHYTO-01-22-0016-A)
+
+***  
+
 ### 2022 Election shiny app  
 
 I have been working on a shiny app to help a political party I am a member of, 
@@ -24,6 +34,8 @@ Needless to say the app expanded monstrously when I found more data on the [AEC 
 I included some analysis of voting preferences by division and voting booth, including
 expected voter turnout to booths.  
 Check out the app at https://paulmelloy.shinyapps.io/22_electoralboundaries/  
+
+***  
 
 ### Estimating leaf temperature from NASA satalite data  
 

@@ -11,6 +11,8 @@ navbar:
       href: http://github.com/PaulMelloy/
     - icon: fa-brands fa-twitter
       href: https://twitter.com/PaulMelloy
+    - icon: fa-brands fa-orcid
+      href: https://orcid.org/0000-0003-4253-7167
 output:
   html_document:
     theme: darkly
