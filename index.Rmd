@@ -1,10 +1,7 @@
 ---
 title: "Paul Melloy"
-author: "Dr Paul Melloy" 
 date: "2022-05-15"
 ---
-
-Welcome to my website.  
 
 I am a Plant Pathologist at the University of Queensland.
 I specialise in modelling crop diseases and building decision support tools.
@@ -17,7 +14,7 @@ I specialise in modelling crop diseases and building decision support tools.
 
 `ascotraceR` is an R package which simulates ascochyta blight epidemics in chickpea
 crops.
-You can find `ascotraceR` on CRAN, and a resource announcement in phytopathology.
+You can find `ascotraceR` on CRAN, and a resource announcement in *Phytopathology*.
 
 [ascotraceR: An R Package Resource to Simulate the Spatiotemporal Spread of Ascochyta Blight in a Chickpea Field Over a Growing Season](https://apsjournals.apsnet.org/doi/10.1094/PHYTO-01-22-0016-A)
 
@@ -45,4 +42,14 @@ Then plugging the data into functions from the R package `tealeaves`.
 The result is being able to estimate the leaf temperature for any where on the planet.
 
 [Click here to read the blog post](https://openplantpathology.netlify.app/posts/2022-04-01-powerful-tea-using-nasapower-and-tealeaves-to-obtain-leaf-temperatures/)
+
+***  
+
+### Efficient control of powdery pildew in mungbeans  
+
+This paper uses meta-analytic methods to examine 16 field trials over eight seasons assessing fungicide spray timing for control of powdery mildew.  
+
+[Read the paper in *Plant Disease*](https://apsjournals.apsnet.org/doi/10.1094/PDIS-06-21-1256-RE).  
+
+[Recreate the analysis by following the reaseach compendium.](https://openplantpathology.github.io/Mungbean_PM/preliminary-analysis.html)
 
