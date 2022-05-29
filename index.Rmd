@@ -68,12 +68,12 @@ The result is being able to estimate the leaf temperature for any where on the p
 
 ***  
 
-### Efficient control of powdery pildew in mungbeans  
+### Efficient control of powdery mildew in mungbeans  
 #### November 2021  
 
 This paper uses meta-analytic methods to examine 16 field trials over eight seasons assessing fungicide spray timing for control of powdery mildew.  
 
 [Read the paper in *Plant Disease*](https://apsjournals.apsnet.org/doi/10.1094/PDIS-06-21-1256-RE).  
 
-[Recreate the analysis by following the reaseach compendium.](https://openplantpathology.github.io/Mungbean_PM/preliminary-analysis.html)
+[Recreate the analysis by following the research compendium.](https://openplantpathology.github.io/Mungbean_PM/preliminary-analysis.html)
 
