@@ -20,6 +20,24 @@ You can find `ascotraceR` on CRAN, and a resource announcement in *Phytopatholog
 
 ***  
 
+### Is UniSuper's Defined Benifit Division fund worthwhile Shiny App  
+Choice of superannuation is not the first type of research people like to do when starting a new job.
+Most people want to finish the induction paperwork and financial forms as quickly as possible so they can commence diligently working for their new employer.
+Therefore I gather most people would not fully dedicate their time to trying to understand 'What is a defined benefit division?' and 'Is it the best super product for me?'.
+I certainly did not when I started work with the University of Southern Queensland almost four years ago.
+I was coerced into UniSupers DBD and only 3 years down the track I realise it was not for me.  
+
+When checking up on my super balance, shortly after starting work at The University of Queensland, 
+I noticed that the total contributions I made from my salary after tax exceeded the fund balance.
+Suffice to say, I liken the DBD is a pyramid scheme which only benefits people who are over the age of 50. 
+In fact it is almost impossible to have a positive net return if you exit the fund before the age of 46.  
+
+To help people understand how the DBD is calculated I created a shiny app which can be found at the following link
+[https://paulmelloy.shinyapps.io/UniSuperDBD/](https://paulmelloy.shinyapps.io/UniSuperDBD/)  
+
+***  
+
+
 ### 2022 Election shiny app  
 
 I have been working on a shiny app to help a political party I am a member of, 
