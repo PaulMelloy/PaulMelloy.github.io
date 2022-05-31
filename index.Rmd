@@ -21,7 +21,7 @@ You can find `ascotraceR` on CRAN, and a resource announcement in *Phytopatholog
 
 ***  
 
-### Is UniSuper's Defined Benifit Division fund worthwhile Shiny App  
+### Is UniSuper's Defined Benefit Division fund worthwhile Shiny App  
 #### May 2022  
 
 Choice of superannuation is not the first type of research people like to do when starting a new job.
@@ -56,7 +56,7 @@ Check out the app at https://paulmelloy.shinyapps.io/22_electoralboundaries/
 
 ***  
 
-### Estimating leaf temperature from NASA satalite data  
+### Estimating leaf temperature from NASA satellite data  
 #### April 2022  
 
 I wrote a blog, published on OpenPlantPathology's website, for how to use R to 
