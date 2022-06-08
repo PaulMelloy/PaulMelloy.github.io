@@ -1,6 +1,6 @@
 ---
 title: "Paul Melloy"
-date: "2022-05-15"
+date: "`r Sys.Date()`"
 ---
 
 I am a Plant Pathologist at the University of Queensland.
