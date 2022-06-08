@@ -10,6 +10,16 @@ I specialise in modelling crop diseases and building decision support tools.
 
 ## Recent work  
 
+### Farms Advice - Plant disease modelling interview
+#### June 2022
+I had a great chat with ABC rural trailblazer [Jack Cresswell](https://twitter.com/jcressw3) on his [Farms Advice](https://farmsadvice.com.au/) podcast.  
+
+[Follow this link to the interview.](https://anchor.fm/farmsadviceau/episodes/Plant-Disease-Modelling-in-Broadacre--Paul-Melloy-e1ji1kl)  
+
+Or search for 'Farms Advice' in your podcast app.  
+
+***  
+
 ### Simulation model for ascochyta blight  
 #### May 2022  
 
