@@ -7,8 +7,31 @@ I am a Plant Pathologist at the University of Queensland.
 I specialise in modelling crop diseases and building decision support tools.
 
 ![](files/img/PaulinQUTlab.jpg)  
+<br>  
 
 ## Recent work  
+
+### GRDC Update - Miles - Pitsworth - Goondiwindi  
+#### July 2022  
+At the end of July, I travelled around South East Queensland to the GRDC Updates
+to present the decision support tools which have been developed on the GRDC funded
+project I am involved with. A second la nina at the start of 2022 has provided a 
+lot of moisture which are likely to lead to heavy losses to foliar diseases if crops
+are not managed well for disease.  
+
+The main apps we were presenting for the Northern grains region were
+[StripeRustWM](https://www.agric.wa.gov.au/apps/striperustwm) 
+and [YellowSpotWM](https://www.agric.wa.gov.au/apps/yellowspotwm-yellow-leaf-spot-management).  
+
+There was a lot of interest in the applications and many were not yet familiar with
+the available suit of decision support tools (DST). With a full moisture profile across 
+many of the cropping areas those who were able to sow had more options. With seemingly 
+more growers from the Goondiwindi region going into canola. Some farm managers were
+therefore interested in the canola DSTs [SclerotiniaCM](https://www.agric.wa.gov.au/apps/sclerotiniacm-sclerotinia-management-app),
+and [UCI BlackLegCM](https://www.agric.wa.gov.au/apps/uci-blacklegcm-blackleg-upper-canopy-infection-management-app).
+
+![](files/img/2207_GRDCUpdates.jpg)  
+***  
 
 ### Farms Advice - Plant disease modelling interview
 #### June 2022
