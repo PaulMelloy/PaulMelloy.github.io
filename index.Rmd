@@ -7,7 +7,9 @@ I am a Plant Pathologist at the University of Queensland.
 I specialise in modelling crop diseases and building decision support tools.
 
 ![](files/img/PaulinQUTlab.jpg)  
-<br>  
+<br> 
+
+***  
 
 ## Recent work  
 
@@ -31,6 +33,7 @@ therefore interested in the canola DSTs [SclerotiniaCM](https://www.agric.wa.gov
 and [UCI BlackLegCM](https://www.agric.wa.gov.au/apps/uci-blacklegcm-blackleg-upper-canopy-infection-management-app).
 
 ![](files/img/2207_GRDCUpdates.jpg)  
+
 ***  
 
 ### Farms Advice - Plant disease modelling interview
