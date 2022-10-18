@@ -13,6 +13,17 @@ I specialise in modelling crop diseases and building decision support tools.
 
 ## Recent work  
 
+### National Pulse Pathology Meeting & Ascochyta blight Workshop  
+#### October 2022  
+An amazing week of presentations and discussions around pulse pathology and ascochyta
+blight research in chickpea. 
+I had a great time learning about chickpea breading efforts and disease epidemiology
+research.
+I came away with some excellent insights that I wish to apply as improvements to 
+the `ascotraceR` model. Watch this space.
+
+![](files/img/Wagga Wagga meeting-1.jpg)  
+
 ### GRDC Update - Miles - Pitsworth - Goondiwindi  
 #### July 2022  
 At the end of July, I travelled around South East Queensland to the GRDC Updates
