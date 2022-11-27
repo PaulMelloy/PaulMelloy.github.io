@@ -11,7 +11,42 @@ I specialise in modelling crop diseases and building decision support tools.
 
 ***  
 
-## Recent work  
+## Recent work 
+
+### [The influence of temperature and vapour pressure deficit on conidial germination and germ tubes production in an Australian _Podosphaera xanthii_ isolate.](https://paulmelloy.github.io/P_xanthii_titlepage.html)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7349124.svg)](https://doi.org/10.5281/zenodo.7349124)  
+
+#### November 2022  
+I am pleased to share a pre-print of a paper I have been assisting with, titled, 
+"The influence of temperature and vapour pressure deficit on conidial germination 
+and germ tubes production in an Australian _Podosphaera xanthii_ isolate."
+The paper has been submitted for review at the [European Journal of Plant Pathology](https://www.springer.com/journal/10658). The work was undertaken as part
+of Zaiton Sapak's PhD and furthers our understanding on the temperature and vapour 
+pressure conditions which influence germination rate and infection success of 
+_P. xanthii_ on cucurbit leaves.  
+
+Powdery mildew is at a high risk of evolving fungicide resistance and improper 
+applications can be costly, hastening the evolution of fungicide resistance. 
+Understanding the conditions at which the crop is at risk of infection will lead 
+to the development of models and decisions support tools which increase the lead 
+time to prepare for fungicide applications and timing sprays for maximum efficacy, 
+reducing excessive spray applications or the immediate cost of applying ineffective 
+poorly timed sprays.  
+
+The results from this paper show the optimum conditions for rapid conidia germination
+and the production of secondary and tertiary germ-tubes (a proxy for successful 
+infection) was 28°C at saturated vapour pressure. Germination was prevented at 
+temperatures above 34°C and below 8°C and reduced at other temperatures. As vapour 
+pressure deficit increased germination and germ tube production decreased in a 
+non-linear relationship and never completely prevented conidial germination or 
+germ-tube production.  
+
+I assisted with statistical analysis and final drafts of the paper. If you wish 
+to read the pre-print, you can download it from [Zenodo by following this link.](https://zenodo.org/record/7349124#.Y4MDhBRBw9Y).  
+
+[You can also find the full statistical analysis and code at the research compendium here.](https://paulmelloy.github.io/P_xanthii_titlepage.html).  
+
+***  
 
 ### National Pulse Pathology Meeting & Ascochyta blight Workshop  
 #### October 2022  
@@ -23,6 +58,8 @@ I came away with some excellent insights that I wish to apply as improvements to
 the `ascotraceR` model. Watch this space.
 
 ![](files/img/Wagga Wagga meeting-1.jpg)  
+
+***  
 
 ### GRDC Update - Miles - Pitsworth - Goondiwindi  
 #### July 2022  
