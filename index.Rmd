@@ -3,8 +3,12 @@ title: "Paul Melloy"
 date: "`r Sys.Date()`"
 ---
 
-I am a Plant Pathologist at the University of Queensland.
-I specialise in modelling crop diseases and building decision support tools.
+I am a Plant Pathologist at the [University of Queensland.](https://www.uq.edu.au/)
+I specialise in modelling crop diseases and building decision support tools.  
+Read about my recent research below, and if you are interested in collaborating
+on a research topic, visit my [UQ researchers page.](https://researchers.uq.edu.au/researcher/37467)
+
+
 
 ![](files/img/PaulinQUTlab.jpg)  
 <br> 
