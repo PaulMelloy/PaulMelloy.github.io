@@ -18,7 +18,11 @@ on a research topic, visit my [UQ researchers page.](https://researchers.uq.edu.
 ## Recent work 
 
 ### [The influence of temperature and vapour pressure deficit on conidial germination and germ tubes production in an Australian _Podosphaera xanthii_ isolate.](https://paulmelloy.github.io/P_xanthii_titlepage.html)  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7349124.svg)](https://doi.org/10.5281/zenodo.7349124)  
+
+
+#### March 2023  
+This paper has been accepted and published in the European Journal of Plant Pathology.
+[https://doi.org/10.1007/s10658-023-02664-5](https://doi.org/10.1007/s10658-023-02664-5)
 
 #### November 2022  
 I am pleased to share a pre-print of a paper I have been assisting with, titled, 
@@ -46,7 +50,8 @@ non-linear relationship and never completely prevented conidial germination or
 germ-tube production.  
 
 I assisted with statistical analysis and final drafts of the paper. If you wish 
-to read the pre-print, you can download it from [Zenodo by following this link.](https://zenodo.org/record/7349124#.Y4MDhBRBw9Y).  
+to read the pre-print, you can download it from Zenodo. 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7349124.svg)](https://doi.org/10.5281/zenodo.7349124)  
 
 [You can also find the full statistical analysis and code at the research compendium here.](https://paulmelloy.github.io/P_xanthii_titlepage.html).  
 
