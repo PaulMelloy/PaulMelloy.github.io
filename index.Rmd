@@ -25,8 +25,8 @@ to take soil leaf samples for the UQ Industry Kick-starter project.
 While it was late in the season and the vines entering dormancy, we found, (Left) 
 possible phosphorus deficiency in the ferrosol soils, and (Right) Possible downy mildew.
 
-![possible phosphorus deficiency in the ferrosol soils](files/img/Possible_phos_deficient.jpg){width=45%}
-![Possible downy mildew](files/img/possible_DownyMildew.jpg){width=45%}  
+![possible phosphorus deficiency in the ferrosol soils](files/img/Possible_phos_deficient.jpg){width=43.5%}
+![Possible downy mildew](files/img/possible_DownyMildew.jpg){width=55%}  
 
 <br>  
 
