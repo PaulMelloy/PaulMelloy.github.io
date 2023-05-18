@@ -25,8 +25,8 @@ to take soil leaf samples for the UQ Industry kickstarter project.
 While it was late in the season and the vines entering domancy, we found, (Left) 
 possible phosphorus deficiency in the ferrosol soils, and (Right) Possible downy mildew.
 
-![possible phosphorus deficiency in the ferrosol soils](files/img/Possible_phos_deficient.jpg){width=30%}
-![Possible downy mildew](files/img/possible_DownyMildew.jpg){width=30%}  
+![possible phosphorus deficiency in the ferrosol soils](files/img/Possible_phos_deficient.jpg){width=45%}
+![Possible downy mildew](files/img/possible_DownyMildew.jpg){width=45%}  
 
 <br>  
 
@@ -34,8 +34,8 @@ Leaf samples revealed downy mildew _Plasmopara viticola_.
 (Left) Sporangiophore, (Right) Sporangia  
 
 
-![Downy mildew conidia on the end of a conidiophore](files/img/Downy_conidiophore.jpg){width=30%}
-![Downy mildew sporangia](files/img/Downy sporangia.jpg){width=35%}  
+![Downy mildew conidia on the end of a conidiophore](files/img/Downy_conidiophore.jpg){width=45%}
+![Downy mildew sporangia](files/img/Downy sporangia.jpg){width=50%}  
 
 <br>  
 
@@ -56,10 +56,24 @@ smaller farm gate producer manage disease with lower costs and fungicide applica
 
 ### [The influence of temperature and vapour pressure deficit on conidial germination and germ tubes production in an Australian _Podosphaera xanthii_ isolate.](https://paulmelloy.github.io/P_xanthii_titlepage.html)  
 
-
 #### March 2023  
 This paper has been accepted and published in the European Journal of Plant Pathology.
-[https://doi.org/10.1007/s10658-023-02664-5](https://doi.org/10.1007/s10658-023-02664-5)
+[https://doi.org/10.1007/s10658-023-02664-5](https://doi.org/10.1007/s10658-023-02664-5)  
+
+<br>  
+
+***
+
+### Sampling Ascochyta rabaeii for field experiment  
+#### February 2023  
+
+Following the Goondiwindi GRDC updates I drove home via the Eastern Darling Downs
+to collect some Ascochyta infested chickpea stubble. 
+This will be used for inoculum in a field trial we are planning later this year.  
+
+![Ascochyta lesion on stubble](files/img/Ascochyta_stubble.jpg){width=60%}
+
+Stay tuned!!!
 
 ***  
 
