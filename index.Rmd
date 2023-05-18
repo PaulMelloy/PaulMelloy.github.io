@@ -22,8 +22,9 @@ on a research topic, visit my [UQ researchers page.](https://researchers.uq.edu.
 A quick visit to [Cauldron Distillery and Winery](https://www.cauldrondistillery.com.au/) 
 to take soil leaf samples for the UQ Industry Kick-starter project.  
 
+<center>
 While it was late in the season and the vines entering dormancy, we found, (Left) 
-possible phosphorus deficiency in the ferrosol soils, and (Right) Possible downy mildew.
+possible phosphorus deficiency in the ferrosol soils, and (Right) Possible downy mildew.  
 
 ![possible phosphorus deficiency in the ferrosol soils](files/img/Possible_phos_deficient.jpg){width=43.5%}
 ![Possible downy mildew](files/img/possible_DownyMildew.jpg){width=55%}  
@@ -31,12 +32,12 @@ possible phosphorus deficiency in the ferrosol soils, and (Right) Possible downy
 <br>  
 
 Leaf samples revealed downy mildew _Plasmopara viticola_. 
-(Left) Sporangiophore, (Right) Sporangia  
+Below: (Left) Sporangiophore, (Right) Sporangia  
 
 
 ![Downy mildew conidia on the end of a conidiophore](files/img/Downy_conidiophore.jpg){width=45%}
 ![Downy mildew sporangia](files/img/Downy sporangia.jpg){width=50%}  
-
+</center>
 <br>  
 
 ### UQ Agri-Food Innovation Alliance grant  
@@ -70,12 +71,14 @@ This paper has been accepted and published in the European Journal of Plant Path
 Following the Goondiwindi GRDC updates I drove home via the Eastern Darling Downs
 to collect some Ascochyta infested chickpea stubble. 
 This will be used for inoculum in a field trial we are planning later this year.  
-
+<center>
 ![Ascochyta lesion on stubble](files/img/Ascochyta_stubble.jpg){width=60%}
+</center>
 
 Stay tuned!!!
 
 ***  
+### [The influence of temperature and vapour pressure deficit on conidial germination and germ tubes production in an Australian _Podosphaera xanthii_ isolate.](https://paulmelloy.github.io/P_xanthii_titlepage.html)  
 
 #### November 2022  
 I am pleased to share a pre-print of a paper I have been assisting with, titled, 
@@ -121,7 +124,7 @@ research.
 I came away with some excellent insights that I wish to apply as improvements to 
 the `ascotraceR` model. Watch this space.
 
-![](files/img/Wagga Wagga meeting-1.jpg)  
+![](files/img/Wagga Wagga meeting-1.jpg)</center>  
 
 ***  
 
