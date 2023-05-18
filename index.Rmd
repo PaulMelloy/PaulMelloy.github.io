@@ -17,12 +17,51 @@ on a research topic, visit my [UQ researchers page.](https://researchers.uq.edu.
 
 ## Recent work 
 
+### UQ Agri-Food Innovation Alliance grant  
+#### May 2023  
+A quick visit to [Cauldron Distillery and Winery](https://www.cauldrondistillery.com.au/) 
+to take soil leaf samples for the UQ Industry kickstarter project.  
+
+While it was late in the season and the vines entering domancy, we found, (Left) 
+possible phosphorus deficiency in the ferrosol soils, and (Right) Possible downy mildew.
+
+![possible phosphorus deficiency in the ferrosol soils](files/img/Possible_phos_deficient.jpg){width=30%}
+![Possible downy mildew](files/img/possible_DownyMildew.jpg){width=30%}  
+
+<br>  
+
+Leaf samples revealed downy mildew _Plasmopara viticola_. 
+(Left) Sporangiophore, (Right) Sporangia  
+
+
+![Downy mildew conidia on the end of a conidiophore](files/img/Downy_conidiophore.jpg){width=30%}
+![Downy mildew sporangia](files/img/Downy sporangia.jpg){width=35%}  
+
+<br>  
+
+### UQ Agri-Food Innovation Alliance grant  
+#### April 2023  
+I am extremely excited to announce [Dr Anthony Young](https://agriculture.uq.edu.au/profile/4625/anthony-young) 
+and myself were successful in an [Industry Kickstarter grant](https://agriculture.uq.edu.au/research/research-centres-and-groups/uq-agri-food-innovation-alliance/find-funding-or-research-partners)
+to develop a "Decision support tool to support speciality smallholders and farm-gate 
+producers."  
+
+We are working with [Cauldron Distillery and Winery](https://www.cauldrondistillery.com.au/) 
+in Mt Tamborine, south of Brisbane, to assess the efficacy of organic and synthetic 
+fungicide timing on foliar grape vine diseases, powdery mildew and downy mildew. 
+The field trial will assist in refining a decision support tool which will help 
+smaller farm gate producer manage disease with lower costs and fungicide applications.  
+
+***  
+
 ### [The influence of temperature and vapour pressure deficit on conidial germination and germ tubes production in an Australian _Podosphaera xanthii_ isolate.](https://paulmelloy.github.io/P_xanthii_titlepage.html)  
 
 
 #### March 2023  
 This paper has been accepted and published in the European Journal of Plant Pathology.
 [https://doi.org/10.1007/s10658-023-02664-5](https://doi.org/10.1007/s10658-023-02664-5)
+
+***  
 
 #### November 2022  
 I am pleased to share a pre-print of a paper I have been assisting with, titled, 
@@ -56,6 +95,8 @@ to read the pre-print, you can download it from Zenodo.
 [You can also find the full statistical analysis and code at the research compendium here.](https://paulmelloy.github.io/P_xanthii_titlepage.html).  
 
 ***  
+
+
 
 ### National Pulse Pathology Meeting & Ascochyta blight Workshop  
 #### October 2022  
