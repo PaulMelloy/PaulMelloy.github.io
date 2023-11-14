@@ -3,16 +3,21 @@ title: "Performance Sports Turf Team"
 output: html_document
 ---
 
+We undertook the CSIRO OnPrime workshop in 2023  
+  <br>  
+  
 ### Dr Paul Melloy  
-[Paul Melloy](files/img/PaulMelloyCropped.jpg)
-  p.melloy@uq.edu.au  
-  [UQ researchers page](https://researchers.uq.edu.au/researcher/37467)  
+![](files/img/PaulMelloyCropped.jpg){width=15%}  
+
+  Email:  p.melloy@uq.edu.au  
+  Website: [UQ researchers page](https://researchers.uq.edu.au/researcher/37467)  
   <br>  
   
 ### Dr Bradley Campbell  
-  b.campbell2@uq.edu.au  
-  [UQ researchers page](https://researchers.uq.edu.au/researcher/1258)  
-
+  Email:  b.campbell2@uq.edu.au  
+  Website: [UQ researchers page](https://researchers.uq.edu.au/researcher/1258)  
+  <br>  
+  
 ### Ms. Catherine Sweeney  
-  c.sweeney@uq.edu.au  
-  [UQ profile](https://www.uq.edu.au/research/profile/12305/catherine-sweeney)  
+  Email:  c.sweeney@uq.edu.au  
+  Website: [UQ profile](https://www.uq.edu.au/research/profile/12305/catherine-sweeney)  
