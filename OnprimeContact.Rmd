@@ -14,10 +14,14 @@ We undertook the CSIRO OnPrime workshop in 2023
   <br>  
   
 ### Dr Bradley Campbell  
+
+  ![](files/img/Bradley_Campbell_headshot.jpg){width=15%}  
   Email:  b.campbell2@uq.edu.au  
   Website: [UQ researchers page](https://researchers.uq.edu.au/researcher/1258)  
   <br>  
   
 ### Ms. Catherine Sweeney  
+  ![](files/img/C_Sweeney.jpg){width=15%} 
+
   Email:  c.sweeney@uq.edu.au  
   Website: [UQ profile](https://www.uq.edu.au/research/profile/12305/catherine-sweeney)  
