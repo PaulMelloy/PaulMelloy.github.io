@@ -1,0 +1,18 @@
+---
+title: "Performance Sports Turf Team"
+output: html_document
+---
+
+### Dr Paul Melloy  
+[Paul Melloy](files/img/PaulMelloyCropped.jpg)
+  p.melloy@uq.edu.au  
+  [UQ researchers page](https://researchers.uq.edu.au/researcher/37467)  
+  <br>  
+  
+### Dr Bradley Campbell  
+  b.campbell2@uq.edu.au  
+  [UQ researchers page](https://researchers.uq.edu.au/researcher/1258)  
+
+### Ms. Catherine Sweeney  
+  c.sweeney@uq.edu.au  
+  [UQ profile](https://www.uq.edu.au/research/profile/12305/catherine-sweeney)  
