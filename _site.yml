@@ -4,6 +4,8 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "ViticolaR DST"
+      href: https://rstudio.blackspotsp.cloud.edu.au/shiny/viticolR_dst/
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<paul@melloy.com.au>
