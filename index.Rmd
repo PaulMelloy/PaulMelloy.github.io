@@ -17,27 +17,59 @@ on a research topic, visit my [UQ researchers page.](https://researchers.uq.edu.
 
 ## Recent work 
 
-### International Conference of Plant Pathology (ICPP)  
+
+### OnPrime  
 #### November 2023  
+Through October and November I had the opportunity to develop my industry engagement
+skills. 
+The OnPrime program run by CSIRO provides researchers with coaching on how to improve
+their engagement with industry and ensure improved outcomes for researchers and 
+industry investors.
+This program taught me how to develop a research project that is tailored to the 
+needs of industry to ensure research gains are focused on what is novel and needed.
+
+Our team researched the opportunity for developing a turf breeding program to support
+the turf industry.  
+
+I was surprised on the importance of turf in our culture, society and economy. 
+We learned it can cost approximately $700k to import new varieties to Australia from
+the US. 
+These varieties may not even be suitable for Australia's varied and harsh climate.  
+Sporting turf surfaces are at capacity, and with the rise in women's sport, demand 
+is still growing placing a lot of pressure on sporting surfaces.
+We could save sporting clubs money by developing a wear tolerant grass which reduces
+the chance of cancelled games.
+In addition a more tolerant turf for stadiums might increase the opportunity for 
+more frequent games, concerts and events. 
+Boosting revenue for the stadiums, local businesses and tourism.  
+
+<center>
+![The Performance sports turf team: Dr Paul Melloy, Dr Bradley Campbell and Catherine Sweeney](files/img/20231115_OnPrimeTeam.jpg){width=60%}
+</center>
+***  
+
+
+### International Conference of Plant Pathology (ICPP)  
+#### August 2023  
 It was a long time coming but this was my first International conference overseas. 
 The [ICPP was held in Lyon](https://www.icpp2023.org/) and it was a scorcher!
 The city was experiencing a heat wave which placed a topical spin on the conference
 and how to manage plant diseases in a future experiencing the effects of climate 
 change.  
+<center>
 ![Centre de Congrès de Lyon](files/img/20230820_LyonICPP.jpg){width=43.5%}  
+</center>
 
 The highlight for me was the [episense satellite meeting](https://www.icpp2023.org/sites/default/files/2023-08/Abstract_book_wtitpage_v8.7_030823_0.pdf) 
-held on the preceeding weekend. 
-The airconditioning could barely cope with the temperatures outside and despite the 
+held on the preceding weekend. 
+The air-conditioning could barely cope with the temperatures outside and despite the 
 amazing talks, my attention could not help to wander to the Rhone river visable through
 the window behind the speakers.  
-
-![Episense satelite meeting with the Rhone river in the background](files/img/20230819_EpisenseSatelitteMeeting.jpg){width=43.5%}  
 
 The attendees of the Episense satellite meeting were genuinely good company and 
 not only provided stimulating phytopathological discussions, but also extended a 
 collaborative effort into robust research of the Lyonnaise cultural pursuits.  
-
+![Episense satelite meeting with the Rhone river in the background](files/img/20230819_EpisenseSatelitteMeeting.jpg){width=43.5%}
 ![Episense colleagues sampling Lyonnaise culture](files/img/20230822_episenseResearchers.jpg){width=43.5%}  
 
 
