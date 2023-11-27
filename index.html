@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2023-11-20" />
+<meta name="date" content="2023-11-28" />
 
 <title>Paul Melloy</title>
 
@@ -287,7 +287,7 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">Paul Melloy</h1>
-<h4 class="date">2023-11-20</h4>
+<h4 class="date">2023-11-28</h4>
 
 </div>
 
@@ -304,9 +304,61 @@ page.</a></p>
 <hr />
 <div id="recent-work" class="section level2">
 <h2>Recent work</h2>
+<div id="nested-lists-in-r" class="section level3">
+<h3>Nested lists in R</h3>
+<div id="november-2023" class="section level4">
+<h4>November 2023</h4>
+<p>This is a small bit of code I always forget and can never seem to
+google the answer to easily. So I post it hear for myself to easily
+reference in the future.</p>
+<p>Wearing my programming hat and data-science hat, lists can be a
+extremely useful way to store and organise data. This is especially true
+for epidemiological model outputs. Yet newcomers will find lists can be
+difficult to understand and find it even more difficult to easily
+retrieve data from especially for nested lists. This is a short-hand way
+to easily retrieve the same element within a nested list.</p>
+<p>First lets create a nested list.</p>
+<pre class="r"><code># set random seed for reproducibility
+set.seed(28)
+nested_list &lt;- lapply(1:3, function(x) {
+  return(list(
+    capitals = sample(LETTERS),
+    smallcaps = sample(letters),
+    numbers = sample(1:50)
+  ))
+})
+
+#head(nested_list)</code></pre>
+<p>Here we have created a list with a length of 10 with three lists
+nested inside each list with names “capitals”, “smallcaps” and
+“numbers”.</p>
+<p>Frequently we only want to pull all of one nested list. To do this we
+use two opening square brackets <code>"[["</code> as the function,
+followed by the name of the list.</p>
+<pre class="r"><code>lapply(nested_list,&quot;[[&quot;, &quot;capitals&quot;)</code></pre>
+<pre><code>## [[1]]
+##  [1] &quot;Q&quot; &quot;Z&quot; &quot;I&quot; &quot;Y&quot; &quot;B&quot; &quot;N&quot; &quot;K&quot; &quot;A&quot; &quot;H&quot; &quot;C&quot; &quot;S&quot; &quot;W&quot; &quot;L&quot; &quot;X&quot; &quot;O&quot; &quot;G&quot; &quot;M&quot; &quot;T&quot; &quot;J&quot;
+## [20] &quot;F&quot;
+##  [ reached getOption(&quot;max.print&quot;) -- omitted 6 entries ]
+## 
+## [[2]]
+##  [1] &quot;E&quot; &quot;H&quot; &quot;Z&quot; &quot;B&quot; &quot;F&quot; &quot;J&quot; &quot;N&quot; &quot;V&quot; &quot;W&quot; &quot;C&quot; &quot;O&quot; &quot;P&quot; &quot;U&quot; &quot;Y&quot; &quot;I&quot; &quot;Q&quot; &quot;K&quot; &quot;G&quot; &quot;D&quot;
+## [20] &quot;T&quot;
+##  [ reached getOption(&quot;max.print&quot;) -- omitted 6 entries ]
+## 
+## [[3]]
+##  [1] &quot;M&quot; &quot;T&quot; &quot;C&quot; &quot;K&quot; &quot;S&quot; &quot;B&quot; &quot;Y&quot; &quot;W&quot; &quot;Z&quot; &quot;R&quot; &quot;I&quot; &quot;H&quot; &quot;G&quot; &quot;A&quot; &quot;V&quot; &quot;P&quot; &quot;X&quot; &quot;U&quot; &quot;O&quot;
+## [20] &quot;J&quot;
+##  [ reached getOption(&quot;max.print&quot;) -- omitted 6 entries ]</code></pre>
+<p>This also works by indicating the integer of the nested list i.e
+<code>lapply(list1,"[[", 2)</code>. <br><br />
+<br></p>
+<hr />
+</div>
+</div>
 <div id="onprime" class="section level3">
 <h3>OnPrime</h3>
-<div id="november-2023" class="section level4">
+<div id="november-2023-1" class="section level4">
 <h4>November 2023</h4>
 <p>Through October and November I had the opportunity to develop my
 industry engagement skills. The OnPrime program run by CSIRO provides
@@ -338,6 +390,8 @@ alt="The Performance sports turf team: Dr Paul Melloy, Dr Bradley Campbell and C
 Melloy, Dr Bradley Campbell and Catherine Sweeney</div>
 </div>
 </center>
+<p><br><br />
+<br></p>
 <hr />
 </div>
 </div>
@@ -380,6 +434,8 @@ meeting providing an opportunity to reflect on the conference insights
 and how they could be applied in Australia. <img
 src="files/img/20230825_AussiesInLyon.jpg"
 alt="A small Aussie contingent" /></p>
+<p><br><br />
+<br></p>
 <hr />
 </div>
 </div>
@@ -407,7 +463,9 @@ alt="Downy mildew conidia on the end of a conidiophore" /> <img
 src="files/img/Downy%20sporangia.jpg" style="width:50.0%"
 alt="Downy mildew sporangia" />
 </center>
-<p><br></p>
+<p><br><br />
+<br></p>
+<hr />
 </div>
 </div>
 <div id="uq-agri-food-innovation-alliance-grant-1"
@@ -428,6 +486,8 @@ organic and synthetic fungicide timing on foliar grape vine diseases,
 powdery mildew and downy mildew. The field trial will assist in refining
 a decision support tool which will help smaller farm gate producer
 manage disease with lower costs and fungicide applications.</p>
+<p><br><br />
+<br></p>
 <hr />
 </div>
 </div>
@@ -443,7 +503,8 @@ xanthii</em> isolate.</a></h3>
 <p>This paper has been accepted and published in the European Journal of
 Plant Pathology. <a
 href="https://doi.org/10.1007/s10658-023-02664-5">https://doi.org/10.1007/s10658-023-02664-5</a></p>
-<p><br></p>
+<p><br><br />
+<br></p>
 <hr />
 </div>
 </div>
@@ -464,7 +525,8 @@ alt="Ascochyta lesion on stubble" />
 <div class="figcaption">Ascochyta lesion on stubble</div>
 </div>
 </center>
-<p>Stay tuned!!!</p>
+<p>Stay tuned!!! <br><br />
+<br></p>
 <hr />
 </div>
 </div>
@@ -510,6 +572,8 @@ alt="DOI" /></a></p>
 <p><a href="https://paulmelloy.github.io/P_xanthii_titlepage.html">You
 can also find the full statistical analysis and code at the research
 compendium here.</a>.</p>
+<p><br><br />
+<br></p>
 <hr />
 </div>
 </div>
@@ -527,6 +591,8 @@ as improvements to the <code>ascotraceR</code> model. Watch this
 space.</p>
 <img src="files/img/Wagga%20Wagga%20meeting-1.jpg" />
 </center>
+<p><br><br />
+<br></p>
 <hr />
 </div>
 </div>
@@ -556,6 +622,8 @@ and <a
 href="https://www.agric.wa.gov.au/apps/uci-blacklegcm-blackleg-upper-canopy-infection-management-app">UCI
 BlackLegCM</a>.</p>
 <p><img src="files/img/2207_GRDCUpdates.jpg" /></p>
+<p><br><br />
+<br></p>
 <hr />
 </div>
 </div>
@@ -571,6 +639,8 @@ href="https://farmsadvice.com.au/">Farms Advice</a> pod-cast.</p>
 href="https://anchor.fm/farmsadviceau/episodes/Plant-Disease-Modelling-in-Broadacre--Paul-Melloy-e1ji1kl">Follow
 this link to the interview.</a></p>
 <p>Or search for ‘Farms Advice’ in your pod-cast app.</p>
+<p><br><br />
+<br></p>
 <hr />
 </div>
 </div>
@@ -585,6 +655,8 @@ on CRAN, and a resource announcement in <em>Phytopathology</em>.</p>
 href="https://apsjournals.apsnet.org/doi/10.1094/PHYTO-01-22-0016-A">ascotraceR:
 An R Package Resource to Simulate the Spatiotemporal Spread of Ascochyta
 Blight in a Chickpea Field Over a Growing Season</a></p>
+<p><br><br />
+<br></p>
 <hr />
 </div>
 </div>
@@ -614,6 +686,8 @@ net return if you exit the fund before the age of 46.</p>
 <p>To help people understand how the DBD is calculated I created a shiny
 app which can be found at the following link <a
 href="https://paulmelloy.shinyapps.io/UniSuperDBD/">https://paulmelloy.shinyapps.io/UniSuperDBD/</a></p>
+<p><br><br />
+<br></p>
 <hr />
 </div>
 </div>
@@ -636,6 +710,8 @@ booth, including expected voter turnout to booths.<br />
 Check out the app at <a
 href="https://paulmelloy.shinyapps.io/22_electoralboundaries/"
 class="uri">https://paulmelloy.shinyapps.io/22_electoralboundaries/</a></p>
+<p><br><br />
+<br></p>
 <hr />
 </div>
 </div>
@@ -652,6 +728,8 @@ estimate the leaf temperature for any where on the planet.</p>
 <p><a
 href="https://openplantpathology.netlify.app/posts/2022-04-01-powerful-tea-using-nasapower-and-tealeaves-to-obtain-leaf-temperatures/">Click
 here to read the blog post</a></p>
+<p><br><br />
+<br></p>
 <hr />
 </div>
 </div>
