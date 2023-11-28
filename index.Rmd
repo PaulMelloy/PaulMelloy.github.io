@@ -17,11 +17,12 @@ on a research topic, visit my [UQ researchers page.](https://researchers.uq.edu.
 
 ## Recent work 
 
-### Nested lists in R  
+### `Extract` from nested lists in R  
 #### November 2023  
-This is a small bit of code I always forget and can never seem to google the answer 
-to easily.
-So I post it hear for myself to easily reference in the future.  
+`Extract`ing from lists and nested lists using the "[[" function is always a bit
+of syntax I always forget and can never seem to google the answer to easily.
+So I post it hear for myself to easily reference in the future. 
+*Edit - more information can be obtained from* `?Extract`.  
 
 Wearing my programming hat and data-science hat, lists can be a extremely useful 
 way to store and organise data.
