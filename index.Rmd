@@ -17,6 +17,9 @@ on a research topic, visit my [UQ researchers page.](https://researchers.uq.edu.
 
 ## Recent work 
 
+### GRDC updates - Goondiwindi and Dubbo  
+#### March 2024  
+
 ### `Extract` from nested lists in R  
 #### November 2023  
 `Extract`ing from lists and nested lists using the "[[" function is always a bit
