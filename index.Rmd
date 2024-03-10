@@ -27,10 +27,20 @@ on a research topic, visit my [UQ researchers page.](https://researchers.uq.edu.
 
 ### GRDC updates - Goondiwindi and Dubbo  
 #### February/March 2024  
-I presented at the GRDC updates in Goondiwindi and Dubbo.  
-The Goondiwindi update was held at the Goondiwindi Community Centre and the Dubbo update was held at the Dubbo RSL.  
-I presented on the decision support tools which have been developed on the GRDC funded project I am involved with.  
+I presented a talk at "Efficiently limiting yield loss from net-blotch in barley 
+– a meta-analysis" at the GRDC updates in Goondiwindi and Dubbo. 
+This talk was to describe the results of a meta-analysis of fungicide trials 
+across Australia to determine the best fungicide timing to maximise yield protection.
 
+<center>
+![Presenting the findings from a meta-analysis of netblotch trials in barley at the Goodiwindi GRDC updates on 5th of March](files/img/2403_GRDCupdates_netblotch.jpg){width=60%}  
+
+</center>
+
+<br>  
+<br>  
+
+***  
 
 ### `Extract` from nested lists in R  
 #### November 2023  
