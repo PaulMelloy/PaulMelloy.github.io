@@ -6,13 +6,12 @@ navbar:
       href: index.html
     - text: "ViticolaR DST"
       href: https://rstudio.blackspotsp.cloud.edu.au/shiny/viticolR_dst/
-    subfolderitems:
-      - name: "Packages"
-        items:
-          - text: "cercospoRa"
-            href: https://paulmelloy.github.io/packages/cercospoRa/index.html
-          - text: "ascotraceR"
-            href: https://ihsankhaliq.github.io/ascotraceR/
+    - text: "R Packages"
+      menu:
+      - text: "cercospoRa"
+        href: https://paulmelloy.github.io/packages/cercospoRa/index.html
+      - text: "ascotraceR"
+        href: https://ihsankhaliq.github.io/ascotraceR/
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<paul@melloy.com.au>
