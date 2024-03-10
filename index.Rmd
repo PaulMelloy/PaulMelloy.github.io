@@ -4,9 +4,7 @@ date: "`r Sys.Date()`"
 ---
 
 ```{r include=FALSE}
-file.copy(from = list.files("../cercospoRa/docs",
-                            recursive = TRUE,
-                            full.names = TRUE), 
+file.copy(from = "../cercospoRa/docs", 
           to = "./packages/cercospoRa",
           recursive = TRUE,
           overwrite = TRUE)

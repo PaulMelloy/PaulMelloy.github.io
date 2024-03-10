@@ -9,7 +9,7 @@ navbar:
     - text: "R Packages"
       menu:
       - text: "cercospoRa"
-        href: https://paulmelloy.github.io/packages/cercospoRa/index.html
+        href: https://paulmelloy.github.io/packages/cercospoRa/docs/index.html
       - text: "ascotraceR"
         href: https://ihsankhaliq.github.io/ascotraceR/
   right:
