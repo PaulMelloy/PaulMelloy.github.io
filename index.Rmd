@@ -3,6 +3,11 @@ title: "Paul Melloy"
 date: "`r Sys.Date()`"
 ---
 
+```{r include=FALSE}
+file.copy("../cercospoRa/docs/","./packages/cercospoRa",recursive = TRUE,overwrite = TRUE)
+```
+
+
 I am a Plant Pathologist at the [University of Queensland.](https://www.uq.edu.au/)
 I specialise in modelling crop diseases and building decision support tools.  
 Read about my recent research below, and if you are interested in collaborating
