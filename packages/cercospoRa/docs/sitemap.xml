@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://docs.ropensci.org/cercospoRa/404.html</loc>
+    <loc>/404.html</loc>
   </url>
   <url>
-    <loc>https://docs.ropensci.org/cercospoRa/articles/Getting-started.html</loc>
+    <loc>/articles/Getting-started.html</loc>
   </url>
   <url>
-    <loc>https://docs.ropensci.org/cercospoRa/articles/index.html</loc>
+    <loc>/articles/index.html</loc>
   </url>
   <url>
-    <loc>https://docs.ropensci.org/cercospoRa/authors.html</loc>
+    <loc>/authors.html</loc>
   </url>
   <url>
-    <loc>https://docs.ropensci.org/cercospoRa/index.html</loc>
+    <loc>/index.html</loc>
   </url>
   <url>
-    <loc>https://docs.ropensci.org/cercospoRa/LICENSE-text.html</loc>
+    <loc>/LICENSE-text.html</loc>
   </url>
   <url>
-    <loc>https://docs.ropensci.org/cercospoRa/LICENSE.html</loc>
+    <loc>/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://docs.ropensci.org/cercospoRa/news/index.html</loc>
+    <loc>/news/index.html</loc>
   </url>
   <url>
-    <loc>https://docs.ropensci.org/cercospoRa/reference/calc_DIV.html</loc>
+    <loc>/reference/calc_DIV.html</loc>
   </url>
   <url>
-    <loc>https://docs.ropensci.org/cercospoRa/reference/calc_epidemic_onset.html</loc>
+    <loc>/reference/calc_epidemic_onset.html</loc>
   </url>
   <url>
-    <loc>https://docs.ropensci.org/cercospoRa/reference/index.html</loc>
+    <loc>/reference/index.html</loc>
   </url>
   <url>
-    <loc>https://docs.ropensci.org/cercospoRa/reference/latent_period.html</loc>
+    <loc>/reference/latent_period.html</loc>
   </url>
   <url>
-    <loc>https://docs.ropensci.org/cercospoRa/reference/temperature_index.html</loc>
+    <loc>/reference/temperature_index.html</loc>
   </url>
   <url>
-    <loc>https://docs.ropensci.org/cercospoRa/reference/weathr.html</loc>
+    <loc>/reference/weathr.html</loc>
   </url>
 </urlset>
