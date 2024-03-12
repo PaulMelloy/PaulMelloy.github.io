@@ -12,6 +12,8 @@ navbar:
         href: https://paulmelloy.github.io/cercospoRa/
       - text: "ascotraceR"
         href: https://ihsankhaliq.github.io/ascotraceR/
+      - text: "epiphytoolR"
+        href: https://paulmelloy.github.io/epiphytoolR/
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<paul@melloy.com.au>
