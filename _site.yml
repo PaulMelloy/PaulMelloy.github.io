@@ -9,7 +9,7 @@ navbar:
       - text: "ViticolaR DST"
         href: https://rstudio.blackspotsp.cloud.edu.au/shiny/viticolR_dst/
       - text: "epiphytrainR"
-        href: https://paulmelloy.shinyapps.io/epiphytrainR/
+        href: https://rstudio.blackspotsp.cloud.edu.au/shiny/epiphytrainR/
       - text: "2022 electoral data"
         href: https://paulmelloy.shinyapps.io/22_electoralboundaries/
       - text: "UniSuperDBD"
