@@ -4,8 +4,16 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "ViticolaR DST"
-      href: https://rstudio.blackspotsp.cloud.edu.au/shiny/viticolR_dst/
+      text: "Shiny Apps"
+      menu:
+      - text: "ViticolaR DST"
+        href: https://rstudio.blackspotsp.cloud.edu.au/shiny/viticolR_dst/
+      - text: "epiphytrainR"
+        href: https://paulmelloy.shinyapps.io/epiphytrainR/
+      - text: "2022 electoral data"
+        href: https://paulmelloy.shinyapps.io/22_electoralboundaries/
+      - text: "UniSuperDBD"
+        href: https://paulmelloy.shinyapps.io/UniSuperDBD/
     - text: "R Packages"
       menu:
       - text: "cercospoRa"
