@@ -21,8 +21,10 @@ on a research topic, visit my [UQ researchers page.](https://researchers.uq.edu.
 #### February/March 2024  
 I presented a talk at "Efficiently limiting yield loss from net-blotch in barley 
 – a meta-analysis" at the GRDC updates in Goondiwindi and Dubbo. 
-This talk was to describe the results of a meta-analysis of fungicide trials 
-across Australia to determine the best fungicide timing to maximise yield protection.
+This described the results of a meta-analysis of fungicide trials across Australia 
+to determine the best fungicide timing to maximise yield protection.
+
+Read about the results in the [GRDC GroundCover article](https://grdc.com.au/resources-and-publications/grdc-update-papers/tab-content/grdc-update-papers/2024/02/efficiently-limiting-yield-loss-from-net-blotch-in-barley-a-meta-analysis).
 
 <center>
 ![Presenting the findings from a meta-analysis of netblotch trials in barley at the Goodiwindi GRDC updates on 5th of March](files/img/2403_GRDCupdates_netblotch.jpg){width=60%}  
