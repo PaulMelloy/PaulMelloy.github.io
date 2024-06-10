@@ -27,8 +27,19 @@ with this latest publication.
 
 ***  
 
-### International Epidemiology Workshop
+### 13th International Epidemiology Workshop
 #### April 2024  
+
+What a fantastic workshop hosted by the [Socidedade Brasileira de Gitopatologia](https://sbfitopatologia.org.br/) 
+(Brazilian Phytopathological Society).
+The workshop took place in Iguasu and was a great opportunity to meet plant 
+epidemiologists from around the world.  
+I was able to speak on the first day of the workshop introducing the idea that
+farmers might not be interested in JAFAs (Just another F___ fone? App) and that 
+using APIs to serve decision support tools to farm management software could reach
+more stake-holders.  
+I will look forward to the next workshop and seeing many of the same good folk and
+new friends.  
 
 <center>
 ![Presenting at the International Epidemiology Workshop in Brazil](files/img/240409_IEW.jpg){width=60%}
@@ -51,7 +62,6 @@ Read about the results in the [GRDC GroundCover article](https://grdc.com.au/res
 
 </center>
 
-<br>  
 <br>  
 
 ***  
@@ -133,7 +143,6 @@ Boosting revenue for the stadiums, local businesses and tourism.
 </center>
 
 <br>  
-<br>  
 
 ***  
 
@@ -168,7 +177,6 @@ in Australia.
 ![A small Aussie contingent](files/img/20230825_AussiesInLyon.jpg)
 
 <br>  
-<br>  
 
 
 
@@ -196,7 +204,6 @@ Below: (Left) Sporangiophore, (Right) Sporangia
 ![Downy mildew sporangia](files/img/Downy sporangia.jpg){width=50%}  
 </center>
 <br>  
-<br>  
 
 ***  
 
@@ -214,7 +221,6 @@ The field trial will assist in refining a decision support tool which will help
 smaller farm gate producer manage disease with lower costs and fungicide applications.  
 
 <br>  
-<br>  
 
 ***  
 
@@ -224,7 +230,6 @@ smaller farm gate producer manage disease with lower costs and fungicide applica
 This paper has been accepted and published in the European Journal of Plant Pathology.
 [https://doi.org/10.1007/s10658-023-02664-5](https://doi.org/10.1007/s10658-023-02664-5)  
 
-<br>  
 <br>  
 
 ***  
@@ -240,7 +245,6 @@ This will be used for inoculum in a field trial we are planning later this year.
 </center>
 
 Stay tuned!!!
-<br>  
 <br>  
 
 ***  
@@ -279,7 +283,6 @@ to read the pre-print, you can download it from Zenodo.
 [You can also find the full statistical analysis and code at the research compendium here.](https://paulmelloy.github.io/P_xanthii_titlepage.html).  
 
 <br>  
-<br>  
 
 ***  
 
@@ -294,7 +297,6 @@ the `ascotraceR` model. Watch this space.
 
 ![](files/img/Wagga Wagga meeting-1.jpg)</center>  
 
-<br>  
 <br>  
 
 ***  
@@ -321,7 +323,6 @@ and [UCI BlackLegCM](https://www.agric.wa.gov.au/apps/uci-blacklegcm-blackleg-up
 ![](files/img/2207_GRDCUpdates.jpg)  
 
 <br>  
-<br>  
 
 ***  
 
@@ -333,7 +334,6 @@ I had a great chat with ABC rural trailblazer [Jack Cresswell](https://twitter.c
 
 Or search for 'Farms Advice' in your pod-cast app.  
 
-<br>  
 <br>  
 
 ***  
@@ -347,7 +347,6 @@ You can find `ascotraceR` on CRAN, and a resource announcement in *Phytopatholog
 
 [ascotraceR: An R Package Resource to Simulate the Spatiotemporal Spread of Ascochyta Blight in a Chickpea Field Over a Growing Season](https://apsjournals.apsnet.org/doi/10.1094/PHYTO-01-22-0016-A)
 
-<br>  
 <br>  
 
 ***  
@@ -370,7 +369,6 @@ To help people understand how the DBD is calculated I created a shiny app which 
 [https://paulmelloy.shinyapps.io/UniSuperDBD/](https://paulmelloy.shinyapps.io/UniSuperDBD/)  
 
 <br>  
-<br>  
 
 ***  
 
@@ -388,7 +386,6 @@ expected voter turnout to booths.
 Check out the app at https://paulmelloy.shinyapps.io/22_electoralboundaries/  
 
 <br>  
-<br>  
 
 ***  
 
@@ -402,7 +399,6 @@ The result is being able to estimate the leaf temperature for any where on the p
 
 [Click here to read the blog post](https://openplantpathology.netlify.app/posts/2022-04-01-powerful-tea-using-nasapower-and-tealeaves-to-obtain-leaf-temperatures/)
 
-<br>  
 <br>  
 
 ***  
