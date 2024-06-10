@@ -4,6 +4,10 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "Blogs"
+      menu:
+      - text: "Zotero Webdavs"
+        href: https://paulmelloy.github.io/blog/RDM_webdav.html
     - text: "Shiny Apps"
       menu:
       - text: "ViticolaR DST"
