@@ -17,6 +17,16 @@ on a research topic, visit my [UQ researchers page.](https://researchers.uq.edu.
  
 ## Recent work 
 
+### weatherOz: API client for weather and climate data in R  
+#### June 2024
+
+Congratulations to my co-authors, especially [Dr Rodrigo Pires](https://www.agric.wa.gov.au/rodrigo-pires) 
+and [Prof. Adam Sparks](https://www.ccdm.com.au/people/adam-sparks/)
+with this latest publication.  
+[weatherOz: An API Client for Australian Weather and Climate Data Resources in R. (2024) \n Journal of Open Source Software, 9(98), 6717, \n https://doi.org/10.21105/joss.06717](https://joss.theoj.org/papers/10.21105/joss.06717)
+
+***  
+
 ### International Epidemiology Workshop
 #### April 2024  
 
