@@ -35,7 +35,7 @@ What a fantastic workshop hosted by the [Socidedade Brasileira de Gitopatologia]
 The workshop took place in Iguasu and was a great opportunity to meet plant 
 epidemiologists from around the world.  
 I was able to speak on the first day of the workshop introducing the idea that
-farmers might not be interested in JAFAs (Just another F___ fone? App) and that 
+farmers might not be interested in JAFAs (Just another F___ *?fone?* App) and that 
 using APIs to serve decision support tools to farm management software could reach
 more stake-holders.  
 I will look forward to the next workshop and seeing many of the same good folk and
