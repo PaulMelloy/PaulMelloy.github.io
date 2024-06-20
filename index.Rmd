@@ -17,8 +17,20 @@ on a research topic, visit my [UQ researchers page.](https://researchers.uq.edu.
  
 ## Recent work 
 
-### weatherOz: API client for weather and climate data in R  
-#### June 2024
+### June 2024  
+
+#### Australian Spors Turf Managers Association conference  
+
+What a treat giving a presentation on ERI diseases to a packed room at the ASTMA
+Conference in Brisbane.  
+
+<center>  
+
+![Giving a presentation on ERI](./files/img/2406_ASTMA_confference_ERI.jpg)  
+</center>
+
+
+#### weatherOz: API client for weather and climate data in R  
 
 Congratulations to [Dr Rodrigo Pires](https://www.agric.wa.gov.au/rodrigo-pires) 
 and [Prof. Adam Sparks](https://www.ccdm.com.au/people/adam-sparks/)
