@@ -14,14 +14,13 @@ on a research topic, visit my [UQ researchers page.](https://researchers.uq.edu.
 <br> 
 
 ***  
- 
+
 ## Recent work 
 
-### June 2024  
+### Australian Spors Turf Managers Association conference  
+#### June 2024  
 
-#### Australian Spors Turf Managers Association conference  
-
-What a treat giving a presentation on ERI diseases to a packed room at the ASTMA
+hat a treat giving a presentation on ERI diseases to a packed room at the ASTMA
 Conference in Brisbane.  
 
 <center>  
@@ -29,13 +28,19 @@ Conference in Brisbane.
 ![Giving a presentation on ERI](./files/img/2406_ASTMA_confference_ERI.jpg)  
 </center>
 
+<br>  
+<br>  
 
-#### weatherOz: API client for weather and climate data in R  
+### weatherOz: API client for weather and climate data in R  
+#### June 2024  
 
 Congratulations to [Dr Rodrigo Pires](https://www.agric.wa.gov.au/rodrigo-pires) 
 and [Prof. Adam Sparks](https://www.ccdm.com.au/people/adam-sparks/)
 with this latest publication of which I am a co-author.  
 [weatherOz: An API Client for Australian Weather and Climate Data Resources in R. (2024) \n Journal of Open Source Software, 9(98), 6717, \n https://doi.org/10.21105/joss.06717](https://joss.theoj.org/papers/10.21105/joss.06717)
+
+<br>  
+
 
 ***  
 
