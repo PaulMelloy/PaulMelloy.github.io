@@ -6,8 +6,10 @@ navbar:
       href: index.html
     - text: "Blogs"
       menu:
+      - text: "Updating Rstudio server"
+        href: https://paulmelloy.github.io/UpdateRstudioServer.html
       - text: "Zotero Webdavs"
-        href: https://paulmelloy.github.io/blog/RDM_webdav.html
+        href: https://paulmelloy.github.io/RDM_webdav.html
     - text: "Shiny Apps"
       menu:
       - text: "ViticolaR DST"

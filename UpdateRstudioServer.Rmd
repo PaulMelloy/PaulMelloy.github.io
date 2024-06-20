@@ -1,0 +1,124 @@
+---
+title: "Upgrade you Rstudio server"
+author: "Paul Melloy"
+date: "2024-06-11"
+---
+
+## Update your Rstudio server  
+
+I was surprised how little documentation was available on how to update Rstudio
+Servers. 
+I use a Rstudio server deployed on the Australian Research and Data Commons (ARDC), 
+NECTAR service. 
+It took me too long to figure this out as all the current documentation was old and
+obsolete.  
+
+[This post](https://www.r-bloggers.com/2023/05/r-install-and-configure-rstudio-server-in-ubuntu/)
+by [Zhenguo Zhang](https://www.r-bloggers.com/author/zhenguo-zhang/) was helpful,
+However not specific to my use case of just wanting to upgrade my server.  
+
+This obviously needs `sudo` privileges on the machine.  
+
+### 1. Stop the service  
+```{bash stop_service, eval=FALSE}
+sudo rstudio-server stop
+```
+
+
+### 2. Remove the old service  
+
+```{bash remove_old, eval=FALSE}
+sudo apt-get remove rstudio-server
+```
+
+### 3. Install new version  
+
+This step can mostly be followed from the POSIT website: https://posit.co/download/rstudio-server/  
+
+
+#### Disto dependant  
+
+Be aware the following is linux distribution dependant. 
+My version is "Ubuntu 22.04.4 LTS" however yours might be slightly different.  
+
+If gdebi-core is not already installed from the old Rstudio server install it again
+
+  a) install gdebi-core to allow debian package manager to install the new version  
+  
+```{bash gdebi, eval=FALSE}
+sudo apt-get install gdebi-core
+```
+
+  b) Install the new Rstudio version  
+
+You may need to get the most recent line of code from the [posit website](https://posit.co/download/rstudio-server/).  
+
+```{bash install, eval=FALSE}
+# Download
+wget https://download2.rstudio.org/server/jammy/amd64/rstudio-server-2024.04.2-764-amd64.deb
+# Install
+sudo gdebi rstudio-server-2024.04.2-764-amd64.deb
+```
+
+### 4. Start the new service  
+
+Verify installation  
+
+```{bash verify, eval=FALSE}
+sudo rstudio-server verify-installation
+```
+
+
+Start the a new session  
+
+```{bash start, eval=FALSE}
+sudo rstudio-server start
+```
+
+Verify the a new session has started and is active  
+
+```{bash active, eval=FALSE}
+sudo rstudio-server active-sessions
+```
+
+Once the service is active make put the service back online  
+
+```{bash online, eval=FALSE}
+sudo rstudio-server online
+```
+
+ - and that should be it!!
+
+
+### Troubleshooting  
+
+Restarting your service  
+```{bash restart, eval=FALSE}
+sudo rstudio-server restart
+```
+
+ - Check the ports are open rstudio server is usually `8787`
+
+```{bash ports, eval=FALSE}
+# list ports in use
+sudo netstat -tulpn
+```
+
+ - Check the rstudio configuration files  
+
+```{bash, eval=FALSE}
+nano /etc/rstudio/rserver.conf
+```
+
+#### Links to other instructions  
+
+https://www.r-bloggers.com/2023/05/r-install-and-configure-rstudio-server-in-ubuntu/  
+https://posit.co/download/rstudio-server/  
+https://forum.posit.co/t/cant-start-rstudio-server-ubuntu-18-0-4-bionic/11835/3  
+https://forum.posit.co/t/how-to-update-r-in-rstudio-server/102011  
+
+
+
+
+
+
