@@ -13,7 +13,7 @@
 
 <meta name="date" content="2024-06-11" />
 
-<title>Upgrade you Rstudio server</title>
+<title>Upgrade your personal Rstudio server</title>
 
 <script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -338,7 +338,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Upgrade you Rstudio server</h1>
+<h1 class="title toc-ignore">Upgrade your personal Rstudio server</h1>
 <h4 class="author">Paul Melloy</h4>
 <h4 class="date">2024-06-11</h4>
 
@@ -357,21 +357,26 @@ href="https://www.r-bloggers.com/2023/05/r-install-and-configure-rstudio-server-
 post</a> by <a
 href="https://www.r-bloggers.com/author/zhenguo-zhang/">Zhenguo
 Zhang</a> was helpful, However not specific to my use case of just
-wanting to upgrade my server.</p>
-<p>This obviously needs <code>sudo</code> privileges on the machine.</p>
+wanting to <em>upgrade</em> my server.</p>
+<p><strong>NOTE:</strong> Upgrading the software will need
+<code>sudo</code> privileges on the machine.</p>
+<p><br></p>
 <div id="stop-the-service" class="section level3">
 <h3>1. Stop the service</h3>
 <pre class="bash"><code>sudo rstudio-server stop</code></pre>
+<p><br></p>
 </div>
 <div id="remove-the-old-service" class="section level3">
 <h3>2. Remove the old service</h3>
 <pre class="bash"><code>sudo apt-get remove rstudio-server</code></pre>
+<p><br></p>
 </div>
 <div id="install-new-version" class="section level3">
 <h3>3. Install new version</h3>
 <p>This step can mostly be followed from the POSIT website: <a
 href="https://posit.co/download/rstudio-server/"
 class="uri">https://posit.co/download/rstudio-server/</a></p>
+<p><br></p>
 <div id="disto-dependant" class="section level4">
 <h4>Disto dependant</h4>
 <p>Be aware the following is linux distribution dependant. My version is
@@ -392,6 +397,7 @@ href="https://posit.co/download/rstudio-server/">posit website</a>.</p>
 wget https://download2.rstudio.org/server/jammy/amd64/rstudio-server-2024.04.2-764-amd64.deb
 # Install
 sudo gdebi rstudio-server-2024.04.2-764-amd64.deb</code></pre>
+<p><br></p>
 </div>
 </div>
 <div id="start-the-new-service" class="section level3">
@@ -407,6 +413,8 @@ sudo gdebi rstudio-server-2024.04.2-764-amd64.deb</code></pre>
 <ul>
 <li>and that should be it!!</li>
 </ul>
+<p><br><br />
+<br></p>
 </div>
 <div id="troubleshooting" class="section level3">
 <h3>Troubleshooting</h3>

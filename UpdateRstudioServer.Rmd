@@ -1,5 +1,5 @@
 ---
-title: "Upgrade you Rstudio server"
+title: "Upgrade your personal Rstudio server"
 author: "Paul Melloy"
 date: "2024-06-11"
 ---
@@ -15,15 +15,18 @@ obsolete.
 
 [This post](https://www.r-bloggers.com/2023/05/r-install-and-configure-rstudio-server-in-ubuntu/)
 by [Zhenguo Zhang](https://www.r-bloggers.com/author/zhenguo-zhang/) was helpful,
-However not specific to my use case of just wanting to upgrade my server.  
+However not specific to my use case of just wanting to *upgrade* my server.  
 
-This obviously needs `sudo` privileges on the machine.  
+**NOTE:** Upgrading the software will need `sudo` privileges on the machine.  
+
+<br>  
 
 ### 1. Stop the service  
 ```{bash stop_service, eval=FALSE}
 sudo rstudio-server stop
 ```
 
+<br>  
 
 ### 2. Remove the old service  
 
@@ -31,10 +34,13 @@ sudo rstudio-server stop
 sudo apt-get remove rstudio-server
 ```
 
+<br>  
+
 ### 3. Install new version  
 
 This step can mostly be followed from the POSIT website: https://posit.co/download/rstudio-server/  
 
+<br>  
 
 #### Disto dependant  
 
@@ -59,6 +65,8 @@ wget https://download2.rstudio.org/server/jammy/amd64/rstudio-server-2024.04.2-7
 # Install
 sudo gdebi rstudio-server-2024.04.2-764-amd64.deb
 ```
+
+<br>  
 
 ### 4. Start the new service  
 
@@ -89,6 +97,8 @@ sudo rstudio-server online
 
  - and that should be it!!
 
+<br>  
+<br>  
 
 ### Troubleshooting  
 
