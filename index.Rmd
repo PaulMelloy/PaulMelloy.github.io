@@ -3,10 +3,11 @@ title: "Paul Melloy"
 date: "`r Sys.Date()`"
 ---
 
-I am a Plant Pathologist at the [University of Queensland.](https://www.uq.edu.au/)
-I specialise in modelling crop diseases and building decision support tools.  
+I am a Agroecologist at [CSIRO.](https://www.csiro.au/)
+I specialise in modelling pest and diseases in agriculture and horticulture for
+using in decision support tools.  
 Read about my recent research below, and if you are interested in collaborating
-on a research topic, visit my [UQ researchers page.](https://researchers.uq.edu.au/researcher/37467)
+on a research topic, visit my [CSRIO profile page.](https://people.csiro.au/m/p/paul-melloy)
 
 
 
@@ -16,6 +17,21 @@ on a research topic, visit my [UQ researchers page.](https://researchers.uq.edu.
 ***  
 
 ## Recent work 
+
+### Starting a new job at CSRIO!!!  
+#### July 2024  
+
+I am super excited to start a new role back with CSRIO as a Senior Research Scientist.
+I will be working in a wider capacity on insect pests and diseases, engaging with
+the horticultural industry and agri-tech platforms to integrate spatial models as 
+decision support tools.  
+
+I am working in the [agroecology team](https://research.csiro.au/agroecology/) 
+with the [Pest READI](https://research.csiro.au/pestreadi/) and the [canola allies](https://research.csiro.au/agroecology/canola-allies/) project.  
+
+<br>  
+
+*** 
 
 ### Australian Spors Turf Managers Association conference  
 #### June 2024  
