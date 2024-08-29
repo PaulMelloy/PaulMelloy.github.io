@@ -22,6 +22,8 @@ navbar:
         href: https://paulmelloy.shinyapps.io/22_electoralboundaries/
       - text: "UniSuperDBD"
         href: https://paulmelloy.shinyapps.io/UniSuperDBD/
+      - text: "Old FungalJungle Blog"
+        href: https://thefungaljungle.blogspot.com/
     - text: "R Packages"
       menu:
       - text: "cercospoRa"
