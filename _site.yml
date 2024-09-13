@@ -15,7 +15,7 @@ navbar:
     - text: "Shiny Apps"
       menu:
       - text: "ViticolaR DST"
-        href: https://viticola.blackspotsp.cloud.edu.au/shiny/viticolR_dst/
+        href: http://203.101.230.12/shiny/viticolR_dst/
       - text: "epiphytrainR"
         href: https://viticola.blackspotsp.cloud.edu.au/shiny/epiphytrainR_app/
       - text: "2022 electoral data"
