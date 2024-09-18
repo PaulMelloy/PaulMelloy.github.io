@@ -12,18 +12,19 @@ navbar:
         href: https://paulmelloy.github.io/RDM_webdav.html
       - text: "Leaf Tm from NASA POWER"
         href: https://openplantpathology.netlify.app/posts/2022-04-01-powerful-tea-using-nasapower-and-tealeaves-to-obtain-leaf-temperatures/
+      - text: "Old FungalJungle Blog"
+        href: https://thefungaljungle.blogspot.com/
     - text: "Shiny Apps"
       menu:
       - text: "ViticolaR DST"
-        href: http://203.101.230.12/shiny/viticolR_dst/
+        href: https://viticolr.paulmelloy.com.au/shiny/viticolR_dst/
       - text: "epiphytrainR"
-        href: https://viticola.blackspotsp.cloud.edu.au/shiny/epiphytrainR_app/
+        href: https://viticolr.paulmelloy.com.au/shiny/epiphytrainR_app/
       - text: "2022 electoral data"
         href: https://paulmelloy.shinyapps.io/22_electoralboundaries/
       - text: "UniSuperDBD"
         href: https://paulmelloy.shinyapps.io/UniSuperDBD/
-      - text: "Old FungalJungle Blog"
-        href: https://thefungaljungle.blogspot.com/
+
     - text: "R Packages"
       menu:
       - text: "cercospoRa"
