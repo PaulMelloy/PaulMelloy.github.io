@@ -22,7 +22,11 @@ on a research topic, visit my [CSIRO profile page.](https://people.csiro.au/m/p/
 #### 10 October 2024  
 A workshop to introduce the benefits of consulting decision support tools (DSTs)
 in Agriculture.  
-[Class resources](https://paulmelloy.github.io/DST_workshop.html)
+[Class resources](https://paulmelloy.github.io/DST_Workshop.html)
+
+<br>  
+
+***  
 
 ### GRDC Soil-borne disease workshop  
 #### August 2024  
