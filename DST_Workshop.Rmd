@@ -1,0 +1,31 @@
+---
+title: "Decision Support Tools for Agroecology"
+author: "Paul Melloy"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+<br>  
+
+List of web links relevant to a workshop UQ agronomy students on decision support 
+tools.
+
+<br>  
+
+## Decision support tools  
+
+ - [StripeRustWM (Stripe Rust Wheat Manager)](https://www.agric.wa.gov.au/apps/striperustwm)  
+ - [YellowSpotWM (Yellow Spot Wheat Manager)](https://www.agric.wa.gov.au/apps/yellowspotwm-yellow-leaf-spot-management)  
+ - [YellowspotWM DPIRD shiny app](https://dpird.shinyapps.io/yellowspot/)
+ - [UCI blackleg DPIRD shiny app](https://canola.shinyapps.io/UCI-blackleg/)
+ - [ViticolR - Downy mildew in grapes](https://viticolr.paulmelloy.com.au/shiny/viticolR_dst/)
+
+<br>  
+
+## Additional links to information  
+
+ - [National Variety Trials resistance ratings](https://nvt.grdc.com.au/nvt-disease-ratings)  
+ - [Agmargins](https://agmargins.net.au/)  
+ - [Australian Cereal Rust Survey](https://www.sydney.edu.au/science/our-research/research-areas/life-and-environmental-sciences/cereal-rust-research/rust-reports.html)  
+ - [Australian Cereal Rust Survey Maps](https://www.google.com/maps/d/viewer?mid=1nkFavsqmm5rUlXdp_F_dMPJJVPgXVZM&ll=-27.96774968331581%2C133.06423238383962&z=5)  
+ -
