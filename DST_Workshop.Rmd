@@ -19,6 +19,7 @@ tools.
  - [YellowspotWM DPIRD shiny app](https://dpird.shinyapps.io/yellowspot/)
  - [UCI blackleg DPIRD shiny app](https://canola.shinyapps.io/UCI-blackleg/)
  - [ViticolR - Downy mildew in grapes](https://viticolr.paulmelloy.com.au/shiny/viticolR_dst/)
+ - [Rutherglen bug model](http://203.101.227.45:5006/dashboard)
 
 <br>  
 
