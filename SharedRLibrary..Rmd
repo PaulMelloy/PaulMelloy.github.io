@@ -1,0 +1,51 @@
+---
+title: "shared R libraries"
+author: "Paul Melloy"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+Frequently when setting up a new virtual machine online to run a shiny server
+I run into issues that the shiny server can't run because it can't access the 
+users library.
+The shiny server runs on the 'shiny' user and can't access my 'paul' user R 
+library.  
+
+There are many way to solve this, however one way is to have a shared library
+between me 'paul' and the 'shiny' user.
+
+Log into the terminal in the background and create a new folder.
+```{bash eval=FALSE, echo=TRUE}
+sudo mkdir /home/shared
+```
+
+Change the permissions on the shared folder to the user's group.  
+
+```{bash eval=FALSE, echo=TRUE}
+#change group ownership to users
+sudo chgrp users /home/shared 
+
+# change permissions to drwxrwxr--
+# the owner 'root' and group 'users' to read write execute and others read only
+sudo chmod 774 /home/shared
+
+# set group ids for and new subdirectories
+sudo chmod +s /home/shared
+```
+
+Check that 'shiny' and 'paul' are in the 'users' group, and add them if not  
+
+```{bash eval=FALSE, echo=TRUE}
+grep 'users' /etc/group
+
+# add them if missing
+sudo usermod -a -G users paul
+sudo usermod -a -G users shiny
+```
+
+copy all 'paul's libraries to `shared/r_libs`
+
+```{bash eval=FALSE, echo=TRUE}
+cp -r /home/paul/R/x86_64-pc-linux-gnu-library/ /home/shared/r_libs/
+```
+
