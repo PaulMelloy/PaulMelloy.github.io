@@ -60,7 +60,7 @@ echo "/home/shared/r_libs/" >> /home/paul/.Renviron
 
 Then add the following to the top of a shiny `app.R` file.
 
-```{r}
+```{r eval=FALSE, echo=TRUE}
 .libPaths("/home/shared/r_libs/4.4/")
 
 # Or
