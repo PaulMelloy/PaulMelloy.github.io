@@ -16,6 +16,7 @@ navbar:
         href: https://openplantpathology.netlify.app/posts/2022-04-01-powerful-tea-using-nasapower-and-tealeaves-to-obtain-leaf-temperatures/
       - text: "Old FungalJungle Blog"
         href: https://thefungaljungle.blogspot.com/
+
     - text: "Shiny Apps"
       menu:
       - text: "ViticolaR DST"
