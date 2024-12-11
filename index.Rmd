@@ -18,6 +18,82 @@ on a research topic, visit my [CSIRO profile page.](https://people.csiro.au/m/p/
 
 ## Recent work 
 
+### LLMs for Decision Support
+#### December 2024
+Congratulations to [Dr Sandeep Dhakal](https://people.csiro.au/d/s/sandeep-dhakal) 
+and [Dr Hazel Parry](https://people.csiro.au/P/H/Hazel-Parry.aspx) for their 
+recent publication in [Nature Correspondance, *"Large language models can help to translate science into real-world impact"*](https://www.nature.com/articles/d41586-024-04059-w).  
+
+Many academics are hesitant to embrace the Large Language Model revolution, however
+the genie can no longer be put back in the lamp and it is integrating itself in 
+our day-to-day life. 
+What this technology does well  translate complex ideas and language
+to a somewhat succinct summaries that are more readable. 
+This is what we as scientists are rather terrible at, communicating complex ideas
+to the wider public, and we could gain a lot by using LLMs to enable this.
+The latest models have come a long way and even though it is probably for the LLM
+to include mistakes, we as scientists should be involved in the testing to ensure
+improved accuracy.  
+
+<br>  
+
+***  
+
+### AusMac Macadamia Conference  
+#### 30 - 31 October 2024  
+The Pest READI project I am working on is focusing on horticultural industries in
+the Northern Rivers area of Northern New South Wales.
+This region has been subject to huge disruptions due to [recent flooding in 2022](https://www.abc.net.au/news/2022-03-31/floods-lismore-byron-bay-northern-rivers-why-come-in-clusters/100954926)
+and the [black summer bushfires in 2020](https://www.abc.net.au/news/backstory/2023-09-26/abc-emergency-black-summer-upcoming-bushfire-season/102871620).
+The [Pest READI team](https://research.csiro.au/pestreadi/project-team/) are 
+researching ways this resilient community undertakes integrated pest management 
+practices and work with them to design tools which will increase preparedness 
+and resilience to future change.  
+Macadamias are one of the largest horticultural industries for the northern rivers 
+region alongside Avocados. 
+The conference is a industry focused with many growers and agronomists among the 
+delegates. 
+This year there was a large presence of companies promoting novel AgTech products
+which offer solutions for the macadamia industry. 
+
+
+![Left to Right: David Hinchley (Jagun Alliance), Saleh Adnan (NSW DPIRD), and Tracey Steinrucken, Zakeel Mohamed Cassim and Paul Melloy (CSIRO)](./files/img/2410_PestREADIAusMac.webp)  
+*Image taken from Pest READI website*
+<br>
+  
+**Machinery and automation** had one of the strongest presence, probably due to 
+the high labour costs and demand for workers, growers were looking for the right 
+solution that might reduce this issue.
+However I felt a sense that high costs of investing in new machinery was a no 
+trivial decision for farm businesses.
+Macadamia markets were featured in some of the talks and discussions with areas
+in South Africa and China superseding Australia's dominance for macadamise market
+share adding to concerns among producers.  
+
+**Spatial models** by [Andy Clark from UNE](https://www.une.edu.au/staff-profiles/science-and-technology/andy-clark)
+showed how earth observation can be used to identify and map tree crops with his 
+[Australian tree crop map](https://www.arcgis.com/apps/dashboards/f6dd44763f0b476e8a1c2f0504fc8779) 
+and highlighted extra potential uses around weather warning systems and detecting 
+changes in seasonal phenology.  
+
+**The Trade displays** were where I spent most of my time surveiling where novel
+Agtech products are targeting Agricultural and Horticultural production. 
+Farm management platforms, such as [InformAg](https://www.informag.com.au/) and 
+[FieldIn](https://fieldin.com/), made interesting conversation and were offering
+platforms to organise farm tasks and improve record-keeping for compliance.
+The importance of pollination was not only emphasised in talks but also at the 
+three related stalls. [Bee Hero](https://www.beehero.io/) acoustic monitoring of 
+bee activity to understand pollination services on farm. 
+[Wheen Bee](https://www.wheenbeefoundation.org.au/) which offered grants for 
+planting insect friendly habitat and [Biological Services](https://www.biologicalservices.com.au/) 
+a supplier of beneficial insects to suppress pests.  
+
+> [Read more about our round-up on our Pest READI website](https://research.csiro.au/pestreadi/pest-readi-team-at-ausmac-2024/)
+
+<br>  
+
+***  
+
 ### UQ Agronomy student workshop on decision support tools  
 #### 10 October 2024  
 A workshop to introduce the benefits of consulting decision support tools (DSTs)
