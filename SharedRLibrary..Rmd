@@ -46,6 +46,27 @@ sudo usermod -a -G users shiny
 copy all 'paul's libraries to `shared/r_libs`
 
 ```{bash eval=FALSE, echo=TRUE}
-cp -r /home/paul/R/x86_64-pc-linux-gnu-library/ /home/shared/r_libs/
+cp -a /home/paul/R/x86_64-pc-linux-gnu-library/. /home/shared/r_libs/
+```
+
+While we could edit the system path variables in `/usr/lib/R/etc/Renviron.site`. 
+I am not yet comforatble messing with the system variables, and this might 
+interrupt additional users of the machine down the line.  
+Instead I will add the library to the user `.Renviron`  
+
+```{bash eval=FALSE, echo=TRUE}
+echo "/home/shared/r_libs/" >> /home/paul/.Renviron
+```
+
+Then add the following to the top of a shiny `app.R` file.
+
+```{r eval=FALSE, echo=TRUE}
+.libPaths("/home/shared/r_libs/4.4/")
+
+# Or
+if(system("whoami") == "shiny"){
+  .libPaths("/home/shared/r_libs/4.4/")
+}
+
 ```
 
