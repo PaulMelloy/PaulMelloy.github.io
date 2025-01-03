@@ -18,6 +18,112 @@ on a research topic, visit my [CSIRO profile page.](https://people.csiro.au/m/p/
 
 ## Recent work 
 
+### cercopoRa 0.0.1 released on CRAN 
+#### December 2024
+
+I am pleased to announce that the [cercopoRa](https://cran.r-project.org/web/packages/cercospoRa/index.html) 
+R package has been made available on the Comprehensive R Archive Network (CRAN). 
+I have enjoyed collaborating with [Rene Heim](https://reneheim.github.io/), 
+[Nathan Okole](https://orcid.org/0000-0002-5375-2420), 
+[Facundo Ispizua](https://www.researchgate.net/profile/Facundo-Ispizua-Yamati), 
+and [Anne-Katrin Mahlein](https://www.researchgate.net/profile/Anne-Katrin-Mahlein)
+to produce this work as a foundation for further collaboration and development of
+which I am looking forward to.
+
+The `cercopoRa` package is designed to facilitate the integration of remote sensing 
+data into epidemiological models. 
+Its development builds on the research efforts of our team and aims to improve 
+the automation and accuracy of these models.  
+
+We invite researchers and practitioners interested in remote sensing and 
+epidemiology to explore `cercopoRa`'s capabilities lodge issues for discussion and 
+make pull requests to the 
+[Github repository](https://github.com/PaulMelloy/cercospoRa/) to further this 
+project.  
+
+You can install the package from CRAN in R with the `install.packages()` function  
+
+```r
+install.packages("cercospoRa")
+```
+
+Access the documentation and tutorials from the pkgdown site 
+https://paul.melloy.com.au/cercospoRa/.  
+
+<br>  
+
+***  
+
+### LLMs for Decision Support
+#### December 2024
+Congratulations to [Dr Sandeep Dhakal](https://people.csiro.au/d/s/sandeep-dhakal) 
+and [Dr Hazel Parry](https://people.csiro.au/P/H/Hazel-Parry.aspx) for their 
+recent publication in [Nature Correspondance, *"Large language models can help to translate science into real-world impact"*](https://www.nature.com/articles/d41586-024-04059-w).  
+
+Many academics are hesitant to embrace the Large Language Model revolution, however
+the genie can no longer be put back in the lamp and it is integrating itself in 
+our day-to-day life. 
+What this technology does well  translate complex ideas and language
+to a somewhat succinct summaries that are more readable. 
+This is what we as scientists are rather terrible at, communicating complex ideas
+to the wider public, and we could gain a lot by using LLMs to enable this.
+The latest models have come a long way and even though it is probably for the LLM
+to include mistakes, we as scientists should be involved in the testing to ensure
+improved accuracy.  
+
+<br>  
+
+***  
+
+### AusMac Macadamia Conference  
+#### 30 - 31 October 2024  
+The Pest READI project I'm working on focuses on horticultural industries in the 
+Northern Rivers area of Northern New South Wales. This region has been severely 
+impacted by recent disruptions, including [the 2022 floods](https://www.abc.net.au/news/2022-03-31/floods-lismore-byron-bay-northern-rivers-why-come-in-clusters/100954926) 
+and the [black summer bushfires in 2020](https://www.abc.net.au/news/backstory/2023-09-26/abc-emergency-black-summer-upcoming-bushfire-season/102871620). 
+The Pest READI team is conducting research on how this resilient community 
+implements integrated pest management practices and collaborates with them to 
+design tools that enhance preparedness and resilience for future changes.
+
+The Northern Rivers region is home to significant horticultural industries, 
+including macadamias, which are one of the largest in the area. 
+Alongside avocados, these crops contribute significantly to the local economy. 
+The conference, which brings together industry professionals, growers, and 
+agronomists, featured a wide range of topics.
+
+This year's event highlighted several key areas of focus. 
+**Machinery and automation** were well-represented, with many attendees seeking 
+solutions to reduce labor costs in the face of high demand for workers. However, 
+the investment required to adopt new machinery was a significant consideration 
+for farm businesses.
+
+The conference also explored the importance of macadamia markets, which have 
+faced challenges from competitors in South Africa and China. **Spatial models**, 
+presented by [Andy Clark from UNE](https://www.une.edu.au/staff-profiles/science-and-technology/andy-clark), 
+demonstrated how earth observation can be used to identify and map tree crops. 
+These models also highlighted the potential for improved weather warning systems 
+and monitoring of seasonal phenology.
+
+The **Trade displays** offered a wealth of information on novel AgTech products 
+targeting agricultural and horticultural production. 
+Farm management platforms, such as [InformAg](https://www.informag.com.au/) and 
+[FieldIn](https://fieldin.com/), were showcased as tools to organize farm tasks 
+and improve record-keeping for compliance.
+
+The importance of pollination was emphasized in several talks and at related 
+stalls. 
+[Bee Hero](https://www.beehero.io/) presented acoustic monitoring technology to 
+understand bee activity, while [Wheen Bee](https://www.wheenbeefoundation.org.au/) 
+offered grants for planting insect-friendly habitats. 
+[Biological Services](https://www.biologicalservices.com.au/) supplied beneficial 
+insects to suppress pests.
+
+> [Read more about our round-up on our Pest READI website](https://research.csiro.au/pestreadi/pest-readi-team-at-ausmac-2024/)
+
+<br>  
+
+***  
+
 ### UQ Agronomy student workshop on decision support tools  
 #### 10 October 2024  
 A workshop to introduce the benefits of consulting decision support tools (DSTs)

@@ -1,5 +1,5 @@
 ---
-title: "shared R libraries"
+title: "Shared R libraries"
 author: "Paul Melloy"
 date: "`r Sys.Date()`"
 output: html_document
