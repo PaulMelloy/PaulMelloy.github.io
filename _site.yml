@@ -19,8 +19,8 @@ navbar:
 
     - text: "Shiny Apps"
       menu:
-      - text: "ViticolaR DST"
-        href: https://viticolr.paulmelloy.com.au/shiny/viticolR_dst/
+      - text: "ViticolR DST"
+        href: https://apps.paulmelloy.com.au/shiny/viticolR_dst/
       - text: "epiphytrainR"
         href: https://agroecology.canola-allies.cloud.edu.au/shiny/epiphytrainR_app/
       - text: "2022 electoral data"
