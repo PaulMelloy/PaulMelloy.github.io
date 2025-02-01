@@ -22,7 +22,7 @@ navbar:
       - text: "ViticolR DST"
         href: https://apps.paulmelloy.com.au/shiny/viticolR_dst/
       - text: "epiphytrainR"
-        href: https://viticolr.paulmelloy.com.au/shiny/epiphytrainR_app/
+        href: https://apps.paulmelloy.com.au/shiny/epiphytrainR_app/
       - text: "2022 electoral data"
         href: https://paulmelloy.shinyapps.io/22_electoralboundaries/
       - text: "UniSuperDBD"
