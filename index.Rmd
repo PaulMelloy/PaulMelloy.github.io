@@ -28,6 +28,7 @@ Anyone using this package will need to update thier cloned repositories or ensur
 the urls are also updated.
 New github URL: https://github.com/PaulMelloy/viticolR  
 Decision support tool URL: https://apps.paulmelloy.com.au/shiny/viticolR_dst/  
+Shout out to [Nick Tierney's blog](https://www.njtierney.com/post/2017/10/27/change-pkg-name/) which I followed to remind myself how to do this.
 
 <br> 
 
