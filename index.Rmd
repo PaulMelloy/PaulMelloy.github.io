@@ -3,6 +3,8 @@ title: "Paul Melloy"
 date: "`r Sys.Date()`"
 ---
 
+`r htmltools::includeScript("./matamo.js")`
+
 I am a Agroecologist at [CSIRO.](https://www.csiro.au/)
 I specialise in modelling pest and diseases in agriculture and horticulture for
 using in decision support tools.  
