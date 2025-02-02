@@ -64,7 +64,7 @@ install.packages("cercospoRa")
 ```
 
 Access the documentation and tutorials from the pkgdown site 
-https://paul.melloy.com.au/cercospoRa/.  
+https://paulmelloy.com.au/cercospoRa/.  
 
 <br>  
 
