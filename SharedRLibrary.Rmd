@@ -70,6 +70,13 @@ Then add the following to the top of a shiny `app.R` file.
 if(system("whoami") == "shiny"){
   .libPaths("/home/shared/r_libs/4.4/")
 }
-
 ```
 
+Optional extra ubuntu / Debian packages needed for specific packages 
+ - libudunits2-dev
+ - openssl
+ - 
+ 
+```{bash eval=FALSE, echo=TRUE}
+sudo apt install libudunits2-dev openssl
+```
