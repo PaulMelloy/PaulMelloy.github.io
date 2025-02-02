@@ -11,7 +11,7 @@
 
 <meta name="author" content="Paul Melloy" />
 
-<meta name="date" content="2024-12-11" />
+<meta name="date" content="2025-02-03" />
 
 <title>Shared R libraries</title>
 
@@ -281,10 +281,10 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="https://viticolr.paulmelloy.com.au/shiny/viticolR_dst/">ViticolaR DST</a>
+      <a href="https://apps.paulmelloy.com.au/shiny/viticolR_dst/">ViticolR DST</a>
     </li>
     <li>
-      <a href="https://agroecology.canola-allies.cloud.edu.au/shiny/epiphytrainR_app/">epiphytrainR</a>
+      <a href="https://apps.paulmelloy.com.au/shiny/epiphytrainR_app/">epiphytrainR</a>
     </li>
     <li>
       <a href="https://paulmelloy.shinyapps.io/22_electoralboundaries/">2022 electoral data</a>
@@ -349,7 +349,7 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">Shared R libraries</h1>
 <h4 class="author">Paul Melloy</h4>
-<h4 class="date">2024-12-11</h4>
+<h4 class="date">2025-02-03</h4>
 
 </div>
 
@@ -371,7 +371,10 @@ sudo chgrp users /home/shared
 sudo chmod 774 /home/shared
 
 # set group ids for and new subdirectories
-sudo chmod +s /home/shared</code></pre>
+sudo chmod +s /home/shared
+
+# add an R library folder
+mkdir /home/shared/r_libs/4.4</code></pre>
 <p>Check that ‘shiny’ and ‘paul’ are in the ‘users’ group, and add them
 if not</p>
 <pre class="bash"><code>grep &#39;users&#39; /etc/group
