@@ -9,7 +9,7 @@ navbar:
       - text: "Updating Rstudio server"
         href: https://paulmelloy.github.io/UpdateRstudioServer.html
       - text: "Shared R library"
-        href: https://paulmelloy.github.io/SharedRlibrary.html
+        href: https://paulmelloy.github.io/SharedRLibrary.html
       - text: "Zotero Webdavs"
         href: https://paulmelloy.github.io/RDM_webdav.html
       - text: "Leaf Tm from NASA POWER"
