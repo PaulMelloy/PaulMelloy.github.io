@@ -20,6 +20,48 @@ on a research topic, visit my [CSIRO profile page.](https://people.csiro.au/m/p/
 
 ## Recent work 
 
+### GRDC Updates - Adelaide  
+#### February 2024  
+
+A successful visit to Adelaide to attend the GRDC updates and meet face to face 
+for a Canola Allies project meeting.
+We were able to build interest in the [Canola Allies] project with a table display
+inviting people to participate in a impact study to gain the current perspectives 
+on pest management in canola and their views on where the research should focus. 
+We had a great time talking with growers and agronomists about how they manage
+pests on farm and what they would like to see in a decision support tool.
+
+Also, I was able to sit in on a few presentations and found talks by 
+[Rick Llewellyn](https://people.csiro.au/l/r/rick-llewellyn) 
+*Digging Deeper - valuing plant and soil testing for agronomic decisions"* 
+[Jonathon Richetti's](https://people.csiro.au/R/J/jonathan-richetti) talk on 
+*"AI in Agriculture"* and 
+[Julianne Lilley's](https://people.csiro.au/L/J/Julianne-Lilley) talk on
+the [Crop flowering calculator](https://cropflowering.com.au/). 
+
+Also great to catch up will Canola Allies colleagues and collaborators from the 
+NSW DPIRD, SARDI and WA DPIRD. 
+We followed on from the GRDC updates with a Canola Allies project meeting reported 
+progress to the project's external advisory panel then discussed experimental 
+approach moving forward on the projects four key outputs.  
+
+  1. Improved understanding of beneficial biology and ecology in canola
+  and a system to monitor these dynamics.  
+  2. Estimation of the impact of beneficial to pest populations and canola productivity.  
+  3. Evaluate the effect of on-farm semi-natural habitats on beneficial populations.
+  4. Develop a spatial model to estimate the impact of landscape on beneficial 
+  survival and pest suppression.  
+  
+<center>  
+
+![Sarina MacFadyen, Paul Melloy and Maryam Ehsangar (PIRSA) at the Adelaide GRDC updates (left to right)](./files/img/250204_GRDCupdatesAdelaide.jpg){width=70%}  
+</center>
+
+
+<br>  
+
+***  
+
 ### cercopoRa 0.0.1 released on CRAN 
 #### December 2024
 
@@ -183,7 +225,7 @@ Conference in Brisbane.
 
 <center>  
 
-![Giving a presentation on ERI](./files/img/2406_ASTMA_confference_ERI.jpg)  
+![Giving a presentation on ERI](./files/img/2406_ASTMA_confference_ERI.jpg){width=60%}  
 </center>
 
 <br>  
