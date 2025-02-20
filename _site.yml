@@ -36,6 +36,16 @@ navbar:
         href: https://ihsankhaliq.github.io/ascotraceR/
       - text: "epiphytoolR"
         href: https://paulmelloy.github.io/epiphytoolR/
+    - text: "Recent Manuscripts"
+      menu:
+      - text: "PlantSeg - Plant Disease Segmentation"
+        href: https://arxiv.org/abs/2409.04038
+      - text: "weatherOz - API Client for R"
+        href: https://joss.theoj.org/papers/10.21105/joss.06717
+      - text: "Effect of Temperature and VPD on Powdery Mildew infection"
+        href: https://link.springer.com/article/10.1007/s10658-023-02664-5
+      - text: "ascotraceR: An R Package Resource"
+        href: https://apsjournals.apsnet.org/doi/10.1094/PHYTO-01-22-0016-A
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<paul@melloy.com.au>

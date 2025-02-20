@@ -113,6 +113,7 @@ https://paulmelloy.com.au/cercospoRa/.
 
 ***  
 
+
 ### LLMs for Decision Support
 #### December 2024
 Congratulations to [Dr Sandeep Dhakal](https://people.csiro.au/d/s/sandeep-dhakal) 
@@ -129,6 +130,30 @@ to the wider public, and we could gain a lot by using LLMs to enable this.
 The latest models have come a long way and even though it is probably for the LLM
 to include mistakes, we as scientists should be involved in the testing to ensure
 improved accuracy.  
+
+<br>  
+
+***  
+
+## PlantSeg -  A Large-Scale In-the-wild Dataset for Plant Disease Segmentation
+#### November 2024
+
+While at UQ I collaborated with Computer Scientists Tianqi Wei, Zi Huang and Xin
+Yu from the School of Electrical Engineering and Computer Science at UQ to 
+develop a deep-learning segmentation model to identify and label RGB (Red Green Blue) 
+plant diseases images. 
+This work attempts to provide methods to identify diseases leaf area in images 
+in the field, eliminating the need for destructive sampling and a plain 
+background for contrast.  
+
+I provided assistance in labelling some of the images, identifying source images, 
+and writing the paper. 
+This is an exciting step towards automation and quantifying disease severity in 
+the field.  
+
+You can read the full pre-print in [arXiv](https://arxiv.org/abs/2409.04038), 
+view the code in [GitHub](https://github.com/tqwei05/PlantSeg) and obtain the 
+image database in [Zenodo.](https://zenodo.org/records/13958858)
 
 <br>  
 
