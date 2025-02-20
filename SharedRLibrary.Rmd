@@ -31,6 +31,9 @@ sudo chmod 774 /home/shared
 
 # set group ids for and new subdirectories
 sudo chmod +s /home/shared
+
+# add an R library folder
+mkdir /home/shared/r_libs/4.4
 ```
 
 Check that 'shiny' and 'paul' are in the 'users' group, and add them if not  
@@ -67,6 +70,13 @@ Then add the following to the top of a shiny `app.R` file.
 if(system("whoami") == "shiny"){
   .libPaths("/home/shared/r_libs/4.4/")
 }
-
 ```
 
+Optional extra ubuntu / Debian packages needed for specific packages 
+ - libudunits2-dev
+ - openssl
+ - 
+ 
+```{bash eval=FALSE, echo=TRUE}
+sudo apt install libudunits2-dev openssl
+```
