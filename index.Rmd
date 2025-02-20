@@ -21,25 +21,13 @@ on a research topic, visit my [CSIRO profile page.](https://people.csiro.au/m/p/
 ## Recent work  
 <br>  
 
-### viticolR package name change  
-#### February 2025  
-I have changed the name of package viticolaR to viticolR. 
-Anyone using this package will need to update thier cloned repositories or ensure
-the urls are also updated.
-New github URL: https://github.com/PaulMelloy/viticolR  
-Decision support tool URL: https://apps.paulmelloy.com.au/shiny/viticolR_dst/  
-Shout out to [Nick Tierney's blog](https://www.njtierney.com/post/2017/10/27/change-pkg-name/) which I followed to remind myself how to do this.
-
-<br> 
-
-***  
-
 ### GRDC Updates - Adelaide  
 #### February 2024  
 
 A successful visit to Adelaide to attend the GRDC updates and meet face to face 
 for a Canola Allies project meeting.
-We were able to build interest in the [Canola Allies] project with a table display
+We were able to build interest in the [Canola Allies](https://research.csiro.au/canolaallies/) 
+project with a table display
 inviting people to participate in a impact study to gain the current perspectives 
 on pest management in canola and their views on where the research should focus. 
 We had a great time talking with growers and agronomists about how they manage
@@ -73,6 +61,19 @@ approach moving forward on the projects four key outputs.
 
 
 <br>  
+
+***  
+
+### viticolR package name change  
+#### February 2025  
+I have changed the name of package viticolaR to viticolR. 
+Anyone using this package will need to update thier cloned repositories or ensure
+the urls are also updated.
+New github URL: https://github.com/PaulMelloy/viticolR  
+Decision support tool URL: https://apps.paulmelloy.com.au/shiny/viticolR_dst/  
+Shout out to [Nick Tierney's blog](https://www.njtierney.com/post/2017/10/27/change-pkg-name/) which I followed to remind myself how to do this.
+
+<br> 
 
 ***  
 
