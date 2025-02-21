@@ -1,0 +1,61 @@
+name: "Paul Melloy"
+navbar:
+  title: "Paul Melloy"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Blogs"
+      menu:
+      - text: "Updating Rstudio server"
+        href: https://paulmelloy.github.io/UpdateRstudioServer.html
+      - text: "Shared R library"
+        href: https://paulmelloy.github.io/SharedRLibrary.html
+      - text: "Zotero Webdavs"
+        href: https://paulmelloy.github.io/RDM_webdav.html
+      - text: "Leaf Tm from NASA POWER"
+        href: https://openplantpathology.netlify.app/posts/2022-04-01-powerful-tea-using-nasapower-and-tealeaves-to-obtain-leaf-temperatures/
+      - text: "Old FungalJungle Blog"
+        href: https://thefungaljungle.blogspot.com/
+
+    - text: "Shiny Apps"
+      menu:
+      - text: "ViticolR DST"
+        href: https://apps.paulmelloy.com.au/shiny/viticolR_dst/
+      - text: "epiphytrainR"
+        href: https://apps.paulmelloy.com.au/shiny/epiphytrainR_app/
+      - text: "2022 electoral data"
+        href: https://paulmelloy.shinyapps.io/22_electoralboundaries/
+      - text: "UniSuperDBD"
+        href: https://paulmelloy.shinyapps.io/UniSuperDBD/
+
+    - text: "R Packages"
+      menu:
+      - text: "cercospoRa"
+        href: https://paulmelloy.github.io/cercospoRa/
+      - text: "ascotraceR"
+        href: https://ihsankhaliq.github.io/ascotraceR/
+      - text: "epiphytoolR"
+        href: https://paulmelloy.github.io/epiphytoolR/
+    - text: "Recent Manuscripts"
+      menu:
+      - text: "PlantSeg - Plant Disease Segmentation"
+        href: https://arxiv.org/abs/2409.04038
+      - text: "weatherOz - API Client for R"
+        href: https://joss.theoj.org/papers/10.21105/joss.06717
+      - text: "Effect of Temperature and VPD on Powdery Mildew infection"
+        href: https://link.springer.com/article/10.1007/s10658-023-02664-5
+      - text: "ascotraceR: An R Package Resource"
+        href: https://apsjournals.apsnet.org/doi/10.1094/PHYTO-01-22-0016-A
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:<paul@melloy.com.au>
+    - icon: fa-github fa-lg
+      href: http://github.com/PaulMelloy/
+    - icon: fa-brands fa-twitter
+      href: https://twitter.com/PaulMelloy
+    - icon: fa-brands fa-orcid
+      href: https://orcid.org/0000-0003-4253-7167
+output:
+  html_document:
+    theme: darkly
+output_dir: "."

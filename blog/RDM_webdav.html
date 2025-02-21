@@ -11,9 +11,9 @@
 
 <meta name="author" content="Paul Melloy" />
 
-<meta name="date" content="2025-02-03" />
+<meta name="date" content="2024-06-10" />
 
-<title>Shared R libraries</title>
+<title>Storing Zotero library on UQ RDM</title>
 
 <script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -312,6 +312,27 @@ $(document).ready(function () {
     </li>
   </ul>
 </li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Recent Manuscripts
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://arxiv.org/abs/2409.04038">PlantSeg - Plant Disease Segmentation</a>
+    </li>
+    <li>
+      <a href="https://joss.theoj.org/papers/10.21105/joss.06717">weatherOz - API Client for R</a>
+    </li>
+    <li>
+      <a href="https://link.springer.com/article/10.1007/s10658-023-02664-5">Effect of Temperature and VPD on Powdery Mildew infection</a>
+    </li>
+    <li>
+      <a href="https://apsjournals.apsnet.org/doi/10.1094/PHYTO-01-22-0016-A">ascotraceR: An R Package Resource</a>
+    </li>
+  </ul>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -347,60 +368,46 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Shared R libraries</h1>
+<h1 class="title toc-ignore">Storing Zotero library on UQ RDM</h1>
 <h4 class="author">Paul Melloy</h4>
-<h4 class="date">2025-02-03</h4>
+<h4 class="date">2024-06-10</h4>
 
 </div>
 
 
-<p>Frequently when setting up a new virtual machine online to run a
-shiny server I run into issues that the shiny server can’t run because
-it can’t access the users library. The shiny server runs on the ‘shiny’
-user and can’t access my ‘paul’ user R library.</p>
-<p>There are many way to solve this, however one way is to have a shared
-library between me ‘paul’ and the ‘shiny’ user.</p>
-<p>Log into the terminal in the background and create a new folder.</p>
-<pre class="bash"><code>sudo mkdir /home/shared</code></pre>
-<p>Change the permissions on the shared folder to the user’s group.</p>
-<pre class="bash"><code>#change group ownership to users
-sudo chgrp users /home/shared 
-
-# change permissions to drwxrwxr--
-# the owner &#39;root&#39; and group &#39;users&#39; to read write execute and others read only
-sudo chmod 774 /home/shared
-
-# set group ids for and new subdirectories
-sudo chmod +s /home/shared
-
-# add an R library folder
-mkdir /home/shared/r_libs/4.4</code></pre>
-<p>Check that ‘shiny’ and ‘paul’ are in the ‘users’ group, and add them
-if not</p>
-<pre class="bash"><code>grep &#39;users&#39; /etc/group
-
-# add them if missing
-sudo usermod -a -G users paul
-sudo usermod -a -G users shiny</code></pre>
-<p>copy all ’paul’s libraries to <code>shared/r_libs</code></p>
-<pre class="bash"><code>cp -a /home/paul/R/x86_64-pc-linux-gnu-library/. /home/shared/r_libs/</code></pre>
-<p>While we could edit the system path variables in
-<code>/usr/lib/R/etc/Renviron.site</code>. I am not yet comforatble
-messing with the system variables, and this might interrupt additional
-users of the machine down the line.<br />
-Instead I will add the library to the user <code>.Renviron</code></p>
-<pre class="bash"><code>echo &quot;/home/shared/r_libs/&quot; &gt;&gt; /home/paul/.Renviron</code></pre>
-<p>Then add the following to the top of a shiny <code>app.R</code>
-file.</p>
-<pre class="r"><code>.libPaths(&quot;/home/shared/r_libs/4.4/&quot;)
-
-# Or
-if(system(&quot;whoami&quot;) == &quot;shiny&quot;){
-  .libPaths(&quot;/home/shared/r_libs/4.4/&quot;)
-}</code></pre>
-<p>Optional extra ubuntu / Debian packages needed for specific packages
-- libudunits2-dev - openssl -</p>
-<pre class="bash"><code>sudo apt install libudunits2-dev openssl</code></pre>
+<div id="webdavs" class="section level2">
+<h2>Webdavs</h2>
+<p>Recently I learnt that The University of Queensland’s <a
+href="https://rdm.uq.edu.au/">Research Data Maganger (RDM)</a> supported
+WebDav apps. Why is this exciting and worth blogging about?</p>
+</div>
+<div id="zotero" class="section level2">
+<h2>Zotero</h2>
+<p>I use <a href="https://www.zotero.org/">Zotero</a> as my citation
+manager. It is free and open source, which means I don’t run into issues
+when jumping between academia jobs when I want to bring my virtual
+library with me. However, I still have issues when I lose all the
+attachments to my records. From time to time I have subscribed to
+Zotero, to back-up my attachment library of PDFs. However currently I am
+not subscribed and recently my hard-drive failed on my work laptop,
+which mean’t I lost the links to all my stored attachment library.</p>
+<p>Zotero also offers functionality where users can back-up their
+attachments through <a href="https://www.zotero.org/support/sync">WebDav
+software</a>.</p>
+<p>While working at The University of Southern Queensland I was able to
+use the ARDC Cloudstor with WebDav to back-up and sync my library,
+however in 2022 this service was discontinued.</p>
+<p>I have been eying off purchasing <a
+href="https://forums.zotero.org/discussion/75204/use-of-pcloud-as-webdav-storage-how-to-set-it-up">pCloud
+storage</a>, which would allow me to store data and access it through
+WebDav. I have also been considering creating a home server with WebDav
+storage.</p>
+</div>
+<div id="u" class="section level2">
+<h2>U</h2>
+<p>Only recently I learnt when trying to access data from my UQ RDM from
+a ARDC nectar instance I was made aware of the WebDav support.</p>
+</div>
 
 
 

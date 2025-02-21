@@ -3,6 +3,10 @@ title: "Paul Melloy"
 date: "`r Sys.Date()`"
 ---
 
+```{r message=FALSE, warning=FALSE, include=FALSE}
+file.copy("./_site.yml","./blog/_site.yml")
+file.copy("./_site.yml","./blog/2025/_site.yml")
+```
 `r htmltools::includeScript("./matamo.js")`
 
 I am a Agroecologist at [CSIRO.](https://www.csiro.au/)
@@ -21,8 +25,25 @@ on a research topic, visit my [CSIRO profile page.](https://people.csiro.au/m/p/
 ## Recent work  
 <br>  
 
+
+### EvokeAg 2025 - Brisbane  
+#### February 2025  
+
+February this year was a hectic month and alongside EvokeAg a number of side-line 
+events extended the program.  
+[Read my report on attending evokeAg and the side events here](https://paulmelloy.com.au/blog/2025/2502_EvokeAg.html)  
+
+![](./files/img/20250218_Evoke.jpg)
+
+
+
+
+<br> 
+
+***  
+
 ### GRDC Updates - Adelaide  
-#### February 2024  
+#### February 2025  
 
 A successful visit to Adelaide to attend the GRDC updates and meet face to face 
 for a Canola Allies project meeting.
@@ -393,7 +414,7 @@ In addition a more tolerant turf for stadiums might increase the opportunity for
 more frequent games, concerts and events. 
 Boosting revenue for the stadiums, local businesses and tourism.  
 
-[Contact our team for more infomation about this project](https://paulmelloy.github.io/OnprimeContact.html)
+[Contact our team for more infomation about this project](https://paulmelloy.com.au/OnprimeContact.html)
 
 <center>
 ![The Performance sports turf team: Dr Paul Melloy, Dr Bradley Campbell and Catherine Sweeney](files/img/20231115_OnPrimeTeam.jpg){width=60%}
@@ -498,15 +519,14 @@ Following the Goondiwindi GRDC updates I drove home via the Eastern Darling Down
 to collect some Ascochyta infested chickpea stubble. 
 This will be used for inoculum in a field trial we are planning later this year.  
 <center>
-![Ascochyta lesion on stubble](files/img/Ascochyta_stubble.jpg){width=60%}
+![Possible Ascochyta lesion on stubble](files/img/Ascochyta_stubble.jpg){width=60%}
 </center>
 
-Stay tuned!!!
 <br>  
 
 ***  
 
-### [The influence of temperature and vapour pressure deficit on conidial germination and germ tubes production in an Australian _Podosphaera xanthii_ isolate.](https://paulmelloy.github.io/P_xanthii_titlepage.html)  
+### [The influence of temperature and vapour pressure deficit on conidial germination and germ tubes production in an Australian _Podosphaera xanthii_ isolate.](https://paulmelloy.com.au/P_xanthii_titlepage.html)  
 
 #### November 2022  
 I am pleased to share a pre-print of a paper I have been assisting with, titled, 

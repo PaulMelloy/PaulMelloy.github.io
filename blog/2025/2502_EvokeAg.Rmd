@@ -1,0 +1,38 @@
+---
+title: "2025 EvokeAg and side-line events"
+output: html_document
+date: "2025-02-21"
+---
+
+
+### Queensland AgTech Summit  
+
+Kicking off the week was the [Queensland Governments *AgTech Summit*.](https://www.daf.qld.gov.au/news-media/campaigns/agtech/action/qld-agtech-summit)
+While networking was a key highlight for everyone attending, one of the keynotes
+by Jerome Leroy of [InFarm](https://www.infarm.io/), conveyed some insights for 
+aspiring start-ups and researchers alike.
+Not only should AgTech interventions be driven by solving a problem growers have
+they need to provide **Value**.  
+
+<center>
+
+  $Value = \frac{Outcome \times Trust^{*}}{Effort \times Time \times Cost} \times Perceived Risk$  
+  \*trust = Probability it works x Intent  
+</center>
+<br>  
+  
+To unpack this equation further; with out building trust in the delivery of an
+'outcome' or (Agtech product) and the *intent* to follow-up on issues or servicing
+the 'outcome' with support it has a **_low value_** to growers.
+Additionally effort, time and cost to adopt, the lower the value of the technology
+to growers. 
+There are many ways you can cut this equation, however it comes down to fact growers
+are wise to the parade of snake oil merchants and need to see there is _value_ 
+in the *time*, *effort* and *cost* to adopt new tech.  
+
+Another stand out example of poor relationship between researchers and growers 
+was provided by Natalie Engel (If I recall correctly). 
+After they were contacted by a researcher about hosting some research they sort
+legal advice at the cost of $400. 
+However the researcher never returned their call and they were left out of pocket
+despite being interested in hosting the researchers.  
