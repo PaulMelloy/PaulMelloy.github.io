@@ -29,9 +29,12 @@ on a research topic, visit my [CSIRO profile page.](https://people.csiro.au/m/p/
 ### EvokeAg 2025 - Brisbane  
 #### February 2025  
 
-February this year was a hectic month and alongside EvokeAg a number of side-line 
-events extended the program.  
-[Read my report on attending evokeAg and the side events here](https://paulmelloy.com.au/blog/2025/2502_EvokeAg.html)  
+No rest for the wicked in February this year. 
+From the 17th to the 20th I attended EvokeAg and some fantastic side-line events 
+that gave some excellent insights on AgTech adoption concerns, broaden my network
+and knowledge of AgTech services offered.
+
+[To dive deeper and read my full report exploring 2025 EvokeAg and the sideline events here.](https://paulmelloy.com.au/blog/2025/2502_EvokeAg.html)  
 
 ![](./files/img/20250218_Evoke.jpg)
 
@@ -86,7 +89,7 @@ approach moving forward on the projects four key outputs.
 ***  
 
 ### viticolR package name change  
-#### February 2025  
+#### January 2025  
 I have changed the name of package viticolaR to viticolR. 
 Anyone using this package will need to update thier cloned repositories or ensure
 the urls are also updated.
