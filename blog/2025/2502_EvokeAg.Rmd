@@ -52,7 +52,7 @@ presented by [Mark Metzeling](https://mk.com.au/people/mark-metzeling/).
 As a researcher who regularly seeks collaboration with growers for on farm trials,
 or SME to fund research, I wanted to know what tax incentives are available these
 potential partners. 
-Mark explained that for buisnesses with less than $20 million dollars in turnover,
+Mark explained that for businesses with less than $20 million dollars in turnover,
 43% of all costs associated with research and development can be claimed as an 
 offset.
 Requirement to claim R&D offsets, however include, 
@@ -178,7 +178,7 @@ from around the world.
 
 <br>  
 <center>
-![International AgTech Pitch line up](../../files/img/20250218_AgTechPitch.jpg){width=60%}
+![International AgTech Pitch line up](../../files/img/20250218_AgtechPitch.jpg){width=60%}
 </center>
 <br>  
 
