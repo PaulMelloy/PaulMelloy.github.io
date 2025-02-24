@@ -36,8 +36,9 @@ and knowledge of AgTech services offered.
 
 [To dive deeper and read my full report exploring 2025 EvokeAg and the sideline events here.](https://paulmelloy.com.au/blog/2025/2502_EvokeAg.html)  
 
-![](./files/img/20250218_Evoke.jpg)
-
+<center>
+![](./files/img/20250218_Evoke.jpg){width=80%}
+</center>
 
 
 
