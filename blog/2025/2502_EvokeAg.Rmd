@@ -1,11 +1,13 @@
 ---
 title: "2025 EvokeAg and side-line events"
 output: html_document
+author: "Dr Paul Melloy"
 date: "2025-02-21"
 ---
 
+<br>  
 
-### Queensland AgTech Summit  
+## Queensland AgTech Summit  
 
 Kicking off the week was the [Queensland Governments *AgTech Summit*.](https://www.daf.qld.gov.au/news-media/campaigns/agtech/action/qld-agtech-summit)
 While networking was a key highlight for everyone attending, one of the keynotes
@@ -66,7 +68,7 @@ tax offset accounting when claiming these costs.
 
 <br>
 
-### EvokeAg  
+## EvokeAg  
 
 I arrived early to the conference so I could visit many of the trade displays 
 before the plenary. 
@@ -129,7 +131,9 @@ And that shortfalls in government funding for universities these days are have
 resulted in a sector that predominantly to service the education sector rather 
 research for industry.  
 
-#### Natural Capital  
+<br>  
+
+### Natural Capital  
 
 Following lunch I ducked into "Is natural capital the answer?" breakout room to
 place additional context around the role of natural capital for supporting 
@@ -146,15 +150,36 @@ their business profitable.
 I think it could have had greater impact if it focused on the value of natural 
 capital to their business in terms of resilience to erosion, drought, pests and
 diseases.  
+
 Our table pitched ideas around these ideas, to improve the public perspective of
 what natural capital can contribute to the agricultural sector, beyond the talking
 points of city think-tanks. 
-Shout out to [Hannah Schuch](https://www.linkedin.com/in/hannah-schuch/) and 
-[Carolyn Hope](https://mapof.ag/team-member/caroline-hope/) who provided some 
+Shout out to [Hannah Schuch](https://www.linkedin.com/in/hannah-schuch/), 
+[Carolyn Hope](https://mapof.ag/team-member/caroline-hope/) and 
+[Jo Grainger](https://www.linkedin.com/in/jo-grainger-718493b8/) who provided some 
 great ideas to our pitch.
 
+Work back in the office dragged me away from the rest of the conference, and I 
+was disappointed to miss the role playing in the "What do you do? Real decisions, 
+in a hypothetical crisis". 
+Where panellists with varied roles in Ag, business and trade played out a hypothetical 
+crisis around a data breach of a major hypothetical AgTech company "FarmCorp".  
+
+The evening officially concluded with the "Festival of Food", samples of dishes 
+using local ingredients. 
+By this time in the evening my mental capacity for coherent conversation was waneing
+and I found myself at a table with an early career irrigation sales rep from Bundaberg 
+and lovely lady with a mind sharp as a knife who I later realised was 
+[Cathy McGowan AO](https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=123674).
+
+Semi-unofficially the night continued on at the Rydges hotel with the International
+AgTech Pitch, touted as a raucous event pitting representatives of start-ups
+from around the world.  
 
 <br>  
+<center>
+![International AgTech Pitch line up](../../files/img/20250218_AgTechPitch.jpg){width=60%}
+</center>
 <br>  
 
 > Still in the writing process ..... stay tuned
