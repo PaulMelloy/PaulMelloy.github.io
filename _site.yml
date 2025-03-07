@@ -3,7 +3,7 @@ navbar:
   title: "Paul Melloy"
   left:
     - text: "Home"
-      href: index.html
+      href: https://paulmelloy.com.au/index.html
     - text: "Blogs"
       menu:
       - text: "EvokeAg 2025"
