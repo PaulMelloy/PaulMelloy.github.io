@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2025-02-24" />
+<meta name="date" content="2025-03-04" />
 
 <title>Paul Melloy</title>
 
@@ -30,6 +30,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -222,6 +225,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -229,6 +295,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -371,20 +447,23 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">Paul Melloy</h1>
-<h4 class="date">2025-02-24</h4>
+<h4 class="date">2025-03-04</h4>
 
 </div>
 
 
 <p><script>  var _paq = window._paq = window._paq || [];   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */     _paq.push(['trackPageView']);   _paq.push(['enableLinkTracking']);   (function() {     var u="https://melloy.matomo.cloud/";     _paq.push(['setTrackerUrl', u+'matomo.php']);     _paq.push(['setSiteId', '1']);     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];     g.async=true; g.src='https://cdn.matomo.cloud/melloy.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);   })();</script></p>
+<p><img src="files/img/PaulinQUTlab.jpg" style="float: right" /></p>
+<p><br></p>
 <p>I am a Agroecologist at <a href="https://www.csiro.au/">CSIRO.</a> I
 specialise in modelling pest and diseases in agriculture and
-horticulture for using in decision support tools.<br />
-Read about my recent research below, and if you are interested in
+horticulture for using in decision support tools.</p>
+<p>Read about my recent research below, and if you are interested in
 collaborating on a research topic, visit my <a
 href="https://people.csiro.au/m/p/paul-melloy">CSIRO profile
 page.</a></p>
-<p><img src="files/img/PaulinQUTlab.jpg" /><br />
+<p><br><br />
+<br><br />
 <br></p>
 <hr />
 <div id="recent-work" class="section level2">
@@ -461,8 +540,8 @@ Ehsangar (PIRSA) at the Adelaide GRDC updates (left to right)</div>
 <hr />
 </div>
 </div>
-<div id="viticolr-package-name-change" class="section level3">
-<h3>viticolR package name change</h3>
+<div id="viticolr-name-change" class="section level3">
+<h3>viticolR name change</h3>
 <div id="january-2025" class="section level4">
 <h4>January 2025</h4>
 <p>I have changed the name of package viticolaR to viticolR. Anyone
@@ -480,8 +559,8 @@ Tierney’s blog</a> which I followed to remind myself how to do this.</p>
 <hr />
 </div>
 </div>
-<div id="cercopora-0.0.1-released-on-cran" class="section level3">
-<h3>cercopoRa 0.0.1 released on CRAN</h3>
+<div id="cercopora-0.0.1-cran-release" class="section level3">
+<h3>cercopoRa 0.0.1 CRAN release</h3>
 <div id="december-2024" class="section level4">
 <h4>December 2024</h4>
 <p>I am pleased to announce that the <a
@@ -539,14 +618,15 @@ improved accuracy.</p>
 <hr />
 </div>
 </div>
-</div>
-<div
-id="plantseg---a-large-scale-in-the-wild-dataset-for-plant-disease-segmentation"
-class="section level2">
-<h2>PlantSeg - A Large-Scale In-the-wild Dataset for Plant Disease
-Segmentation</h2>
+<div id="plantseg" class="section level3">
+<h3>PlantSeg</h3>
 <div id="november-2024" class="section level4">
 <h4>November 2024</h4>
+<div
+id="a-large-scale-in-the-wild-dataset-for-plant-disease-segmentation"
+class="section level5">
+<h5>A Large-Scale In-the-wild Dataset for Plant Disease
+Segmentation</h5>
 <p>While at UQ I collaborated with Computer Scientists Tianqi Wei, Zi
 Huang and Xin Yu from the School of Electrical Engineering and Computer
 Science at UQ to develop a deep-learning segmentation model to identify
@@ -565,8 +645,10 @@ href="https://zenodo.org/records/13958858">Zenodo.</a></p>
 <p><br></p>
 <hr />
 </div>
-<div id="ausmac-macadamia-conference" class="section level3">
-<h3>AusMac Macadamia Conference</h3>
+</div>
+</div>
+<div id="ausmac-conference" class="section level3">
+<h3>AusMac Conference</h3>
 <div id="october-2024" class="section level4">
 <h4>30 - 31 October 2024</h4>
 <p>The Pest READI project I’m working on focuses on horticultural
@@ -620,9 +702,8 @@ more about our round-up on our Pest READI website</a></p>
 <hr />
 </div>
 </div>
-<div id="uq-agronomy-student-workshop-on-decision-support-tools"
-class="section level3">
-<h3>UQ Agronomy student workshop on decision support tools</h3>
+<div id="uq-agronomy-dst-workshop" class="section level3">
+<h3>UQ Agronomy DST workshop</h3>
 <div id="october-2024-1" class="section level4">
 <h4>10 October 2024</h4>
 <p>A workshop to introduce the benefits of consulting decision support
@@ -656,8 +737,8 @@ for the invitation to talk.</p>
 <hr />
 </div>
 </div>
-<div id="starting-a-new-job-at-csiro" class="section level3">
-<h3>Starting a new job at CSIRO!!!</h3>
+<div id="new-job-at-csiro" class="section level3">
+<h3>New job at CSIRO!!!</h3>
 <div id="july-2024" class="section level4">
 <h4>July 2024</h4>
 <p>I am super excited to start a new role back with CSIRO as a Senior
@@ -680,9 +761,9 @@ starting with the agroecology team at CSIRO.</p>
 <hr />
 </div>
 </div>
-<div id="australian-spors-turf-managers-association-conference"
+<div id="australian-sports-turf-managers-association-conference"
 class="section level3">
-<h3>Australian Spors Turf Managers Association conference</h3>
+<h3>Australian Sports Turf Managers Association Conference</h3>
 <div id="june-2024" class="section level4">
 <h4>June 2024</h4>
 <p>What a treat giving a presentation on ERI diseases to a packed room
@@ -1204,6 +1285,8 @@ the analysis by following the research compendium.</a></p>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -1236,6 +1319,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

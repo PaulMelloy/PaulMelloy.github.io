@@ -1,0 +1,122 @@
+---
+title: "GRDC Updates Goondiwindi March 2025"
+author: "Paul Melloy"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: false
+    fig_caption: true
+    self_contained: true
+---
+
+https://grdc.com.au/events/list/2025/03/grdc-grains-research-update-goondiwindi
+<br>
+
+March kicked off with the GRDC Updates in Goondiwindi.
+The line up of speakers was sure to provide great talking points, especially 
+around the use of new technologies in agriculture.
+
+## Day one - March 4th  
+### Plenarys  
+#### [Precision Fertiliser Application](https://grdc.com.au/resources-and-publications/grdc-update-papers/tab-content/grdc-update-papers/2025/02/precision-fertiliser-decisions-in-a-tight-economic-climate)  
+
+The updates began with [Tim Neale](https://www.datafarming.com.au/team/tim-neale/) 
+from [DataFarming](https://www.datafarming.com.au/) gave a fascinating 
+talk on the potential in field yield variability. 
+Using a combination of Electromagnetic (EM) mapping, soil testing, yeild mapping
+and long-term NDVI field variability can be identified.
+Tim highlighted that a large chunk of the yield variability was due to the 
+variability in soil properties.
+Where some areas of the paddock are highly productive and others are loosing 
+money.
+The key takeaway here is that using precision agriculture techniques to map soil
+nitrogen, phosphorus and pH can help reduce costs, variability and increase 
+returns.
+The talk made me wonder if some areas of the paddock with very high constraints
+might be uneconomic to grow certain crops or should be targeted for semi-natural 
+habitat, shelter belts or long-term soil remediation.  
+
+Additionally Tim spruiked the improving technology for remote sensing touting 
+resolution of 10cm being available from the tomorrow (2025-03-05).  
+
+
+#### [Nitrogen Loss](https://grdc.com.au/resources-and-publications/grdc-update-papers/tab-content/grdc-update-papers/2025/02/predicting-nitrogen-cycling-and-losses-in-australian-cropping-systems2)  
+
+The second plenary by [Mike Bell](https://agriculture-food-sustainability.uq.edu.au/profile/1541/michael-bell), 
+presented on quantifying the different mechanisms in which nitrogen is lost or 
+removed from farming systems.
+Where does the nitrogen move to, how is it lost
+If we know where it is in the soil profile we can know when it becomes available
+for the crop when there is water in the soil to help it move into the crop.  
+Biological nitrification inhibitors (BNI) question from Fernanda.
+Mike replied this is difficult for dry land farming and locking nitrogen up by
+plant root exudates or fertiliser additives.
+Then when the inhibitor is broken down will there be a crop available to use that
+nitrogen at that time.  
+
+#### Paraquat regulartory review  
+Gordan Cummings presented on APVMA regulartory Ag chemical reviews with a focus 
+the recent review of the herbicide Paraquat. 
+Agchemical reviews are only triggered when new credible scientic evidence arises
+which impacts the known chemical saftey and efficacy. 
+The APVMA regularly undertake chemical reviews and are commited to faster review 
+times into the future.  
+Gordon reiterated the importance of **strong stewardship** for ensuring the longevitiy
+of chemical availability.  
+Gordon also touched on the removal of chlorpyriphos from hardware shelves citing 
+the hazards of endocrine disruption by this chemical.
+Availability for agricultural industry hinges on good governance and mechanisms
+to reduce the potential for human contact during use on farm.  
+
+In a later session Mark Congeeve informed atendees drone applications are viewed
+by the APVMA as aircraft, and applications in line with label recommendation need
+to be followed as such.  
+
+<br>  
+
+### Concurrent sessions
+#### Panel discussion
+Lack of expertise of university graduates, not having stepped into a paddock or
+undertaken statistics
+Connectivity is hampering the role out of autonomous robots and getting tech support
+on farm in a timely manner especially during harvest times.  
+Ease of digital tool use should be easier. Interoperability is just as difficult
+with the main players creating barriers to extracting data with proprietry file 
+formats preventing users from realising the full potential from that data.  
+
+## Day two - March 5th  
+### Early risers panel discussion
+
+Day two in the main hall began with a panel discussion on problematic weeds
+with Paul MacItosh, Michael Widderick, Maurie Street and Michael Walsh.
+Windmill grass, feathertop Rhodes grass, barnyard grass, sowthistle, fleabane, 
+were some of main weeds discussed in the session. 
+Most of the discussion centered on getting double knock strategies right and
+spray setup correct.
+The effect of water quality on herbicide efficacy was brought up, dam water and 
+bore water causing poor efficacy when not corrected.  
+
+#### Systems research  
+Lindsay Bell covered what opportunities including Ley pastures into rotations
+could provide. 
+With not all pasture options producing higher economic returns.
+Using ley pastures in the mix can help reduce the need for nitrogen fertiliser
+and improve soil carbon accumulation
+
+#### Chickpea  
+
+Chickpeas can accumulate nitrogen from the atmosphere and fix it in the soil.
+But this is variable and is somecases, after yield is removed nitrogen balance 
+can be reduced. 
+Excluding possible effects of nodulation, this is predominantly due to the amount 
+of biomass accumulation produced by the crop and can be returned to the soil
+after harvest.
+
+#### Early exit  
+Unfortunatley the cyclone Alfred forced me to leave the event early to get back
+home to Brisbane and I was unable to catch the final session on disease.  
+
+
+

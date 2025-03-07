@@ -1,36 +1,45 @@
 ---
 title: "Paul Melloy"
-date: "`r Sys.Date()`"
+date: "2025-03-04"
 output: 
   html_document:
     toc: true
     toc_float: true
-    number_sections: false
+    number_sections: true
+    theme: united
+    highlight: tango
+    code_folding: hide
     fig_caption: true
+    keep_md: true
     self_contained: true
+    css: style.css
+    includes:
+      in_header: matamo.js
 ---
 
-```{r message=FALSE, warning=FALSE, include=FALSE}
-file.copy("./_site.yml","./blog/_site.yml")
-file.copy("./_site.yml","./blog/2025/_site.yml")
-```
-`r htmltools::includeScript("./matamo.js")`
 
-![](files/img/PaulinQUTlab.jpg){style="float: right"}  
-
-<br>  
+`<script>  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://melloy.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src='https://cdn.matomo.cloud/melloy.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+  })();</script>`{=html}
 
 I am a Agroecologist at [CSIRO.](https://www.csiro.au/)
 I specialise in modelling pest and diseases in agriculture and horticulture for
 using in decision support tools.  
-
 Read about my recent research below, and if you are interested in collaborating
 on a research topic, visit my [CSIRO profile page.](https://people.csiro.au/m/p/paul-melloy)
 
 
-<br>  
-<br>  
-<br>  
+
+![](files/img/PaulinQUTlab.jpg)  
+<br> 
 
 ***  
 
@@ -101,7 +110,7 @@ approach moving forward on the projects four key outputs.
 
 ***  
 
-### viticolR name change  
+### viticolR package name change  
 #### January 2025  
 I have changed the name of package viticolaR to viticolR. 
 Anyone using this package will need to update thier cloned repositories or ensure
@@ -114,7 +123,7 @@ Shout out to [Nick Tierney's blog](https://www.njtierney.com/post/2017/10/27/cha
 
 ***  
 
-### cercopoRa 0.0.1 CRAN release
+### cercopoRa 0.0.1 released on CRAN 
 #### December 2024
 
 I am pleased to announce that the [cercopoRa](https://cran.r-project.org/web/packages/cercospoRa/index.html) 
@@ -172,9 +181,8 @@ improved accuracy.
 
 ***  
 
-### PlantSeg  
-#### November 2024  
-##### A Large-Scale In-the-wild Dataset for Plant Disease Segmentation  
+## PlantSeg -  A Large-Scale In-the-wild Dataset for Plant Disease Segmentation
+#### November 2024
 
 While at UQ I collaborated with Computer Scientists Tianqi Wei, Zi Huang and Xin
 Yu from the School of Electrical Engineering and Computer Science at UQ to 
@@ -197,7 +205,7 @@ image database in [Zenodo.](https://zenodo.org/records/13958858)
 
 ***  
 
-### AusMac Conference  
+### AusMac Macadamia Conference  
 #### 30 - 31 October 2024  
 The Pest READI project I'm working on focuses on horticultural industries in the 
 Northern Rivers area of Northern New South Wales. This region has been severely 
@@ -246,7 +254,7 @@ insects to suppress pests.
 
 ***  
 
-### UQ Agronomy DST workshop  
+### UQ Agronomy student workshop on decision support tools  
 #### 10 October 2024  
 A workshop to introduce the benefits of consulting decision support tools (DSTs)
 in Agriculture.  
@@ -277,7 +285,7 @@ Thank you to [Colare](https://www.colere.com.au/) group for the invitation to ta
 
 ***  
 
-### New job at CSIRO!!!  
+### Starting a new job at CSIRO!!!  
 #### July 2024  
 
 I am super excited to start a new role back with CSIRO as a Senior Research Scientist.
@@ -289,13 +297,13 @@ I am working in the [agroecology team](https://research.csiro.au/agroecology/)
 with the [Pest READI](https://research.csiro.au/pestreadi/) and the [canola allies](https://research.csiro.au/agroecology/canola-allies/) project.  
 
 **Update:** [A short blog post](https://research.csiro.au/agroecology/meet-our-new-team-members/) on myself and [Jessa Thurnman](https://people.csiro.au/t/j/jessa-thurman), starting with the 
-agroecology team at CSIRO.  
+agroecology team at CSIRO.
 
 <br>  
 
 ***  
 
-### Australian Sports Turf Managers Association Conference  
+### Australian Spors Turf Managers Association conference  
 #### June 2024  
 
 What a treat giving a presentation on ERI diseases to a packed room at the ASTMA
@@ -376,7 +384,8 @@ difficult to easily retrieve data from especially for nested lists.
 This is a short-hand way to easily retrieve the same element within a nested list.  
 
 First lets create a nested list.
-```{r, R.options=list(max.print=20)}
+
+``` r
 # set random seed for reproducibility
 set.seed(28)
 nested_list <- lapply(1:3, function(x) {
@@ -396,8 +405,26 @@ Frequently we only want to pull all of one nested list.
 To do this we use two opening square brackets `"[["` as the function, followed by
 the name of the list.  
 
-```{r, R.options=list(max.print=20)}
+
+``` r
 lapply(nested_list,"[[", "capitals")
+```
+
+```
+## [[1]]
+##  [1] "Q" "Z" "I" "Y" "B" "N" "K" "A" "H" "C" "S" "W" "L" "X" "O" "G" "M" "T" "J"
+## [20] "F"
+##  [ reached getOption("max.print") -- omitted 6 entries ]
+## 
+## [[2]]
+##  [1] "E" "H" "Z" "B" "F" "J" "N" "V" "W" "C" "O" "P" "U" "Y" "I" "Q" "K" "G" "D"
+## [20] "T"
+##  [ reached getOption("max.print") -- omitted 6 entries ]
+## 
+## [[3]]
+##  [1] "M" "T" "C" "K" "S" "B" "Y" "W" "Z" "R" "I" "H" "G" "A" "V" "P" "X" "U" "O"
+## [20] "J"
+##  [ reached getOption("max.print") -- omitted 6 entries ]
 ```
 
 This also works by indicating the integer of the nested list i.e `lapply(list1,"[[", 2)`.
