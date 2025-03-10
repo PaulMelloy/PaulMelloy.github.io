@@ -11,8 +11,8 @@ output:
 ---
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
-file.copy("./_site.yml","./blog/_site.yml")
-file.copy("./_site.yml","./blog/2025/_site.yml")
+file.copy("./_site.yml","./blog/_site.yml",overwrite = TRUE)
+file.copy("./_site.yml","./blog/2025/_site.yml",overwrite = TRUE)
 ```
 `r htmltools::includeScript("./matamo.js")`
 

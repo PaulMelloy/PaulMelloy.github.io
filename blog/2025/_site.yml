@@ -3,17 +3,17 @@ navbar:
   title: "Paul Melloy"
   left:
     - text: "Home"
-      href: index.html
+      href: https://paulmelloy.com.au/index.html
     - text: "Blogs"
       menu:
       - text: "EvokeAg 2025"
-        href: https://paulmelloy.github.io/blog/2025/2502_EvokeAg.html
+        href: https://paulmelloy.com.au/blog/2025/2502_EvokeAg.html
       - text: "Updating Rstudio server"
-        href: https://paulmelloy.github.io/blog/UpdateRstudioServer.html
+        href: https://paulmelloy.com.au/blog/UpdateRstudioServer.html
       - text: "Shared R library"
-        href: https://paulmelloy.github.io/blog/SharedRLibrary.html
+        href: https://paulmelloy.com.au/blog/SharedRLibrary.html
       - text: "Zotero Webdavs"
-        href: https://paulmelloy.github.io/blog/RDM_webdav.html
+        href: https://paulmelloy.com.au/blog/RDM_webdav.html
       - text: "Leaf Tm from NASA POWER"
         href: https://openplantpathology.netlify.app/posts/2022-04-01-powerful-tea-using-nasapower-and-tealeaves-to-obtain-leaf-temperatures/
       - text: "Old FungalJungle Blog"
