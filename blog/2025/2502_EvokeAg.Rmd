@@ -13,7 +13,8 @@ output:
 
 <br>  
 
-## Queensland AgTech Summit  
+## Day 0 - 2025-02-10  
+### Sideline Event - QLD AgTech Summit  
 
 Kicking off the week was the [Queensland Governments *AgTech Summit*.](https://www.daf.qld.gov.au/news-media/campaigns/agtech/action/qld-agtech-summit)
 While networking was a key highlight for everyone attending, one of the keynotes
@@ -74,7 +75,9 @@ tax offset accounting when claiming these costs.
 
 <br>
 
-## EvokeAg  
+
+## Day 1 - 2025-02-11  
+### EvokeAg  
 
 I arrived early to the conference so I could visit many of the trade displays 
 before the plenary. 
@@ -178,15 +181,51 @@ and I found myself at a table with an early career irrigation sales rep from Bun
 and lovely lady with a mind sharp as a knife who I later realised was 
 [Cathy McGowan AO](https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=123674).
 
+<br>  
+
+### Side Event - AgTech Pitch  
+
 Semi-unofficially the night continued on at the Rydges hotel with the International
 AgTech Pitch, touted as a raucous event pitting representatives of start-ups
 from around the world.  
+
+There were many great talks and I especially found interesting the amount of 
+start-up pitches focused on fermentation on-farm. 
+These technologies are looking to deliver fermentation tanks which can use crop
+residues, like baggase and other crop stubble, to make chemical molecules that 
+are precursors to jet fuel and other industrial practices.
+I like how this might fit into future farms, that are potentially net energy 
+producers, maybe with enough additional power to have portable Haber-Bosch machines
+synthesising fertilisers from the atmosphere.  
+
+The presentation that took away the top gongs was a pitch by [Rachel Smith](https://www.linkedin.com/in/rachel-smith-woodside/) 
+from [Enclume](https://www.enclume.com.au/).
+Rachel pitched a robotic remote sensing rig that can monitor crop phenology experiments
+with a cable suspended camera. 
+This invention circumvents [CASA](https://www.casa.gov.au/) restrictions which 
+require drone pilots to be monitoring or present when in control of miniture aircraft.
+
 
 <br>  
 <center>
 ![International AgTech Pitch line up](../../files/img/20250218_AgtechPitch.jpg){width=60%}
 </center>
 <br>  
+
+## Day 2 - 2025-02-11  
+### Sideline event - Extending Research Impact Breakfast  
+
+In the morning of day two CSIRO's [Catalysing Australia's Biosecurity (CAB)](https://www.csiro.au/en/about/challenges-missions/biosecurity) 
+mission hosted a breakfast at the Ecosciences Precinct. 
+I helped host this sideline event where we highlighted the [PestREADIs](https://research.csiro.au/pestreadi/) 
+role with CAB, and the co-design process for designing decision support tools for 
+primary producers. 
+There was some excellent engagement with the attendees and potentially new contacts
+made to collaborate with co-design projects.
+If you would like to know more and find out if you can be involved please [contact me](mailto:paul.melloy@csiro.au)
+or go to our [website](https://research.csiro.au/pestreadi/).
+
+
 
 > Still in the writing process ..... stay tuned
 

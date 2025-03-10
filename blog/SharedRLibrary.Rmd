@@ -58,7 +58,7 @@ interrupt additional users of the machine down the line.
 Instead I will add the library to the user `.Renviron`  
 
 ```{bash eval=FALSE, echo=TRUE}
-echo "/home/shared/r_libs/" >> /home/paul/.Renviron
+echo "R_LIBS_USER=/home/shared/r_libs/" >> /home/paul/.Renviron
 ```
 
 Then add the following to the top of a shiny `app.R` file.
