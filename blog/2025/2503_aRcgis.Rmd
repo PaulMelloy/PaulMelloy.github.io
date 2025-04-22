@@ -1,0 +1,216 @@
+---
+title: "An introduction to the arcgis R package"
+output: html_document
+---
+
+# ArcGIS in R  
+
+ArcGIS is a set of powerful propriety geospatial tools developed by ESRI. 
+It is widely used in the industry and academia. 
+In this blog, I will explore the `arcgis` R package by getting data from
+the Australian tree crop map database, hosted on ArcGIS.
+
+<br>  
+
+## Australian tree crop map
+
+The [Australian tree crop map](https://www.une.edu.au/research/research-centres-institutes/applied-agricultural-remote-sensing-centre/collaborative-r-and-d-opportunities/industry-applications-and-maps/australian-tree-crops) 
+is a database of tree crops in Australia.
+The map is the work of the [Applied Agricultural Remote Sensing Centre](https://www.une.edu.au/research/research-centres-institutes/applied-agricultural-remote-sensing-centre) 
+at the University of New England.  
+
+The dashboard is hosted online at the following link: https://experience.arcgis.com/experience/6cde8c0467e542398fb0afd1dde48a73/
+
+The data informing the dashboard is hosted on ArcGIS and can be accessed at the 
+following link:
+https://www.arcgis.com/home/item.html?id=12bdb57eec7548dd90409603645cfd5e  
+
+<br>  
+<br>  
+
+## Installation  
+
+Full documentation can be found [at the following link on installation and setup.](https://developers.arcgis.com/r-bridge/installation/)
+This is hosted on [R-universe](https://r-universe.dev/search).
+
+`arcgis` is a meta-package for `arcgisutils`, `arcgislayers`, `arcgisgeocode` 
+and `arcgisplaces`. For me successful installation required the indication of the
+location on the `r-universe` repository.  
+
+```{r eval = FALSE}
+install.packages("arcgis", repos = c("https://r-arcgis.r-universe.dev", "https://cloud.r-project.org"))
+```
+
+Next lets load the library into the R environment, and the [simple features](https://r-spatial.github.io/sf/) 
+(`sf`) library.  
+
+```{r}
+library(arcgis)
+library(sf) # also needed for working with spatial data
+library(leaflet) # for plotting onto interactive maps
+```
+
+<br>  
+<br>  
+
+## Points feature layer  
+
+There are two feature layers as part of the Australian tree crop map database.
+A Points database and a polygon database, we will try querying each of these for 
+the northern rivers area of New South Wales, Australia.  
+
+We set the point URL using the arc_open function, which stores the database location
+and some metadata about the feature layer.  
+
+```{r}
+atcm_pts <- arc_open("https://services5.arcgis.com/3foZbDxfCo9kcPwP/ArcGIS/rest/services/AARSC_treecrop_point/FeatureServer/0")
+atcm_pts
+```
+
+This feature server contains point geometry, a coordinate reference
+system (CRS) 7844 and is capable of being queried.  
+
+<br>  
+
+### Query features  
+
+We can obtain more metadata information from the feature server using the 
+`list_fields()` function.  
+
+```{r}
+list_fields(atcm_pts)
+```
+
+<br>  
+
+### Selecting data  
+
+The data can be queried with the `arc_select` function, which is effectively
+a wrapper for the api and uses syntax similar to querying a SQL database.  
+
+```{r warning=FALSE}
+arc_select(atcm_pts, where = c("commodity = 'avocado'"))
+```
+
+The package functions return`sf` simple features objects.  
+
+<br>  
+
+### Query data by spatial reference
+
+From a 10km radius around a point.
+I will choose the centre of Alstonville in Northern New South Wales.
+This area is known to contain lots of Avocado and Macadamia farms.  
+
+```{r}
+# Define a point (e.g., coordinates for a location)
+point_coords <- c(153.4404,-28.8421)  # Example coordinates (longitude,latitude)
+
+# Create a sf spatial point feature
+# We will use the crs 7844 specified in the ATCM metadata
+alston <- st_sfc(st_point(point_coords), crs = 7844)
+
+# Buffer the point to create a polygon (e.g., 10 kilometres)
+buffer_alston <- st_buffer(alston, 10000)
+
+# transform the data to WGS84 so we can plot it on a leaflet map
+buffer_alston <- st_transform(buffer_alston, 4326)
+
+# plot onto a interactive leaflet map
+leaflet(buffer_alston) |>
+  addProviderTiles(provider = "Esri.WorldImagery")|>
+  addMarkers(lng = point_coords[1], lat = point_coords[2], 
+             popup = "Alstonville")|> # add the centre point as a marker
+  addPolygons(color = "green", fillOpacity = 0.2) # add the polygon buffer layer
+```
+
+
+Now lets query and download only the data from inside the buffer polygon.
+This is done as before with the `arc_select` function.
+The `filter_geom` argument is used to specify `sf` class objects such as `bbox`,
+`sfc` or `sfg` to filter the database on the arcgis server side.
+This limits the data download to only what is required by the user.
+We also need to specify how this layer should be queried with the `predicate` 
+argument.
+We will specify `intersects` as the predicate.  
+
+
+```{r}
+alston_farms <- 
+  arc_select(atcm_pts, 
+             filter_geom = buffer_alston,
+             predicate = "intersects")
+
+head(alston_farms)
+```
+
+Next we can plot this on an interactive leaflet map with the WGS84 coordinate
+reference system.  
+
+```{r}
+# transform the data to WGS84 so we can plot it on a leaflet map
+alston_farms <- st_transform(alston_farms, 4326)
+
+leaflet(alston_farms) |>
+  addProviderTiles(provider = "Esri.WorldImagery")|>
+  addCircleMarkers(color = "orange", 
+                   weight = 1, # circle marker edge width
+                   fillOpacity = 0.8,
+                   radius = 4,
+                   popup = alston_farms$commodity)|>
+  addMarkers(lng = point_coords[1], lat = point_coords[2], 
+             popup = "Alstonville")
+  
+```
+
+<br>  
+<br>  
+
+## Polygon feature layer
+
+Lets do this again for the polygon feature layer.  
+
+```{r}
+atcm_poly <- arc_open("https://services5.arcgis.com/3foZbDxfCo9kcPwP/ArcGIS/rest/services/AARSC_treecrop_polygon/FeatureServer/0")
+list_fields(atcm_poly)
+```
+
+
+For a different method we will use a bounding box to query and the polygon layer. 
+
+```{r}
+# lets get the data from inside a bounding box of the buffer polygon
+buffer_box <- 
+  st_as_sfc(st_bbox(buffer_alston))
+
+# request only the data in the box
+alston_farms <- 
+  arc_select(atcm_poly, 
+             filter_geom = buffer_box,
+             predicate = "intersects")
+
+# transform the data to WGS84 so we can plot it on a leaflet map
+alston_farms <- st_transform(alston_farms, 4326)
+
+leaflet(alston_farms) |>
+  addProviderTiles(provider = "Esri.WorldImagery")|>
+  addPolygons(color = "orange", 
+                   weight = 1, 
+                   fillOpacity = 0.8,
+                   popup = alston_farms$commodity)|>
+  addPolygons(data = buffer_box, color = "green", weight = 2, fillOpacity = 0.2)
+  
+```
+
+
+
+## Conclusion  
+
+I hope this helps your spatial data analysis in R.
+I know I will find this a useful reference for my work into the future.
+Feel free to reach out and let me know how you are using this package in 
+different interesting ways.
+
+
+
+

@@ -6,6 +6,8 @@ navbar:
       href: https://paulmelloy.com.au/index.html
     - text: "Blogs"
       menu:
+      - text: "arcgis R package"
+        href: https://paulmelloy.com.au/blog/2025/2503_aRcgis.html
       - text: "EvokeAg 2025"
         href: https://paulmelloy.com.au/blog/2025/2502_EvokeAg.html
       - text: "Updating Rstudio server"

@@ -53,7 +53,7 @@ legal advice at the cost of $400.
 However the researcher never returned their call and they were left out of pocket
 despite being interested in hosting the researchers.  
 
-A surprising hit session for the day was the concurrent session 
+A surprising hit session (*for me*) for the day was the concurrent session 
 *"Protecting and funding innovation: R&D tax incentives and IP eligibility"* 
 presented by [Mark Metzeling](https://mk.com.au/people/mark-metzeling/). 
 As a researcher who regularly seeks collaboration with growers for on farm trials,
@@ -61,19 +61,25 @@ or SME to fund research, I wanted to know what tax incentives are available thes
 potential partners. 
 Mark explained that for businesses with less than $20 million dollars in turnover,
 43% of all costs associated with research and development can be claimed as an 
-offset.
-Requirement to claim R&D offsets, however include, 
+offset.  
+
+Requirement to claim R&D offsets, however include:  
+
   1. Registering the business with 
 [AusIndustry](https://www.industry.gov.au/science-technology-and-innovation/industry-innovation/ausindustry).  
   2. Registering the intent to undertake R&D for the financial year, within 10 
   months of the end of the financial year.  
-  3. Records showing research hypothesis, methods, and notes on supervision of the 
-  trial and a summary of the results.  
+  3. Maintain records showing research hypothesis, methods, and notes on 
+  supervision of the trial and a summary of the results.  
 
 Mark also strongly recommended using a accountant that solely specialises in R&D
 tax offset accounting when claiming these costs.  
 
 <br>  
+
+I was struck by the nice visual representation of benchmarking with radar charts 
+by the [Tropical North Queensland (TNQ) Drought hub](https://www.tnqdroughthub.com.au/) team.  
+
 <center>
 ![Benchmarking with Radar Charts](../../files/img/20250217_RadarChartsNQDrought.jpg){width=60%}
 </center>
@@ -97,7 +103,7 @@ This trial program intrigued me as it deals with the tricky issue of sharing
 sensitive data with unknown third parties.  
 I inspected [FarmLab's](https://getfarmlab.com/) platform, which provides a chain
 of custody around soil samples and analysis.
-Impressivley the platform is built on military grade software to ensure samples
+Impressively the platform is built on military grade software to ensure samples
 are collected in a standardised manner and the data is secure.  
 
 <center>
@@ -109,10 +115,10 @@ invited to nominate talking points on the greatest challenges for the Australian
 Agriculture and Horticultural industry.
 A feisty discussion with at times reflected on the poor relationship between 
 growers and researchers. 
-I copied all 124 slido responses from the audience and asked a LLM to summarise 
-the top talking points.  
+I copied all 124 [slido](https://www.slido.com/) responses from the audience and 
+asked a LLM to summarise the top talking points.  
 
-Some key points that emerged from the conversation include:  
+Some key points that emerged from the conversation (according to the LLM) include:  
 
 >  **1.  Lack of national workforce strategy:** There seems to be a consensus 
   that Australia does not have a comprehensive national workforce strategy for 
@@ -144,16 +150,22 @@ Some key points that emerged from the conversation include:
 
 My takeaway from most of this discussion was that most attendees were not aware 
 of the difference between research for innovation or discovery.
-And that shortfalls in government funding for universities these days are have 
-resulted in a sector that predominantly to service the education sector rather 
-research for industry.  
+And that shortfalls in government funding for universities these days have 
+resulted in a sector that is predominantly focused on servicing the education 
+sector rather research for industry.  
 
 <br>  
 
 
 #### [Malachai Clements: 2025 Groundbreaker](https://www.linkedin.com/in/malachai-clements-477b32257/)  
 <br>  
-<center>
+
+I caught a bit of Malachi Clements talk about improving indigenous nutrition 
+through permaculture and community gardens.
+Such a great initiative, amazing to see collective grass-roots action having such
+great impact in rural communities.
+
+<center>  
 ![Improving indigenous nutrition through permeculture and community gardens](../../files/img/20250218_MoveBeyondTokenism.jpg){width=60%}
 </center>
 <br>  
@@ -198,17 +210,17 @@ points of city think-tanks.
 Shout out to [Hannah Schuch](https://www.linkedin.com/in/hannah-schuch/), 
 [Carolyn Hope](https://mapof.ag/team-member/caroline-hope/) and 
 [Jo Grainger](https://www.linkedin.com/in/jo-grainger-718493b8/) who provided some 
-great ideas to our pitch.
+great ideas to our pitch.  
 
-Work back in the office dragged me away from the rest of the conference, and I 
-was disappointed to miss the role playing in the "What do you do? Real decisions, 
+Disappointingly I had to miss the role playing in the "What do you do? Real decisions, 
 in a hypothetical crisis". 
-Where panellists with varied roles in Ag, business and trade played out a hypothetical 
-crisis around a data breach of a major hypothetical AgTech company "FarmCorp".  
+This was a session where panellists with varied roles in Ag, business and trade 
+played out a hypothetical crisis around a data breach of a major hypothetical 
+AgTech company "FarmCorp".  
 
 The evening officially concluded with the "Festival of Food", samples of dishes 
 using local ingredients. 
-By this time in the evening my mental capacity for coherent conversation was waneing
+By this time in the evening my mental capacity for coherent conversation was waning
 and I found myself at a table with an early career irrigation sales rep from Bundaberg 
 and lovely lady with a mind sharp as a knife who I later realised was 
 [Cathy McGowan AO](https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=123674).
@@ -244,7 +256,7 @@ from [Enclume](https://www.enclume.com.au/).
 Rachel pitched a robotic remote sensing rig that can monitor crop phenology experiments
 with a cable suspended camera. 
 This invention circumvents [CASA](https://www.casa.gov.au/) restrictions which 
-require drone pilots to be monitoring or present when in control of miniature aircraft.
+require drone pilots to be monitoring or present when in control of miniature aircraft.  
 
 
 <br>  
@@ -264,7 +276,7 @@ primary producers.
 There was some excellent engagement with the attendees and potentially new contacts
 made to collaborate with co-design projects.
 If you would like to know more and find out if you can be involved please [contact me](mailto:paul.melloy@csiro.au)
-or go to our [website](https://research.csiro.au/pestreadi/).
+or go to our [website](https://research.csiro.au/pestreadi/).  
 
 <br>  
 <center>  
@@ -275,17 +287,65 @@ or go to our [website](https://research.csiro.au/pestreadi/).
 
 #### The Future of food production  
 
+Another connect & collaborate session drew my eye early on the second day, 
+"The future of food: Innovate or fall behind". 
+This followed a hypothetical of where do we see agriculture and horticulture in 
+25 years time? 
+Not only were we thinking of the aspiring technologies that will be available, 
+but also the social and economic drivers that could constrain the supply chains.  
+
 <br>  
 <center>  
 ![The Future of Food; Inovate or fall behind](../../files/img/20250219_FutureOfFood.jpg){width=60%}  
 </center>
 <br>  
 
+Our team thought back of how far we have come in the last 25 years, as a indicator
+to the progress we could make in the next quarter century. 
+We came up with a disruptive industry taking advantage of downsizing farming at
+scale that could happen with robotics, automation and gig economies.
+Our idea "Air-farm" is a company that allows farming corporate stakeholders to 
+lease land and equipment to farm managers and small businesses looking to deliver
+bespoke products with a story to end consumers.  
 
+<br>  
 
+#### Intimate connections with change makers  
 
+I dropped into another connect and collaborate session to connect and discuss 
+some of the challenges facing the agricultural industry with industry leaders.
+I sampled conversations where primary producers were really struggling to meet
+the increasing compliance requirements placed on them by Supermarkets and the
+wider industry. 
+I also chatted with [Simon Butler from Agronomeye](https://agronomeye.com.au/about/)
+about the role of remote sensing in leverageing benefits to natural capital.  
 
-> Still in the writing process ..... stay tuned
+#### 3D ocean farming  
+
+Bren Smith from [GreenWave](https://www.greenwave.org/) gave an entertaining talk 
+about his experience with "Tech Bro's" with large financial interests moving too
+fast to deliver half baked green promises to keen investors. 
+Bren did not mince words and highlighted the folly of moving too quickly on 
+over hyped technology that attracts large capital with insufficient validating hard 
+data. 
+His talk was a real window into the anger of US working class people towards the big
+business elites who trample all over them in pursuit of cash. 
+His point of view showed why the country elected a divisive leader promising to 
+disrupt the disrupter's, and return the power to the working class.
+It would also be remiss of me not to mention his farmer collective achieve more 
+with less, to deliver a carbon negative ocean farming system that is profitable.  
+
+<br>  
+
+#### Big bold questions  
+Closing out the event was a session inviting a unrestrained discussion on the 
+key challenges which arose over the two day event.
+I unfortunate did not get a list of the responses and could not summarise them.  
+
+Cathy McGowan AO gave a great closing address, and urged everyone to consider 
+how they will make a difference in the next 12 months within their circle of 
+influence.  
+
 
 
 

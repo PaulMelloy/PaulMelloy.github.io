@@ -37,6 +37,19 @@ on a research topic, visit my [CSIRO profile page.](https://people.csiro.au/m/p/
 ## Recent work  
 <br>  
 
+### An introduction to the `arcgis` R package (blog)
+#### March 2025  
+
+I have been working with the `arcgis` R package to access and manipulate spatial
+data from the ArcGIS online databases.
+This blog post shows how to do this using the [Australian Tree Crop Map](https://www.une.edu.au/research/research-centres-institutes/applied-agricultural-remote-sensing-centre/collaborative-r-and-d-opportunities/industry-applications-and-maps/australian-tree-crops) database
+(by UNE) as an example.  
+
+[An introduction to the `arcgis` R package](https://paulmelloy.com.au/blog/2025/2503_aRcgis.html)  
+
+<br> 
+
+***  
 
 ### EvokeAg 2025 - Brisbane  
 #### February 2025  
