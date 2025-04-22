@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>2504_KnowledgeTruthMoneyPowerless</title>
+
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/darkly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Paul Melloy</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="https://paulmelloy.com.au/index.html">Home</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Blogs
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://paulmelloy.com.au/blog/2025/2502_EvokeAg.html">EvokeAg 2025</a>
+    </li>
+    <li>
+      <a href="https://paulmelloy.com.au/blog/UpdateRstudioServer.html">Updating Rstudio server</a>
+    </li>
+    <li>
+      <a href="https://paulmelloy.com.au/blog/SharedRLibrary.html">Shared R library</a>
+    </li>
+    <li>
+      <a href="https://paulmelloy.com.au/blog/RDM_webdav.html">Zotero Webdavs</a>
+    </li>
+    <li>
+      <a href="https://openplantpathology.netlify.app/posts/2022-04-01-powerful-tea-using-nasapower-and-tealeaves-to-obtain-leaf-temperatures/">Leaf Tm from NASA POWER</a>
+    </li>
+    <li>
+      <a href="https://thefungaljungle.blogspot.com/">Old FungalJungle Blog</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Shiny Apps
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://apps.paulmelloy.com.au/shiny/viticolR_dst/">ViticolR DST</a>
+    </li>
+    <li>
+      <a href="https://apps.paulmelloy.com.au/shiny/epiphytrainR_app/">epiphytrainR</a>
+    </li>
+    <li>
+      <a href="https://paulmelloy.shinyapps.io/22_electoralboundaries/">2022 electoral data</a>
+    </li>
+    <li>
+      <a href="https://paulmelloy.shinyapps.io/UniSuperDBD/">UniSuperDBD</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    R Packages
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://paulmelloy.github.io/cercospoRa/">cercospoRa</a>
+    </li>
+    <li>
+      <a href="https://ihsankhaliq.github.io/ascotraceR/">ascotraceR</a>
+    </li>
+    <li>
+      <a href="https://paulmelloy.github.io/epiphytoolR/">epiphytoolR</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Recent Manuscripts
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://arxiv.org/abs/2409.04038">PlantSeg - Plant Disease Segmentation</a>
+    </li>
+    <li>
+      <a href="https://joss.theoj.org/papers/10.21105/joss.06717">weatherOz - API Client for R</a>
+    </li>
+    <li>
+      <a href="https://link.springer.com/article/10.1007/s10658-023-02664-5">Effect of Temperature and VPD on Powdery Mildew infection</a>
+    </li>
+    <li>
+      <a href="https://apsjournals.apsnet.org/doi/10.1094/PHYTO-01-22-0016-A">ascotraceR: An R Package Resource</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:&lt;paul@melloy.com.au&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/PaulMelloy/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/PaulMelloy">
+    <span class="fa fa-brands fa-twitter"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://orcid.org/0000-0003-4253-7167">
+    <span class="fa fa-brands fa-orcid"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">2504_KnowledgeTruthMoneyPowerless</h1>
+
+</div>
+
+
+<div id="knowledge-truth-money-and-powerless-universities-a-reponse"
+class="section level1">
+<h1>Knowledge, Truth, Money and Powerless – Universities (a
+reponse)</h1>
+<blockquote>
+<p><strong>These view are my own and have no connection to my
+employer.</strong></p>
+</blockquote>
+<p>This is an open reply to a mate, Olger Quicy, a guest writer for the
+blog <a
+href="https://www.fresheconomicthinking.com/p/devaluating-everything-universities">“Devaluating
+Everything. Universities”</a>.</p>
+<p>I have to disagree with the views of my beguiling friend Mr Quincy,
+that “technology, feminisation, and immigration” are the decay of
+universities. However, while I have to agree that universities in
+Australia are not the prestigious institutions they once were. It is
+easy to compare the triumphs of the past to the disappointments of today
+and superimpose our prejudices. I identify the views of Mr Quincy as
+being narrow, in mind and scope.</p>
+<p>It is indeed a frustrating scene the rot that has established in
+universities and it is not the fault of progressive ideals. In my view,
+it is indeed the opposite, and where I superimpose my prejudices with my
+disappointment on the university degree-mills today, a successful
+conservative agenda to control the narrative.</p>
+<p>Technology is developing at an astounding rate, and does indeed have
+universities on the back foot. Large language models (LLMs), or less
+accurately artificial intelligence (AI) have indeed changed the game,
+just as the advert of the internet prior to plagiarism checkers. As our
+friend has let us sail into the past to examples where technology has
+caused upheaval in our ability to judge, have students done the work to
+deserve the degree. Spell checkers were once seen as cheating,
+typewriters could obfuscate the true authors of written assessment. The
+advent of the printing press provides an analogous to the Internet of
+today. With the ease of access to books, for commoners to write and
+disseminate knowledge without the oversight from experts in the church
+or monasteries who will value the knowledge of university experts. LLMs
+are the most recent procession of technological tools we navigate in the
+treacherous waters of learning and gaining knowledge.</p>
+<p>At this stage I wish to encourage the readers to step back and take a
+wider view, metaphorically and literally. Right now you do not read this
+in a magazine, or newspaper, book or bulletin board. I don’t stand
+before you on my soap box, you likely read this on your digital devices
+which some in the past say have cheapened access to knowledge. Do you
+have notifications screaming at you the latest incredulous announcement
+by President Trump and interfering with your focus read this piece. Are
+there pictures adorning the words which might have once been viewed as
+immature adornments to rigorous literature. Do you have a fact-checker
+plug-in prompting for second opinions.</p>
+<p>Taking a wider view, will universities die due to technology? Or do
+they serve as a necessary hand on the tiller to navigate seas in a
+maelstrom of competing information. By now I hope you see the lighthouse
+through the squalls and recognise that these beacons of light ‘should
+be’ our universities. Institutions that provide guidance in a
+‘post-truth’ world.</p>
+<p>Right now I chart course to the provocation that <a
+href="https://en.wikipedia.org/wiki/Feminization_(sociology)">feminisation</a>
+is associated with loss in value. I feel this point has no solid
+argument, I could cry <a
+href="https://www.tylervigen.com/spurious-correlations">‘correlation
+does not equate to causation’</a>, however the statistician in me
+objects and points out a covariate can <a
+href="https://www.sciencedirect.com/science/article/pii/S0042698915002497">mask</a>
+the causal inference. I apologise for no nautical themed metaphor here,
+but the <a
+href="https://en.wikipedia.org/wiki/Directed_acyclic_graph">‘DAG’</a> I
+am gives you this this pun. Suffice to say, feminisation is profitable.
+As alluded to by Mr Quincy, other factors were at play during
+feminisation, and the patriarchy recognises women provide cheaper
+labour, it is simple economics.</p>
+<p><a
+href="https://www.abs.gov.au/statistics/people/education/education-and-work-australia/latest-release#engagement-in-work-and-or-study">The
+statistics show a higher proportion of men in full employment or
+study</a>, especially engineering. However of these, a higher proportion
+of females studying and not in the workforce. The reality of Australia’s
+current economy is that there are greater incentives for men to obtain
+free TAFE diplomas or apprenticeships towards high paying occupations in
+the construction sector than higher degrees through University. I
+regularly lament a sliding doors moment at age 18 while staking shelves
+at a supermarket, a customer offered me an apprenticeship as a builder.
+Had I taken it I would today be much better financially secure than my
+current career in academia and science. It is my view the devaluing of
+higher degrees came before the feminisation and we see today a shift in
+how the patriarchy is maintained.</p>
+<p>This leads me to Olgers final bug-bear, immigration. At this stage I
+feel the fatigue and will reward the reader with being as succinct as
+possible. From the turn of the century (2000), the change in University
+to the businesses models probably likely in 2008, (shortly after Olger
+completed his first university degree) <a
+href="https://www.legislation.gov.au/F2022L00845/latest/text">when the
+federal government introduced the 485 Graduate Visas</a>. This
+legislation permitted international graduates to extend their stay if
+they found work I high demand occupations. I have met and worked with
+many immigrants who took advantage of this legislation to gain
+citizenship in Australia. In 2018 one former workmate from Singapore
+conveyed their surprise the <a
+href="https://en.wikipedia.org/wiki/Murugappan_family_asylum_claims">Murugappan
+‘Biloela’ family</a> did not make use of this avenue for Australian
+citizenship and said they must have been poorly informed. Subsequent <a
+href="https://universitiesaustralia.edu.au/policy-submissions/teaching-learning-funding/how-universities-are-funded/">2017
+caps to the Commonwealth Grant Scheme (CGS)</a> have led universities to
+focus less on domestic students and pivot to seek revenue from
+international students to maintain their employment of their staff.</p>
+<p>Today Universities are not what they were 20 years ago, and we should
+not be surprised by this fact. Universities have had to be agile to
+adapt to changes in government legislation that has effectively weaken
+their power in the Australian community. I view the <a
+href="https://www.abc.net.au/news/2025-01-04/international-education-year-of-uncertainty-foreign-students/104765238">changes
+to international student numbers</a> by the blue and red tie wearing
+politicians as mechanisms to further remove funding in order to reduce
+their power and capacity to counter conservative agendas which are
+regularly criticised by university academics. They are merely using the
+guise of the housing crisis to push this agenda.</p>
+<p>Finally it is my view education needs <a
+href="https://theconversation.com/we-need-to-change-the-way-universities-assess-students-starting-with-these-3-things-203048">reform
+internationally to sustain the essential role of Universities into the
+future.</a> Simply passing the required university subjects should not
+equate to having the knowledge to be awarded a degree. Education needs
+to be undertaken so students graduate knowing what they know, but
+crucially knowing what they don’t know. To achieve this we need to
+incentivise course students and coordinators to review assessments
+together, rather than receive a reductive score.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
