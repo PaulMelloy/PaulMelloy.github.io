@@ -1,5 +1,5 @@
 ---
-title: "2504_KnowledgeTruthMoneyPowerless"
+title: "Knowledge, Truth, Money and Powerless – Universities (a reponse)"
 output: html_document
 ---
 
@@ -11,7 +11,9 @@ output: html_document
 This is an open reply to a mate, Olger Quicy, a guest writer for the blog 
 [“Devaluating Everything. Universities”](https://www.fresheconomicthinking.com/p/devaluating-everything-universities). 
 
-I have to disagree with the views of my beguiling friend Mr Quincy, that 
+I agree, Universities and education are indeed in need of reform, however ...  
+
+I have to disagree with my beguiling friend Mr Quincy's view, that 
 “technology, feminisation, and immigration” are the decay of universities. 
 However, while I have to agree that universities in Australia are not the 
 prestigious institutions they once were. 
@@ -25,10 +27,12 @@ In my view, it is indeed the opposite, and where I superimpose my prejudices
 with my disappointment on the university degree-mills today, a successful 
 conservative agenda to control the narrative.  
 
+## Technology
+
 Technology is developing at an astounding rate, and does indeed have 
 universities on the back foot. Large language models (LLMs), or less accurately 
 artificial intelligence (AI) have indeed changed the game, just as the advert of
-the internet prior to plagiarism checkers. 
+the Internet prior to plagiarism checkers. 
 As our friend has let us sail into the past to examples where technology has 
 caused upheaval in our ability to judge, have students done the work to deserve 
 the degree. 
@@ -59,6 +63,8 @@ maelstrom of competing information. By now I hope you see the lighthouse through
 the squalls and recognise that these beacons of light ‘should be’ our universities. 
 Institutions that provide guidance in a ‘post-truth’ world.  
 
+## Feminisation  
+
 Right now I chart course to the provocation that 
 [feminisation](https://en.wikipedia.org/wiki/Feminization_(sociology)) is associated with 
 loss in value. 
@@ -78,13 +84,15 @@ However of these, a higher proportion of females studying and not in the workfor
 The reality of Australia's current economy is that there are greater incentives 
 for men to obtain free TAFE diplomas or apprenticeships towards high paying 
 occupations in the construction sector than higher degrees through University. 
-I regularly lament a sliding doors moment at age 18 while staking shelves at a 
+A sliding doors moment, for me, at age 18 while staking shelves at a 
 supermarket, a customer offered me an apprenticeship as a builder. 
-Had I taken it I would today be much better financially secure than my current 
-career in academia and science.
+Little did I know back then, had I accepted this offer, I would today be in a much 
+more financially secure position than my current career in academia and science,
+which I love.
 It is my view the devaluing of higher degrees came before the feminisation and we
 see today a shift in how the patriarchy is maintained.  
 
+## Immigration  
 
 This leads me to Olgers final bug-bear, immigration. 
 At this stage I feel the fatigue and will reward the reader with being as 
@@ -97,13 +105,15 @@ This legislation permitted international graduates to extend their stay if they
 found work I high demand occupations.
 I have met and worked with many immigrants who took advantage of this legislation
 to gain citizenship in Australia. 
-In 2018 one former workmate from Singapore conveyed their surprise the 
-[Murugappan 'Biloela' family](https://en.wikipedia.org/wiki/Murugappan_family_asylum_claims)
-did not make use of this avenue for Australian citizenship and said they must have been 
-poorly informed.
+A striking example this, was a conversation I recall having in 2018 with a 
+Southeast-Asian colleague about the [Murugappan 'Biloela' family](https://en.wikipedia.org/wiki/Murugappan_family_asylum_claims).
+They conveyed their dismay that the family did not make use of this avenue for 
+Australian citizenship and said they must have been poorly informed.
 Subsequent [2017 caps to the Commonwealth Grant Scheme (CGS)](https://universitiesaustralia.edu.au/policy-submissions/teaching-learning-funding/how-universities-are-funded/)
 have led universities to focus less on domestic students and pivot to seek revenue 
 from international students to maintain their employment of their staff.  
+
+## Money and Powerless  
 
 Today Universities are not what they were 20 years ago, and we should not be
 surprised by this fact. 
@@ -123,3 +133,6 @@ Education needs to be undertaken so students graduate knowing what they know, bu
 crucially knowing what they don't know.
 To achieve this we need to incentivise course students and coordinators to review 
 assessments together, rather than receive a reductive score.  
+
+This article was proofread by LLM [gemma3:12b](https://ollama.com/library/gemma3:12b) 
+model using [Ollama](https://ollama.com/) and [open-webui](https://openwebui.com/).
