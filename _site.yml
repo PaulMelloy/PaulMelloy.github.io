@@ -40,6 +40,7 @@ navbar:
         href: https://ihsankhaliq.github.io/ascotraceR/
       - text: "epiphytoolR"
         href: https://paulmelloy.github.io/epiphytoolR/
+
     - text: "Recent Manuscripts"
       menu:
       - text: "PlantSeg - Plant Disease Segmentation"
@@ -50,6 +51,15 @@ navbar:
         href: https://link.springer.com/article/10.1007/s10658-023-02664-5
       - text: "ascotraceR: An R Package Resource"
         href: https://apsjournals.apsnet.org/doi/10.1094/PHYTO-01-22-0016-A
+
+    - text: "Research Compendium"
+      menu:
+      - text: "Tm and VPD on P. xanthii conidial germination"
+        href: https://paulmelloy.com.au/P_xanthii_titlepage.html
+      - text: "Meta-analysis of fungicide on powdery mildew in mungbean"
+        href: https://openplantpathology.github.io/Mungbean_PM/index.html
+
+
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<paul@melloy.com.au>
