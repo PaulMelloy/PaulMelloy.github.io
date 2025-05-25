@@ -40,6 +40,20 @@ on a research topic, visit my [CSIRO profile page.](https://people.csiro.au/m/p/
 ## Recent work  
 <br>  
 
+### cercopoRa 0.0.2 update  
+#### May 2025  
+
+Quick post to report a new update to the package 
+[cercopoRa](https://cran.r-project.org/web/packages/cercospoRa/index.html). 
+Version 0.0.2 is now available on CRAN. 
+Description of the key changes can be found on the 
+[GitHub releases page](https://github.com/PaulMelloy/cercospoRa/releases/tag/v0.0.2) 
+or the [NEWS site](https://paulmelloy.com.au/cercospoRa/news/index.html).  
+
+<br>  
+
+***  
+
 ### An introduction to the `arcgis` R package (blog)
 #### March 2025  
 
@@ -50,7 +64,7 @@ This blog post shows how to do this using the [Australian Tree Crop Map](https:/
 
 [An introduction to the `arcgis` R package](https://paulmelloy.com.au/blog/2025/2503_aRcgis.html)  
 
-<br> 
+<br>  
 
 ***  
 
