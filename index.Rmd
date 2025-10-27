@@ -48,7 +48,10 @@ opportunities in plant pathology. My role was to primarily focus on contribution
 *Challenges in linking optical sensing and epidemiological modeling (Challenge C)*.
 
 https://apsjournals.apsnet.org/doi/10.1094/PHYTO-11-24-0359-FI
-<br>
+
+<br>  
+
+***  
 
 ### cercopoRa 0.0.2 update  
 #### May 2025  
