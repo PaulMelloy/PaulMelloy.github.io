@@ -40,6 +40,16 @@ on a research topic, visit my [CSIRO profile page.](https://people.csiro.au/m/p/
 ## Recent work  
 <br>  
 
+### Opportunities and Challenges in Combining Optical Sensing and Epidemiological Modeling
+#### September 2025
+
+A new paper published in the special issue of *Pythopathology* on remote sensing 
+opportunities in plant pathology. My role was to primarily focus on contributions to the section 
+*Challenges in linking optical sensing and epidemiological modeling (Challenge C)*.
+
+https://apsjournals.apsnet.org/doi/10.1094/PHYTO-11-24-0359-FI
+<br>
+
 ### cercopoRa 0.0.2 update  
 #### May 2025  
 
