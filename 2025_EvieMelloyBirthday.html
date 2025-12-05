@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Evie’s 9th Birthday Bash!</title>
+<style>
+  body {
+    margin:0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(
+    45deg,
+    #ffb3ba 0%,   /* light pink (pastel red) */
+    #ffdfba 25%,  /* light peach (pastel orange) */
+    #ffffba 50%,  /* light yellow */
+    #baffc9 75%,  /* light mint (pastel green) */
+    #cbb4ff 100%  /* light lilac (pastel violet) */
+  );
+    color:#333;
+  }
+  header {
+    background:#a492b4;            /* purple] */
+    color:#fff;
+    padding:30px 0;
+    text-align:center;
+    text-shadow:2px 2px 4px rgba(0,0,0,.2);
+  }
+  header h1 {
+    margin:0;
+    font-size:3em;
+  }
+  .container {
+    width:90%;
+    max-width:800px;
+    margin:30px auto;
+    background:#fff;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+  }
+  .section {
+    margin-bottom:25px;
+  }
+  .section h2 {
+    color:#ff9c2b;
+    border-bottom:2px solid #ff9c2b;
+    padding-bottom:5px;
+  }
+  .details, .rsvp {
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+  }
+  .details div, .rsvp div {
+    flex:1 1 45%;
+    background:#f7f7f7;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,.1);
+  }
+  .details div img, .rsvp div img {
+    width:100%;
+    height:auto;
+    border-radius:8px;
+    margin-bottom:10px;
+  }
+  .footer {
+    text-align:center;
+    margin-top:20px;
+    color:#777;
+    font-size:.9em;
+  }
+    /* --------------------------------------------------------------
+       Colorful confetti dots (pure CSS)
+    -------------------------------------------------------------- */
+    .confetti{
+        position:absolute;
+        top:0;left:0;
+        width:100%;height:100%;
+        pointer-events:none;
+        overflow:hidden;
+    }
+    .confetti span{
+        position:absolute;
+        width:8px;height:8px;
+        background:#ff6b6b;
+        border-radius:50%;
+        animation:float 6s infinite ease-in-out;
+        opacity:.8;
+    }
+    @keyframes float{
+        0%{transform:translateY(0) rotate(0deg);}
+        100%{transform:translateY(200px) rotate(360deg);}
+    }
+    /* generate a few random dots */
+    .confetti span:nth-child(1){top:10%;left:15%;animation-delay:0s;background:#ff6b6b;}
+    .confetti span:nth-child(2){top:20%;left:70%;animation-delay:1s;background:#feca57;}
+    .confetti span:nth-child(3){top:35%;left:40%;animation-delay:2s;background:#48dbfb;}
+    .confetti span:nth-child(4){top:55%;left:80%;animation-delay:0.5s;background:#ff9ff3;}
+    .confetti span:nth-child(5){top:70%;left:25%;animation-delay:1.5s;background:#1dd1a1;}
+    .confetti span:nth-child(6){top:85%;left:55%;animation-delay:2.5s;background:#c8d6e5;}
+    .confetti span:nth-child(7){top:14%;left:50%;animation-delay:0.3s;background:#ff6b6b;}
+    .confetti span:nth-child(8){top:28;left:27%;animation-delay:0.8s;background:#feca57;}
+    .confetti span:nth-child(9){top:36%;left:13%;animation-delay:1.2s;background:#48dbfb;}
+    .confetti span:nth-child(10){top:65%;left:44%;animation-delay:1.7s;background:#ff9ff3;}
+    .confetti span:nth-child(11){top:74%;left:65%;animation-delay:2.2s;background:#1dd1a1;}
+    .confetti span:nth-child(12){top:83%;left:33%;animation-delay:2.6s;background:#c8d6e5;}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Evie’s 9th Birthday Bash!</h1>
+  <p>Let’s splash into the holidays with a party!</p>
+  <img src="files/img/202512_evie.jpg" alt="EvieHeader">
+</header>
+
+<div class="container">
+    <!-- Confetti overlay -->
+    <div class="confetti">
+        <span></span><span></span><span></span>
+        <span></span><span></span><span></span>
+    </div>
+
+  <!-- Party Details -->
+  <div class="section">
+    <h2>Party Details</h2>
+    <div class="details">
+      <div>
+        <h3>When:</h3>
+        <p>Saturday, 13th December 2025<br>10:00 am – 1:00 pm</p> <!-- [1] -->
+        <img src="files/img/2512CalenderCircled.jpg" alt="Calender">
+      </div>
+      <div>
+        <h3>Where:</h3>
+        <p>Southbank Beach</p> <!-- [1] -->
+        <img src="files/img/Southbank location.png" alt="SouthbankBeach">
+      </div>
+      <div>
+        <h3>What to Bring:</h3>
+        <ul>
+          <li>Swimmers & dry clothes</li>
+          <li>Water toys</li>
+          <li>Sun‑screen, hat & sunglasses</li>
+          <li>Optional plate to share (we’ll have plenty of snacks)</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Party Attitude:</h3>
+        <p>Fun, playful, and ready for beach vibes!</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- RSVP -->
+  <div class="section">
+    <h2>RSVP</h2>
+    <div class="rsvp">
+      <div>
+        <p>Call or text Paul Melloy at <strong>0432 601 403</strong></p>
+      </div>
+      <div>
+        <p>Email: <a href="mailto:paul@melloy.com.au">paul@melloy.com.au</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    “Let’s dive into adventure and make waves at Evie’s birthday!”<br>— The Melloy Family
+  </div>
+</div>
+
+</body>
+</html>

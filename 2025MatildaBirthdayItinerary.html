@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Matilda’s 11th Birthday Itinerary</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+          rel="stylesheet">
+
+    <style>
+        /* --------------------------------------------------------------
+           Global reset & typography
+        -------------------------------------------------------------- */
+        *{box-sizing:border-box;margin:0;padding:0}
+        body{
+            font-family:'Poppins',sans-serif;
+            line-height:1.6;
+            background:linear-gradient(135deg,
+                #ffecd2 0%,   /* peach */
+                #fcb69f 25%,  /* coral */
+                #ff9a9e 50%,  /* pink */
+                #a1c4fd 75%,  /* light blue */
+                #c2e9fb 100%  /* sky */
+            );
+            min-height:100vh;
+            padding:20px;
+        }
+        h1,h2,h3{color:#2c3e50;margin-bottom:.5rem}
+        h1{font-size:2.4rem;text-align:center;margin-top:.5rem}
+        h2{font-size:1.9rem;border-bottom:2px solid #2c3e50;padding-bottom:.3rem;margin-top:2rem}
+        h3{font-size:1.5rem;margin-top:1.5rem}
+        p{margin:.8rem 0}
+
+        /* --------------------------------------------------------------
+           Main container – white card with subtle shadow
+        -------------------------------------------------------------- */
+        .wrapper{
+            max-width:860px;
+            margin:0 auto;
+            background:#fff;
+            border-radius:12px;
+            box-shadow:0 8px 20px rgba(0,0,0,.12);
+            overflow:hidden;
+            position:relative;
+        }
+
+        .content{padding:2rem 2.5rem}
+
+        /* --------------------------------------------------------------
+           Hero image (keep original)
+        -------------------------------------------------------------- */
+        .hero-img{
+            width:100%;
+            max-height:380px;
+            object-fit:cover;
+            display:block;
+        }
+
+        /* --------------------------------------------------------------
+           Colorful confetti dots (pure CSS)
+        -------------------------------------------------------------- */
+        .confetti{
+            position:absolute;
+            top:0;left:0;
+            width:100%;height:100%;
+            pointer-events:none;
+            overflow:hidden;
+        }
+        .confetti span{
+            position:absolute;
+            width:8px;height:8px;
+            background:#ff6b6b;
+            border-radius:50%;
+            animation:float 6s infinite ease-in-out;
+            opacity:.8;
+        }
+        @keyframes float{
+            0%{transform:translateY(0) rotate(0deg);}
+            100%{transform:translateY(200px) rotate(360deg);}
+        }
+        /* generate a few random dots */
+        .confetti span:nth-child(1){top:10%;left:15%;animation-delay:0s;background:#ff6b6b;}
+        .confetti span:nth-child(2){top:20%;left:70%;animation-delay:1s;background:#feca57;}
+        .confetti span:nth-child(3){top:35%;left:40%;animation-delay:2s;background:#48dbfb;}
+        .confetti span:nth-child(4){top:55%;left:80%;animation-delay:0.5s;background:#ff9ff3;}
+        .confetti span:nth-child(5){top:70%;left:25%;animation-delay:1.5s;background:#1dd1a1;}
+        .confetti span:nth-child(6){top:85%;left:55%;animation-delay:2.5s;background:#c8d6e5;}
+
+        /* --------------------------------------------------------------
+           Checklist – nicer checkboxes
+        -------------------------------------------------------------- */
+        .checklist{
+            list-style:none;
+            padding-left:0;
+            margin-top:.5rem;
+        }
+        .checklist li{
+            display:flex;
+            align-items:center;
+            margin:.6rem 0;
+        }
+        .checklist input[type=checkbox]{
+            appearance:none;
+            width:20px;height:20px;
+            border:2px solid #2c3e50;
+            border-radius:4px;
+            margin-right:.8rem;
+            cursor:pointer;
+            position:relative;
+        }
+        .checklist input[type=checkbox]:checked{
+            background:#2c3e50;
+        }
+        .checklist input[type=checkbox]:checked::after{
+            content:"✔";
+            color:#fff;
+            font-size:14px;
+            position:absolute;
+            top:-2px;
+            left:3px;
+        }
+
+        /* --------------------------------------------------------------
+           Responsive tweaks
+        -------------------------------------------------------------- */
+        @media(max-width:600px){
+            .content{padding:1.5rem}
+            h1{font-size:2rem}
+            h2{font-size:1.6rem}
+        }
+    </style>
+</head>
+
+<body>
+<div class="wrapper">
+    <!-- Confetti overlay -->
+    <div class="confetti">
+        <span></span><span></span><span></span>
+        <span></span><span></span><span></span>
+    </div>
+
+    <!-- Hero image (unchanged) -->
+    <img src="assets/35o0qxxwrc0CjvyRhEago4Tm9PMxc0_KKNm_KeDjoEw=.jpeg"
+         alt="Birthday celebration picture"
+         class="hero-img">
+
+    <div class="content">
+        <h1>Matilda’s Birthday Itinerary</h1>
+
+        <h2>Happy Birthday, Matilda!!! 🎉</h2>
+
+        <p>Here is a tentative list of events you have expressed interest in doing on your birthday
+            sleep‑over.</p>
+
+        <h3>What to Pack</h3>
+        <ul class="checklist">
+            <li><input type="checkbox"><span>Swimmers</span></li>
+            <li><input type="checkbox"><span>Goggles</span></li>
+            <li><input type="checkbox"><span>Towel</span></li>
+            <li><input type="checkbox"><span>Sun‑shirt</span></li>
+            <li><input type="checkbox"><span>Hat</span></li>
+            <li><input type="checkbox"><span>PJs</span></li>
+            <li><input type="checkbox"><span>2 pairs of clothes</span></li>
+            <li><input type="checkbox"><span><a href=https://waiver.roller.app/AquaWarrior/?ubid=iH57Sup_UECtmbCDjQ1Xrg>Sign AquaWarrior waiver</a></span></li>
+
+
+        </ul>
+
+        <h2>Friday the 21st</h2>
+        <p><strong>2:50 pm</strong> – Bell rings, school’s out.</p>
+        <p><strong>2:50 – 3:00 pm</strong> – Pick‑up at the back gate.</p>
+        <p><strong>3:10 pm</strong> – After‑school snacks.</p>
+        <p><strong>3:10 – 5:30 pm</strong> – Matilda‑planned activities or swim in the pool.</p>
+        <p><strong>6:30 pm</strong> – Red Hill Cinemas to watch <em>Wicked 2: Forever</em>.</p>
+        <p><strong>8:30 pm</strong> – Birthday cake.</p>
+        <p><strong>9:00 pm</strong> – Bed‑time.</p>
+        <p><strong>9:30 pm</strong> – Lights out, no more noise!</p>
+
+        <h2>Saturday the 22nd</h2>
+        <p>Morning of activities around the house.</p>
+        <p><strong>9:30 am</strong> – Breakfast of Waffles, Fruit and Berries.</p>
+        <p><strong>10:00 am</strong> – Tie Dye shirts.</p>
+        <p><strong>11:00 am</strong> – Leave for Aqua Warrior at Sandgate.</p>
+        <p><strong>12:00 pm</strong> – Aqua Warrior session.</p>
+        <p><strong>1:00 pm</strong> – Drive back to Ashgrove, stop for lunch on the way.</p>
+        <p><strong>3:00 pm</strong> – Afternoon wind‑down activities.</p>
+        <p><strong>After 4:00 pm</strong> – Pick‑ups any time after.</p>
+    </div>
+</div>
+</body>
+</html>

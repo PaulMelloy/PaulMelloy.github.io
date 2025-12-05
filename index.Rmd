@@ -36,9 +36,38 @@ on a research topic, visit my [CSIRO profile page.](https://people.csiro.au/m/p/
 <br>  
 
 ***  
+#### November 2025
+
+Show your support for a strong Australian scientific agency and sign this 
+petition to lobby the Federal government to support the future industries in 
+Australia borne by Australian science.  
+
+<link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v5/petition/csiro-needs-urgent-support?format=js&source=widget&referrer=[object Object]'></script><div id='can-petition-area-csiro-needs-urgent-support' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>  
+
+
+Reduced scientific capacity in Australia will result in reduced economic 
+potential. [On average, for every \$1 invested in research $3.50 is ultimately 
+returned to the economy.](https://www.csiro.au/en/work-with-us/services/consultancy-strategic-advice-services/CSIRO-futures/Innovation-Business-Growth/Quantifying-Australias-returns-to-innovation) 
+
+<br>  
+
+***  
 
 ## Recent work  
 <br>  
+
+### Opportunities and Challenges in Combining Optical Sensing and Epidemiological Modeling
+#### September 2025
+
+A new paper published in the special issue of *Pythopathology* on remote sensing 
+opportunities in plant pathology. My role was to primarily focus on contributions to the section 
+*Challenges in linking optical sensing and epidemiological modeling (Challenge C)*.
+
+https://apsjournals.apsnet.org/doi/10.1094/PHYTO-11-24-0359-FI
+
+<br>  
+
+***  
 
 ### cercopoRa 0.0.2 update  
 #### May 2025  
