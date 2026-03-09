@@ -43,8 +43,10 @@ navbar:
 
     - text: "Recent Manuscripts"
       menu:
-      - text: "PlantSeg - Plant Disease Segmentation"
-        href: https://arxiv.org/abs/2409.04038
+      - text: "Large-Scale In-the-wild Dataset for Plant Disease Segmentation"
+        href: https://www.nature.com/articles/s41597-025-06513-4
+      - text: "Opportunities and Challenges in Optical Sensing and Epidemiological Modeling"
+        href: https://apsjournals.apsnet.org/doi/10.1094/PHYTO-11-24-0359-FI
       - text: "weatherOz - API Client for R"
         href: https://joss.theoj.org/papers/10.21105/joss.06717
       - text: "Effect of Temperature and VPD on Powdery Mildew infection"
