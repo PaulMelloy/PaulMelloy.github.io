@@ -1,0 +1,46 @@
+---
+title: "Containers For Scientific Computing"
+output: html_document
+---
+
+Containers should be used as a standard in scientific computing, especially for 
+those projects aiming to make "An App for That". Or as I like to say Jaffas, 
+*just another f__ing fone app".  
+
+Containers are frameworks which are light weight and can run on any platform, 
+Mac, linux or windows without the need to adjust the software for the operating 
+system. 
+The also can ensure that all the software on which your application or code 
+relies on is packaged with your app. 
+That way if the maintainer of one small piece of your code decides to make a 
+[breaking change](https://stackoverflow.com/questions/21703216/what-is-a-breaking-change-in-software)
+then your containerised app will still work when a non-containerised app with 
+updated dependencies will not work.  
+
+<br>
+
+### Why bother with containers?  
+
+Software dependencies make scientific work more prone to failure. 
+This is perfectly summarised by the phrase, "more moving parts has more points 
+of failure". 
+When scientific research is predominantly contract based for a specific time 
+period this can ensure that as soon as the funding stops, the apps stop working 
+as well.  
+
+
+<center>
+![xkcd comic 2347: Dependency](https://imgs.xkcd.com/comics/dependency.png)  
+</center>
+
+<br>
+
+Another problem is the aspect of 'reproducibility' or 
+"It works on my machine"  ¯\_(ツ)_/¯. 
+As mentioned earlier, containers are portable to different operating systems improving reproducibility.
+
+The most recognised container software is called 
+[Docker](https://www.docker.com/), yet there are other container software out 
+there which might be more suitable and have wider usage, eg. 
+[containerd](https://containerd.io/). 
+In this blog I will use `docker` as I am the most familiar with this software.  
