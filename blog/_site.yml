@@ -45,6 +45,8 @@ navbar:
 
     - text: "Recent Manuscripts"
       menu:
+      - text: "Spatially explicit Cercospora beticola model using remote sensing"
+        href: https://link.springer.com/article/10.1007/s10658-026-03194-6
       - text: "Large-Scale In-the-wild Dataset for Plant Disease Segmentation"
         href: https://www.nature.com/articles/s41597-025-06513-4
       - text: "Opportunities and Challenges in Optical Sensing and Epidemiological Modeling"

@@ -36,7 +36,22 @@ on a research topic, visit my [CSIRO profile page.](https://people.csiro.au/m/p/
 <br>  
 
 ***  
-#### December 2025
+#### April 2026  
+
+![](files/img/cercospora_logo.png){style="float: right" width=15%}  
+
+Happy to finally see this collaborative piece of research finally published in the
+European Journal of Plant Pathology. 
+This shows how remote sensing can be used to augment mechanistic epidemiological
+models.  
+
+[A spatially explicit negative‑prognosis framework for Cercospora leaf spot using remotely sensed leaf area index](https://link.springer.com/article/10.1007/s10658-026-03194-6).
+
+
+<br>  
+
+***  
+#### December 2025  
 
 Lately I have been working on development of assessing canola growing regions
 to estimate, at the landscape scale, 'pest control potential' ecosystem services.  
