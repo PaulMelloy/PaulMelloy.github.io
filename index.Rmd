@@ -43,11 +43,11 @@ on a research topic, visit my [CSIRO profile page.](https://people.csiro.au/m/p/
 ### Data nerd alert !
 #### June 2026  
 
-Over the last ten years I have been religiously keeping track of my fuel usage 
-for my Yammaha FZ6N motorcycle.
-As a data nerd I have been interested in whether higher octane fuels are the 
+Over the last ten years, I have been religiously keeping track of my fuel usage 
+for my Yamaha FZ6N motorcycle.
+As a data nerd, I have been interested in whether higher octane fuels are the 
 better choice from a cost/distance view. 
-Thanks to AI (claude) I have had help finding the time finishing off this shiny 
+Thanks to AI (Claude), I have had help finding the time to finish off this shiny 
 app.  
 
 The shiny dashboard is accessible from the banner above or the link below and 
@@ -66,7 +66,7 @@ https://paulmelloy.shinyapps.io/Fuel_efficiency_FZ6N/
 
 ***  
 
-### spatially explicit negative‑prognosis framework for Cercospora leaf spot using remote sensing
+### Spatially Explicit Negative‑Prognosis Framework for Cercospora Leaf Spot Using Remote Sensing
 #### April 2026  
 
 ![](files/img/cercospora_logo.png){style="float: right" width=15%}  
