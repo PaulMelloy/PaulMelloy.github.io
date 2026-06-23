@@ -37,6 +37,36 @@ on a research topic, visit my [CSIRO profile page.](https://people.csiro.au/m/p/
 
 ***  
 
+## Recent work  
+<br>  
+
+### Data nerd alert !
+#### June 2026  
+
+Over the last ten years I have been religiously keeping track of my fuel usage 
+for my Yammaha FZ6N motorcycle.
+As a data nerd I have been interested in whether higher octane fuels are the 
+better choice from a cost/distance view. 
+Thanks to AI (claude) I have had help finding the time finishing off this shiny 
+app.  
+
+The shiny dashboard is accessible from the banner above or the link below and 
+shows live data of every new entry automatically. 
+It tracks fuel economy in L/100km and cost per kilometre across different octane 
+grades (91 through 98), servo brands, and percent of highway riding. 
+Interactive charts to help make your own mind up on whether premium fuel is 
+actually worth the extra cents, which brands deliver the best efficiency, 
+and how highway riding compares to city commuting.  
+
+Enjoy!  
+
+https://paulmelloy.shinyapps.io/Fuel_efficiency_FZ6N/  
+
+<br>  
+
+***  
+
+### spatially explicit negative‑prognosis framework for Cercospora leaf spot using remote sensing
 #### April 2026  
 
 ![](files/img/cercospora_logo.png){style="float: right" width=15%}  
@@ -53,7 +83,7 @@ models.
 
 ***  
 
-
+### PlantSeg Published  
 #### March 2026  
 
 It was a pleasure to collaborate with UQ Computer science and Machine learning/ AI researchers Tianqi Wei, Zhi Chen, Xin Yu, Scott Chapman and Zi Huang. 
@@ -98,8 +128,6 @@ returned to the economy.](https://www.csiro.au/en/work-with-us/services/consulta
 
 ***  
 
-## Recent work  
-<br>  
 
 ### Opportunities and Challenges in Combining Optical Sensing and Epidemiological Modeling
 #### September 2025

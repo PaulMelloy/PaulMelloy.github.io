@@ -33,6 +33,8 @@ navbar:
         href: https://paulmelloy.shinyapps.io/22_electoralboundaries/
       - text: "UniSuperDBD"
         href: https://paulmelloy.shinyapps.io/UniSuperDBD/
+      - text: "Fuel Efficiency FZ6N"
+        href: https://paulmelloy.shinyapps.io/Fuel_efficiency_FZ6N/
 
     - text: "R Packages"
       menu:
