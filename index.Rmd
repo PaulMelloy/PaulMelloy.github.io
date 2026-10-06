@@ -40,6 +40,23 @@ on a research topic, visit my [CSIRO profile page.](https://people.csiro.au/m/p/
 ## Recent work  
 <br>  
 
+### Blog and presentations posted for `cercospoRa` research.  
+#### September 2026  
+
+[Read the blog]() about my recent paper on combining epidemiology modelling and 
+remote sensing on the CSIRO Agroecology website.
+
+[Watch my presentation](https://youtu.be/RBPKfycDT1Q?t=1161) to the 
+Australasian Plant Pathology Society meeting on YouTube.
+My talk starts halfway through at 19:30 minutes.  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RBPKfycDT1Q?si=gBTp-5hwZmAMAjHG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<br>  
+
+***  
+
 ### Data nerd alert !
 #### June 2026  
 
