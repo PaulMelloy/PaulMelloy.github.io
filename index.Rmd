@@ -57,6 +57,32 @@ My talk starts halfway through at 19:30 minutes.
 
 ***  
 
+### Publication: Challenges and required tools for the improved impact of beneficial natural enemy species in Australian canola systems
+#### September 2026  
+
+##### Authors  
+**Sarina Macfadyen**, Basman Al-Jalely, Mukti Chalise, Maryam Ehsangar, 
+Zorica Duric, Joanne Holloway, Andrew Hulthen, Precious Mavende, *Paul Melloy*, 
+Svetlana Micic, Hazel Parry, Shovon Chandra Sarkar, Jessa Thurman, 
+Maarten Van Helden, Xiaobei Wang, Wei Xu  
+
+[Pest Management Science:   doi:10.1002/ps.71291](https://doi.org/10.1002/ps.71291)
+
+In this paper we surveyed growers on thier knowledge and implementation of using
+beneficial insects to control canola pests. 
+We propose few Australian growers aim to foster beneficial arthropods for natural 
+pest suppression. 
+Our survey found growers want to use beneficials but their confidence for 
+implementation is hampered by a lack evidence and tools. 
+We also outline a stepwise path forward, including developing landscape models of 
+pest suppression and better monitoring.  
+
+
+<br>  
+
+***  
+
+
 ### Data nerd alert !
 #### June 2026  
 
