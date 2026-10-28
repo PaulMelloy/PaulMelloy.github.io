@@ -41,16 +41,28 @@ on a research topic, visit my [CSIRO profile page.](https://people.csiro.au/m/p/
 ## Recent work  
 <br>  
 
-### Blog: .  
+### Blog: [AI Decision Models for Agriculture.](https://paulmelloy.com.au/blog/2026/2610_DecisionModels.html)  
 #### October 2026  
 
+AI large language models (LLM) are disrupting all parts of our lives at 
+breakneck pace and I am faced with the question: Could an AI decision model 
+turn crop-disease observations and weather information into a defensible 
+management recommendation?  
+
+[In this blog](https://paulmelloy.com.au/blog/2025/2610_DecisionModels.html) 
+I take a quick look at if Jev might pose a threat to my career 
+focused on building pest and disease models and decision support tools. 
 
 
+<br>  
+
+***  
 
 ### Blog and presentations posted for `cercospoRa` research.  
 #### September 2026  
 
-[Read the blog]() about my recent paper on combining epidemiology modelling and 
+[Read the blog](https://research.csiro.au/agroecology/from-sky-to-soil-mapping-disease-risk-before-it-starts/) 
+about my recent paper on combining epidemiology modelling and 
 remote sensing on the CSIRO Agroecology website.
 
 [Watch my presentation](https://youtu.be/RBPKfycDT1Q?t=1161) to the 

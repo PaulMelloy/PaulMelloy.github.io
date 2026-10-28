@@ -411,33 +411,35 @@ $(document).ready(function () {
 </div>
 
 
-<p>AI large language models are disrupting all parts of our lives at
-break neck pace and I am faced with the question: <strong>Are AI
-decision support models about to replace epidemiological
-models?</strong></p>
+<p>AI large language models (LLM) are disrupting all parts of our lives
+at breakneck pace and I am faced with the question: <strong>Could an AI
+decision model turn crop-disease observations and weather information
+into a defensible management recommendation?</strong></p>
 <p>As a scientist who specialises in pest and disease modelling I am
 intrigued with how AI decision models like <a
 href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">Jev</a>
-a class of AI model call ‘system one’.<br />
-System one AI models are named after the concept <a
+a class of AI model defined as ‘system one’.<br />
+The name draws on the distinction popularised in <a
 href="https://www.penguin.com.au/books/thinking-fast-and-slow-9780141033570">“Thinking
-Fast and Thinking slow”</a>, where system one indicates fast thinking:
-automatic cognician, intuitive. Compared with thinking slow:
-deliberative, careful thought, highly reasoned.</p>
+Fast and Slow”</a>. “System 1” describes rapid, intuitive judgement,
+whereas “System 2” describes slower, more deliberate reasoning, more
+akin to most LLMs. In this context, a system-one decision model is
+designed to map a stated situation directly to a choice, rather than
+generating a long chain of reasoning.</p>
 <blockquote>
 <p>So are AI decision models useful for making management decisions in
 agriculture?</p>
 </blockquote>
 <p>The recent access to the <a href="https://jevplayground.com/">Jev
 playground</a> allowed me to evaluate this exact question.</p>
-<p>I decided to test it’s ability by presenting the model with a
-scenario which could be faced by a vineyard manager observing downy
-mildew for the first time in thier orchard. The farm manager is posed
-with the consideration should they apply a fungicide application and
-when should they apply the fungicide spray for maximum efficacy.</p>
+<p>I decided to test its ability by presenting the model with a scenario
+which could be faced by a vineyard manager observing downy mildew for
+the first time in their vineyard. The farm manager is posed with the
+consideration should they apply a fungicide application and when should
+they apply the fungicide spray for maximum efficacy.</p>
 <p>In the 2023-24 growing season I undertook an experiment on downy
-mildew () on a vineyard on Mt. Tamborine in Queensland Australia. With
-this work I was evaluating the performance of the a mechanistic
+mildew at a vineyard on Mount Tamborine in Queensland Australia. With
+this work I was evaluating the performance of a mechanistic
 epidemiological model which I translated from the academic literature
 into R, <a
 href="https://github.com/PaulMelloy/viticolR"><code>viticolR</code></a>.
@@ -447,28 +449,25 @@ problematic downy mildew epidemics.</p>
 over-winter in leaf litter from infected leaves from previous seasons.
 The contaminated leaf litter material contains oospores which, with
 suitable temperature and moisture conditions promote germination and
-macrosporangiums which are triggered to release zoospores through
-rainsplash. Oospores are the most likely source of primary infections in
+macrosporangia which are triggered to release zoospores through rain
+splash. Oospores are the most likely source of primary infections in
 vineyards.</p>
 <p>Once the disease infects leaves in the canopy secondary infection can
 spread. Secondary infection spreads much faster compared to primary
 infection events, especially during warm weather and rainfall events.
-Infected leaves die prematurely reducing the plant productivity. Once
-the disease establishes in the vineyard the farm can suffer significant
+Infected leaves die prematurely reducing plant productivity. Once the
+disease establishes in the vineyard the farm can suffer significant
 yield losses not only from damage to the leaves, but also infection of
 the grapes.</p>
 <p>The ideal management strategy is to protect the crop with a fungicide
 spray ahead of any potential dispersal events and prior to bunch
-closure. This requires constant vigilance with an eye on weather
-forecasts and any potential primary infections. Most farms will apply
-mixtures of strobilurin and demethylase inhibitor (DMIs) fungicides
-(fungicide groups 3/11 or 7) early in the season to protect from
-infections. These fungicides can provide 2 - 4 weeks of protection and
-can rarely be applied after later in berry development.</p>
+closure. Protective fungicides are most effective when applied before
+infection events, but the value and permitted timing of another
+application depend on the product, crop stage, previous applications,
+resistance-management requirements and forecast conditions. This
+requires constant vigilance with an eye on weather forecasts and any
+potential primary infections.</p>
 <p>With this knowledge under our belt lets see how Jev will perform.</p>
-<p>I will summarise my prompts below, however you can obtain my full
-prompts on the following page if you wish to recreate my
-evaluations.</p>
 <p><br><br />
 <br></p>
 <div id="inputs-always-included" class="section level2">
@@ -541,9 +540,12 @@ style="float: center;width:50.0%" /></p>
 </div>
 <div id="interpretation" class="section level3">
 <h3>Interpretation</h3>
-<p>The output gives Jev’s confidence in each of the choices being the
-correct choice.</p>
-<p>Here we see that the model does a good job of making a decision.</p>
+<p>The output assigns a relative score to each predefined option.
+Generally he highest-scoring option indicates the preferred decision,
+but the scores should not necessarily be treated as calibrated
+probabilities weighted by agronomic correctness.</p>
+<p>In this scenario, Jev’s preferred option broadly matches my
+assessment of the most defensible response.</p>
 <p>A fungicide spray at the earliest convenience is the best option
 ahead of wet conditions to limit the spread of the disease. Considering
 a follow-up spray in 20 days is also an option worth considering.</p>
@@ -573,7 +575,7 @@ style="float: center;width:50.0%" /></p>
 <p>The model does not provide ideal recommendations here.</p>
 <p>The fungicide 7 days ago is still likely to be providing protection
 and with cool dry conditions in the future, the farm manager is best
-delaying thier fungicide spray.</p>
+delaying their fungicide spray.</p>
 <p><em>No longer questioning my career choices …</em></p>
 <p><br></p>
 <hr />
@@ -600,7 +602,7 @@ style="float: center;width:50.0%" /></p>
 application is still the most confident response</p>
 <p>Despite downy mildew being present in the canopy, this is not a good
 recommendation. The most risk averse farm manager may consider an single
-application in 20 -30 days, but not immediately.</p>
+application in 20 - 30 days, but not immediately.</p>
 <p><em>Hold my beer Jev!</em></p>
 <p><br></p>
 <hr />
@@ -627,24 +629,42 @@ style="float: center;width:50.0%" /></p>
 <div id="interpretation-3" class="section level3">
 <h3>Interpretation</h3>
 <p>A good response. Finally the decision model does not recommend a
-fungicide application. This scenario makes it very clear that there is
-little to no concern for the disease and the model is able to provide
-the correct response, not to spray.</p>
-<p><em>There maybe some home for you yet Jev</em></p>
+fungicide application. Under this deliberately low-risk scenario, Jev
+appropriately ranks “no fungicide spray” as the preferred option.</p>
+<p><em>There maybe some hope for you yet Jev</em></p>
 <hr />
 </div>
 </div>
 <div id="final-thoughts" class="section level2">
 <h2>Final thoughts</h2>
 <p>Models like <code>Jev</code> are very new and the whole pace of
-change in AI development is dizzingly fast. While the model in it’s
-current form is not capable of providing reasonable decision support for
-agriculture, there is potential to use this approach in future research
-and development.</p>
-<p>While Jev remains closed source, some open weight system one decision
+change in AI development is dizzyingly fast. In this small test, Jev did
+not respond consistently enough to changing disease risk to be relied
+upon as a stand-alone agricultural decision-support system, there is
+potential to use this approach in future research and development
+frameworks.</p>
+<p>Additionally I should also be fair and indicate that <a
+href="https://jevplayground.com/what-is-jev#limits">clear inputs and
+non-adversarial options are stated as highly important</a> for getting
+good answers with Jev. So perhaps my hastily prepared example here might
+be too disingenuous for a real world example, and the state input needs
+more specific guidance towards what are important guardrails to making
+accurate decisions. However frequently we lack real world examples of
+what are the important thresholds that guide our decision making and
+decision models are no difference. Where models like this will provide
+specific benefits to agricultural decision making is the ability to
+consider a large number of dependant variables when estimating the
+optimum choice.</p>
+<blockquote>
+<p>Regardless of how good AI models will get at providing advice, in the
+end AI models are not accountable for the actions taken.</p>
+</blockquote>
+<p>And for this reason humans will need to remain in the loop for all
+final decision no matter how intelligent the AI support will be.</p>
+<p>While Jev remains closed source, some open-weight system one decision
 models such as <a
 href="https://www.together.ai/models/tev1-4b-experimental">Tev1</a> have
-been released to the publically. So who knows when we might be able to
+been released to the publicly. So who knows when we might be able to
 fine-tune these models to provide better decision support for integrated
 pest management.</p>
 </div>
