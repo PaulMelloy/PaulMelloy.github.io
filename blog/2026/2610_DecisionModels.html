@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Dr Paul Melloy" />
+
+<meta name="date" content="2026-10-28" />
+
+<title>AI Decision Models for Agriculture</title>
+
+<script src="site_libs/header-attrs-2.31/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/darkly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Paul Melloy</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="https://paulmelloy.com.au/index.html">Home</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Blogs
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://paulmelloy.com.au/blog/2025/2503_aRcgis.html">arcgis R package</a>
+    </li>
+    <li>
+      <a href="https://paulmelloy.com.au/blog/2025/2502_EvokeAg.html">EvokeAg 2025</a>
+    </li>
+    <li>
+      <a href="https://paulmelloy.com.au/blog/UpdateRstudioServer.html">Updating Rstudio server</a>
+    </li>
+    <li>
+      <a href="https://paulmelloy.com.au/blog/SharedRLibrary.html">Shared R library</a>
+    </li>
+    <li>
+      <a href="https://paulmelloy.com.au/blog/RDM_webdav.html">Zotero Webdavs</a>
+    </li>
+    <li>
+      <a href="https://openplantpathology.netlify.app/posts/2022-04-01-powerful-tea-using-nasapower-and-tealeaves-to-obtain-leaf-temperatures/">Leaf Tm from NASA POWER</a>
+    </li>
+    <li>
+      <a href="https://paulmelloy.com.au/blog/2025/2512_BrisbaneThings.html">Things to do Brisbane</a>
+    </li>
+    <li>
+      <a href="https://thefungaljungle.blogspot.com/">Old FungalJungle Blog</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Shiny Apps
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://apps.paulmelloy.com.au/shiny/viticolR_dst/">ViticolR DST</a>
+    </li>
+    <li>
+      <a href="https://apps.paulmelloy.com.au/shiny/epiphytrainR_app/">epiphytrainR</a>
+    </li>
+    <li>
+      <a href="https://paulmelloy.shinyapps.io/22_electoralboundaries/">2022 electoral data</a>
+    </li>
+    <li>
+      <a href="https://paulmelloy.shinyapps.io/UniSuperDBD/">UniSuperDBD</a>
+    </li>
+    <li>
+      <a href="https://paulmelloy.shinyapps.io/Fuel_efficiency_FZ6N/">Fuel Efficiency FZ6N</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    R Packages
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://paulmelloy.github.io/cercospoRa/">cercospoRa</a>
+    </li>
+    <li>
+      <a href="https://ihsankhaliq.github.io/ascotraceR/">ascotraceR</a>
+    </li>
+    <li>
+      <a href="https://paulmelloy.github.io/epiphytoolR/">epiphytoolR</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Recent Manuscripts
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://doi.org/10.1002/ps.71291">Required tools for the improved natural enemy pest species in Australian canola</a>
+    </li>
+    <li>
+      <a href="https://link.springer.com/article/10.1007/s10658-026-03194-6">Spatially explicit Cercospora beticola model using remote sensing</a>
+    </li>
+    <li>
+      <a href="https://www.nature.com/articles/s41597-025-06513-4">Large-Scale In-the-wild Dataset for Plant Disease Segmentation</a>
+    </li>
+    <li>
+      <a href="https://apsjournals.apsnet.org/doi/10.1094/PHYTO-11-24-0359-FI">Opportunities and Challenges in Optical Sensing and Epidemiological Modeling</a>
+    </li>
+    <li>
+      <a href="https://joss.theoj.org/papers/10.21105/joss.06717">weatherOz - API Client for R</a>
+    </li>
+    <li>
+      <a href="https://link.springer.com/article/10.1007/s10658-023-02664-5">Effect of Temperature and VPD on Powdery Mildew infection</a>
+    </li>
+    <li>
+      <a href="https://apsjournals.apsnet.org/doi/10.1094/PHYTO-01-22-0016-A">ascotraceR: An R Package Resource</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Research Compendium
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://paulmelloy.com.au/P_xanthii_titlepage.html">Tm and VPD on P. xanthii conidial germination</a>
+    </li>
+    <li>
+      <a href="https://openplantpathology.github.io/Mungbean_PM/index.html">Meta-analysis of fungicide on powdery mildew in mungbean</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:&lt;paul@melloy.com.au&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/PaulMelloy/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/PaulMelloy">
+    <span class="fa fa-brands fa-twitter"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://orcid.org/0000-0003-4253-7167">
+    <span class="fa fa-brands fa-orcid"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">AI Decision Models for Agriculture</h1>
+<h4 class="author">Dr Paul Melloy</h4>
+<h4 class="date">2026-10-28</h4>
+
+</div>
+
+
+<p>AI large language models are disrupting all parts of our lives at
+break neck pace and I am faced with the question: <strong>Are AI
+decision support models about to replace epidemiological
+models?</strong></p>
+<p>As a scientist who specialises in pest and disease modelling I am
+intrigued with how AI decision models like <a
+href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">Jev</a>
+a class of AI model call ‘system one’.<br />
+System one AI models are named after the concept <a
+href="https://www.penguin.com.au/books/thinking-fast-and-slow-9780141033570">“Thinking
+Fast and Thinking slow”</a>, where system one indicates fast thinking:
+automatic cognician, intuitive. Compared with thinking slow:
+deliberative, careful thought, highly reasoned.</p>
+<blockquote>
+<p>So are AI decision models useful for making management decisions in
+agriculture?</p>
+</blockquote>
+<p>The recent access to the <a href="https://jevplayground.com/">Jev
+playground</a> allowed me to evaluate this exact question.</p>
+<p>I decided to test it’s ability by presenting the model with a
+scenario which could be faced by a vineyard manager observing downy
+mildew for the first time in thier orchard. The farm manager is posed
+with the consideration should they apply a fungicide application and
+when should they apply the fungicide spray for maximum efficacy.</p>
+<p>In the 2023-24 growing season I undertook an experiment on downy
+mildew () on a vineyard on Mt. Tamborine in Queensland Australia. With
+this work I was evaluating the performance of the a mechanistic
+epidemiological model which I translated from the academic literature
+into R, <a
+href="https://github.com/PaulMelloy/viticolR"><code>viticolR</code></a>.
+Dissecting this model gave me insight into the risk factors leading to
+problematic downy mildew epidemics.</p>
+<p>Downy mildew (<em>Plasmopara viticola</em>) is an oomycete, which can
+over-winter in leaf litter from infected leaves from previous seasons.
+The contaminated leaf litter material contains oospores which, with
+suitable temperature and moisture conditions promote germination and
+macrosporangiums which are triggered to release zoospores through
+rainsplash. Oospores are the most likely source of primary infections in
+vineyards.</p>
+<p>Once the disease infects leaves in the canopy secondary infection can
+spread. Secondary infection spreads much faster compared to primary
+infection events, especially during warm weather and rainfall events.
+Infected leaves die prematurely reducing the plant productivity. Once
+the disease establishes in the vineyard the farm can suffer significant
+yield losses not only from damage to the leaves, but also infection of
+the grapes.</p>
+<p>The ideal management strategy is to protect the crop with a fungicide
+spray ahead of any potential dispersal events and prior to bunch
+closure. This requires constant vigilance with an eye on weather
+forecasts and any potential primary infections. Most farms will apply
+mixtures of strobilurin and demethylase inhibitor (DMIs) fungicides
+(fungicide groups 3/11 or 7) early in the season to protect from
+infections. These fungicides can provide 2 - 4 weeks of protection and
+can rarely be applied after later in berry development.</p>
+<p>With this knowledge under our belt lets see how Jev will perform.</p>
+<p>I will summarise my prompts below, however you can obtain my full
+prompts on the following page if you wish to recreate my
+evaluations.</p>
+<p><br><br />
+<br></p>
+<div id="inputs-always-included" class="section level2">
+<h2>Inputs always included:</h2>
+<div id="state-context-for-the-model" class="section level3">
+<h3><strong>State</strong>: context for the model</h3>
+<blockquote>
+<p>It is the 1st of November, A vineyard grower in Stanthorpe in
+Australia notices one plant in their vineyard shows signs of downy
+mildew. Downy mildew, caused by the oomycete Plasmopara viticola, is a
+major disease of grapevines that infects leaves, shoots, flowers and
+developing berries, particularly under warm, wet conditions. Infected
+leaves develop characteristic yellow “oil spots” that can progress to
+tissue death and premature leaf fall, while infection of flowers and
+young berries can cause browning, shrivelling and loss of fruit. Severe
+disease can substantially reduce grape yield and quality and, through
+extensive defoliation, reduce vine vigour and carbohydrate reserves
+needed for growth and production in subsequent seasons.</p>
+</blockquote>
+</div>
+<div id="question" class="section level3">
+<h3>Question</h3>
+<blockquote>
+<p>Which fungicide spray strategy should he undertake?</p>
+</blockquote>
+</div>
+<div id="decision-type" class="section level3">
+<h3>Decision type</h3>
+<blockquote>
+<p>Choice</p>
+</blockquote>
+</div>
+<div id="standard-choices" class="section level3">
+<h3>Standard choices</h3>
+<blockquote>
+<ol style="list-style-type: decimal">
+<li>No fungicide spray<br />
+</li>
+<li>One fungicide spray today<br />
+</li>
+<li>One fungicide spray in 10 days<br />
+</li>
+<li>One fungicide spray in 20 days<br />
+</li>
+<li>One fungicide spray in 30 days<br />
+</li>
+<li>Two fungicide sprays: today and in 20 days<br />
+</li>
+<li>Two fungicide sprays: in 10 days and in 30 days</li>
+</ol>
+</blockquote>
+<p><br></p>
+<hr />
+</div>
+</div>
+<div id="scenario-one" class="section level2">
+<h2>Scenario One</h2>
+<div id="additional-input-state" class="section level3">
+<h3>Additional input: <strong>State</strong></h3>
+<blockquote>
+<p>The last fungicide application was metalaxyl 14 days ago.<br />
+The remainder of the season is forecast to be wetter and warmer than
+average.</p>
+</blockquote>
+</div>
+<div id="output" class="section level3">
+<h3>Output</h3>
+<p><img src="../../files/img/2610_JevScenario1.png"
+style="float: center;width:50.0%" /></p>
+</div>
+<div id="interpretation" class="section level3">
+<h3>Interpretation</h3>
+<p>The output gives Jev’s confidence in each of the choices being the
+correct choice.</p>
+<p>Here we see that the model does a good job of making a decision.</p>
+<p>A fungicide spray at the earliest convenience is the best option
+ahead of wet conditions to limit the spread of the disease. Considering
+a follow-up spray in 20 days is also an option worth considering.</p>
+<p><em>I am suddenly a bit nervous …</em></p>
+<p><br></p>
+<hr />
+</div>
+</div>
+<div id="scenario-two" class="section level2">
+<h2>Scenario Two</h2>
+<div id="additional-input-state-1" class="section level3">
+<h3>Additional input: <strong>State</strong></h3>
+<blockquote>
+<p>The last fungicide application was metalaxyl <strong>7 days
+ago</strong>.<br />
+The remainder of the season is forecast to be drier and cooler than than
+average.</p>
+</blockquote>
+</div>
+<div id="output-1" class="section level3">
+<h3>Output</h3>
+<p><img src="../../files/img/2610_JevScenario2.png"
+style="float: center;width:50.0%" /></p>
+</div>
+<div id="interpretation-1" class="section level3">
+<h3>Interpretation</h3>
+<p>The model does not provide ideal recommendations here.</p>
+<p>The fungicide 7 days ago is still likely to be providing protection
+and with cool dry conditions in the future, the farm manager is best
+delaying thier fungicide spray.</p>
+<p><em>No longer questioning my career choices …</em></p>
+<p><br></p>
+<hr />
+</div>
+</div>
+<div id="scenario-three" class="section level2">
+<h2>Scenario Three</h2>
+<div id="additional-input-state-2" class="section level3">
+<h3>Additional input: <strong>State</strong></h3>
+<blockquote>
+<p>The last fungicide application was metalaxyl <strong>7 days
+ago</strong>.<br />
+There is no rain and dry conditions forecast over the next 30 days.</p>
+</blockquote>
+</div>
+<div id="output-2" class="section level3">
+<h3>Output</h3>
+<p><img src="../../files/img/2610_JevScenario3.png"
+style="float: center;width:50.0%" /></p>
+</div>
+<div id="interpretation-2" class="section level3">
+<h3>Interpretation</h3>
+<p>While no Fungicide is increasing in confidence, immediate fungicide
+application is still the most confident response</p>
+<p>Despite downy mildew being present in the canopy, this is not a good
+recommendation. The most risk averse farm manager may consider an single
+application in 20 -30 days, but not immediately.</p>
+<p><em>Hold my beer Jev!</em></p>
+<p><br></p>
+<hr />
+</div>
+</div>
+<div id="scenario-four" class="section level2">
+<h2>Scenario Four</h2>
+<div id="additional-input-state-3" class="section level3">
+<h3>Additional input: <strong>State</strong></h3>
+<blockquote>
+<p>Edited: It is November 1st, a vineyard grower in Stanthorpe in
+Australia has no history of Downy Mildew and has not yet observed any
+Downy mildew in his vineyard.<br />
+The last fungicide application was metalaxyl <strong>7 days
+ago</strong>.<br />
+There is no rain and dry conditions forecast over the next 30 days.</p>
+</blockquote>
+</div>
+<div id="output-3" class="section level3">
+<h3>Output</h3>
+<p><img src="../../files/img/2610_JevScenario4.png"
+style="float: center;width:50.0%" /></p>
+</div>
+<div id="interpretation-3" class="section level3">
+<h3>Interpretation</h3>
+<p>A good response. Finally the decision model does not recommend a
+fungicide application. This scenario makes it very clear that there is
+little to no concern for the disease and the model is able to provide
+the correct response, not to spray.</p>
+<p><em>There maybe some home for you yet Jev</em></p>
+<hr />
+</div>
+</div>
+<div id="final-thoughts" class="section level2">
+<h2>Final thoughts</h2>
+<p>Models like <code>Jev</code> are very new and the whole pace of
+change in AI development is dizzingly fast. While the model in it’s
+current form is not capable of providing reasonable decision support for
+agriculture, there is potential to use this approach in future research
+and development.</p>
+<p>While Jev remains closed source, some open weight system one decision
+models such as <a
+href="https://www.together.ai/models/tev1-4b-experimental">Tev1</a> have
+been released to the publically. So who knows when we might be able to
+fine-tune these models to provide better decision support for integrated
+pest management.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
