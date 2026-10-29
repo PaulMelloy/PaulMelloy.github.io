@@ -417,12 +417,13 @@ decision model turn crop-disease observations and weather information
 into a defensible management recommendation?</strong></p>
 <p>As a scientist who specialises in pest and disease modelling I am
 intrigued with how AI decision models like <a
-href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">Jev</a>
-a class of AI model defined as ‘system one’.<br />
-The name draws on the distinction popularised in <a
+href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">Jev</a>,
+a class of AI model defined as ‘system one’, could be used for ‘decision
+support tools’ (DSTs).<br />
+The name, system one, draws on the distinction popularised in <a
 href="https://www.penguin.com.au/books/thinking-fast-and-slow-9780141033570">“Thinking
-Fast and Slow”</a>. “System 1” describes rapid, intuitive judgement,
-whereas “System 2” describes slower, more deliberate reasoning, more
+Fast and Slow”</a>. “System one” describes rapid, intuitive judgement,
+whereas “System two” describes slower, more deliberate reasoning, more
 akin to most LLMs. In this context, a system-one decision model is
 designed to map a stated situation directly to a choice, rather than
 generating a long chain of reasoning.</p>
@@ -432,11 +433,20 @@ agriculture?</p>
 </blockquote>
 <p>The recent access to the <a href="https://jevplayground.com/">Jev
 playground</a> allowed me to evaluate this exact question.</p>
-<p>I decided to test its ability by presenting the model with a scenario
-which could be faced by a vineyard manager observing downy mildew for
-the first time in their vineyard. The farm manager is posed with the
-consideration should they apply a fungicide application and when should
-they apply the fungicide spray for maximum efficacy.</p>
+<p>I decided to test Jev’s ability by presenting the model with a
+scenario which could be faced by a vineyard manager observing downy
+mildew for the first time in their vineyard. The farm manager is posed
+with the consideration should they apply a fungicide application and
+when should they apply the fungicide spray for maximum efficacy.</p>
+<div class="float">
+<img
+src="https://github.com/PaulMelloy/downy_dst/blob/main/viticolR_dst/www/InspectingLeaves.jpg"
+alt="Students inspecting leaves for downy mildew" />
+<div class="figcaption">Students inspecting leaves for downy
+mildew</div>
+</div>
+<div id="why-downy-mildew-in-grape-vines" class="section level2">
+<h2>Why Downy Mildew in grape vines?</h2>
 <p>In the 2023-24 growing season I undertook an experiment on downy
 mildew at a vineyard on Mount Tamborine in Queensland Australia. With
 this work I was evaluating the performance of a mechanistic
@@ -445,31 +455,44 @@ into R, <a
 href="https://github.com/PaulMelloy/viticolR"><code>viticolR</code></a>.
 Dissecting this model gave me insight into the risk factors leading to
 problematic downy mildew epidemics.</p>
+</div>
+<div id="downy-mildew-risk-factors" class="section level2">
+<h2>Downy Mildew risk factors</h2>
 <p>Downy mildew (<em>Plasmopara viticola</em>) is an oomycete, which can
 over-winter in leaf litter from infected leaves from previous seasons.
 The contaminated leaf litter material contains oospores which, with
 suitable temperature and moisture conditions promote germination and
-macrosporangia which are triggered to release zoospores through rain
-splash. Oospores are the most likely source of primary infections in
-vineyards.</p>
-<p>Once the disease infects leaves in the canopy secondary infection can
-spread. Secondary infection spreads much faster compared to primary
-infection events, especially during warm weather and rainfall events.
-Infected leaves die prematurely reducing plant productivity. Once the
-disease establishes in the vineyard the farm can suffer significant
-yield losses not only from damage to the leaves, but also infection of
-the grapes.</p>
+macrosporangia which, in turn are triggered to release zoospores through
+rain splash. Oospores, and macroporangia are the most likely source of
+primary infections in vineyards.</p>
+<p><img
+src="https://github.com/PaulMelloy/downy_dst/blob/main/viticolR_dst/www/2008_Rossi_DownyPrimaryInfection.png"
+alt="Downy mildew infection cycle Rossi et al (2008)" /> <a
+href="https://www.sciencedirect.com/science/article/pii/S0304380007005881">‘A
+mechanistic model simulating primary infections of downy mildew in
+grapevine’</a></p>
+<p>Once the disease is in the canopy, the disease can spread rapidly.
+Infected leaves produce sporangia which spread more zoospores through
+rain splash and sometimes wind and heavy dew. Weather conditions that
+facilitate rapid disease cycles are typified by warm weather and
+rain.</p>
+</div>
+<div id="management-strategies" class="section level2">
+<h2>Management strategies</h2>
 <p>The ideal management strategy is to protect the crop with a fungicide
 spray ahead of any potential dispersal events and prior to bunch
-closure. Protective fungicides are most effective when applied before
-infection events, but the value and permitted timing of another
-application depend on the product, crop stage, previous applications,
-resistance-management requirements and forecast conditions. This
-requires constant vigilance with an eye on weather forecasts and any
-potential primary infections.</p>
+closure. However the value and permitted timing of another application
+depend on the product, crop stage, previous applications,
+resistance-management requirements and forecast conditions. In general
+synthetic fungicides, such as strobilurins and DMIs are used early in
+the season, with organic permissible fungicides like Copper and
+Bi-Carbonate applied in between synthetic applications and later in the
+season. This requires constant vigilance with an eye on weather
+forecasts and any potential primary infections.</p>
 <p>With this knowledge under our belt lets see how Jev will perform.</p>
 <p><br><br />
 <br></p>
+</div>
 <div id="inputs-always-included" class="section level2">
 <h2>Inputs always included:</h2>
 <div id="state-context-for-the-model" class="section level3">
