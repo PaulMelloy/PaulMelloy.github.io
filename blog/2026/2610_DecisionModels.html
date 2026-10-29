@@ -427,6 +427,27 @@ whereas “System two” describes slower, more deliberate reasoning, more
 akin to most LLMs. In this context, a system-one decision model is
 designed to map a stated situation directly to a choice, rather than
 generating a long chain of reasoning.</p>
+<div id="why-are-ai-decision-models-a-big-deal" class="section level2">
+<h2>Why are AI decision models a big deal?</h2>
+<p>Decision models like Jev can’t hallucinate. They are written in type
+script and deemed “Type-safe”. They are bound by hard coded rules that
+don’t allow them to get distracted by fanciful ideas they are working
+on.</p>
+<div class="float">
+<img
+src="https://framerusercontent.com/images/KEoJ6ZaJkOZG6mcjBsOlB3NCqek.png?width=2048&amp;height=633"
+alt="Hallucination and Type-saftey, credit www.typesafe.ai" />
+<div class="figcaption">Hallucination and Type-saftey, credit
+www.typesafe.ai</div>
+</div>
+<p><br></p>
+<p>This makes them great candidates for decision tools as they are only
+allowed to respond with specific options for example: Yes or No, Left,
+right or straight. Or for a more abstract example, they respond like
+traffic lights. Defined conditions determine whether the signal is red,
+amber or green. The system doesn’t suddenly invent a fourth colour
+because it thinks it might be useful.</p>
+<p><br></p>
 <blockquote>
 <p>So are AI decision models useful for making management decisions in
 agriculture?</p>
@@ -439,6 +460,7 @@ mildew for the first time in their vineyard. The farm manager is posed
 with the consideration should they apply a fungicide application and
 when should they apply the fungicide spray for maximum efficacy.</p>
 <p><br></p>
+</div>
 <div id="why-downy-mildew-in-grape-vines" class="section level2">
 <h2>Why Downy Mildew in grape vines?</h2>
 <p>In the 2023-24 growing season I undertook an experiment on downy
@@ -449,30 +471,36 @@ into R, <a
 href="https://github.com/PaulMelloy/viticolR"><code>viticolR</code></a>.
 Dissecting this model gave me insight into the risk factors leading to
 problematic downy mildew epidemics.</p>
+<center>
 <div class="float">
 <img
 src="https://raw.githubusercontent.com/PaulMelloy/downy_dst/main/viticolR_dst/www/InspectingLeaves.jpg"
-alt="Students inspecting leaves for downy mildew" />
+style="width:60.0%" alt="Students inspecting leaves for downy mildew" />
 <div class="figcaption">Students inspecting leaves for downy
 mildew</div>
 </div>
+</center>
 <p><br></p>
 </div>
 <div id="downy-mildew-risk-factors" class="section level2">
 <h2>Downy Mildew risk factors</h2>
-<p>Downy mildew (<em>Plasmopara viticola</em>) is an oomycete, which can
+Downy mildew (<em>Plasmopara viticola</em>) is an oomycete, which can
 over-winter in leaf litter from infected leaves from previous seasons.
 The contaminated leaf litter material contains oospores which, with
 suitable temperature and moisture conditions promote germination and
 macrosporangia which, in turn are triggered to release zoospores through
 rain splash. Oospores, and macrosporangia are the most likely source of
-primary infections in vineyards.</p>
-<p><img
+primary infections in vineyards.<br />
+
+<center>
+<img
 src="https://raw.githubusercontent.com/PaulMelloy/downy_dst/main/viticolR_dst/www/2008_Rossi_DownyPrimaryInfection.png"
-alt="Downy mildew infection cycle Rossi et al (2008)" /> <a
+alt="Downy mildew infection cycle Rossi et al (2008)" /><br />
+<a
 href="https://www.sciencedirect.com/science/article/pii/S0304380007005881">‘A
 mechanistic model simulating primary infections of downy mildew in
-grapevine’</a></p>
+grapevine’</a>
+</center>
 <p>Once the disease is in the canopy, the disease can spread rapidly.
 Infected leaves produce sporangia which spread more zoospores through
 rain splash and sometimes wind and heavy dew. Weather conditions that

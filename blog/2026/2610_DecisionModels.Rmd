@@ -18,7 +18,27 @@ The name, system one, draws on the distinction popularised in
 “System one” describes rapid, intuitive judgement, whereas “System two” describes 
 slower, more deliberate reasoning, more akin to most LLMs. 
 In this context, a system-one decision model is designed to map a stated 
-situation directly to a choice, rather than generating a long chain of reasoning.
+situation directly to a choice, rather than generating a long chain of reasoning.  
+
+## Why are AI decision models a big deal?  
+
+Decision models like Jev can't hallucinate. 
+They are written in type script and deemed "Type-safe". 
+They are bound by hard coded rules that don't allow them to get distracted by
+fanciful ideas they are working on.
+
+![Hallucination and Type-saftey, credit www.typesafe.ai](https://framerusercontent.com/images/KEoJ6ZaJkOZG6mcjBsOlB3NCqek.png?width=2048&height=633)  
+
+<br>  
+
+This makes them great candidates for decision tools as they are only allowed to
+respond with specific options for example: Yes or No, Left, right or straight. 
+Or for a more abstract example, they respond like traffic lights. 
+Defined conditions determine whether the signal is red, amber or green. 
+The system doesn't suddenly invent a fourth colour because it thinks it might be 
+useful.  
+
+<br>  
 
 > So are AI decision models useful for making management decisions in agriculture?  
 
@@ -43,8 +63,9 @@ model which I translated from the academic literature into R, [`viticolR`](https
 Dissecting this model gave me insight into the risk factors leading to problematic
 downy mildew epidemics.  
 
-![Students inspecting leaves for downy mildew](https://raw.githubusercontent.com/PaulMelloy/downy_dst/main/viticolR_dst/www/InspectingLeaves.jpg)
-
+<center>
+![Students inspecting leaves for downy mildew](https://raw.githubusercontent.com/PaulMelloy/downy_dst/main/viticolR_dst/www/InspectingLeaves.jpg){width=60%} 
+</center>
 <br>
 
 ## Downy Mildew risk factors  
@@ -56,9 +77,10 @@ temperature and moisture conditions promote germination and macrosporangia
 which, in turn are triggered to release zoospores through rain splash. 
 Oospores, and macrosporangia are the most likely source of primary infections in 
 vineyards.  
-
-![Downy mildew infection cycle Rossi et al (2008)](https://raw.githubusercontent.com/PaulMelloy/downy_dst/main/viticolR_dst/www/2008_Rossi_DownyPrimaryInfection.png)
+<center>
+![Downy mildew infection cycle Rossi et al (2008)](https://raw.githubusercontent.com/PaulMelloy/downy_dst/main/viticolR_dst/www/2008_Rossi_DownyPrimaryInfection.png)  
 ['A mechanistic model simulating primary infections of downy mildew in grapevine'](https://www.sciencedirect.com/science/article/pii/S0304380007005881)
+</center>
 
 Once the disease is in the canopy, the disease can spread rapidly. 
 Infected leaves produce sporangia which spread more zoospores through rain splash
