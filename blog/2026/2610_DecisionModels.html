@@ -257,6 +257,12 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
+      <a href="https://paulmelloy.com.au/blog/2026/2610_DecisionModels.html">AI decision models - a first look</a>
+    </li>
+    <li>
+      <a href="https://research.csiro.au/agroecology/from-sky-to-soil-mapping-disease-risk-before-it-starts/">Sky to Soil - sensing disease risk</a>
+    </li>
+    <li>
       <a href="https://paulmelloy.com.au/blog/2025/2503_aRcgis.html">arcgis R package</a>
     </li>
     <li>
@@ -411,16 +417,16 @@ $(document).ready(function () {
 </div>
 
 
-<p>AI large language models (LLM) are disrupting all parts of our lives
-at breakneck pace and I am faced with the question: <strong>Could an AI
+<p>AI large language models (LLMs) are disrupting all parts of our lives
+at breakneck pace, and I am faced with the question: <strong>Could an AI
 decision model turn crop-disease observations and weather information
 into a defensible management recommendation?</strong></p>
-<p>As a scientist who specialises in pest and disease modelling I am
-intrigued with how AI decision models like <a
+<p>As a scientist who specialises in pest and disease modelling, I am
+intrigued by how AI decision models like <a
 href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">Jev</a>,
-a class of AI model defined as ‘system one’, could be used for ‘decision
-support tools’ (DSTs).<br />
-The name, system one, draws on the distinction popularised in <a
+a class of AI model defined as “system one”, could be used for “decision
+support tools” (DSTs). The name, system one, draws on the distinction
+popularised in <a
 href="https://www.penguin.com.au/books/thinking-fast-and-slow-9780141033570">“Thinking
 Fast and Slow”</a>. “System one” describes rapid, intuitive judgement,
 whereas “System two” describes slower, more deliberate reasoning, more
@@ -429,24 +435,23 @@ designed to map a stated situation directly to a choice, rather than
 generating a long chain of reasoning.</p>
 <div id="why-are-ai-decision-models-a-big-deal" class="section level2">
 <h2>Why are AI decision models a big deal?</h2>
-<p>Decision models like Jev can’t hallucinate. They are written in type
-script and deemed “Type-safe”. They are bound by hard coded rules that
-don’t allow them to get distracted by fanciful ideas they are working
-on.</p>
+<p>Decision models like Jev are designed not to hallucinate. They are
+written in TypeScript and described as “type-safe”. They are bound by
+hard-coded rules, so they can’t wander off into fanciful ideas.</p>
 <div class="float">
 <img
 src="https://framerusercontent.com/images/KEoJ6ZaJkOZG6mcjBsOlB3NCqek.png?width=2048&amp;height=633"
-alt="Hallucination and Type-saftey, credit www.typesafe.ai" />
-<div class="figcaption">Hallucination and Type-saftey, credit
+alt="Hallucination and Type-safety, credit www.typesafe.ai" />
+<div class="figcaption">Hallucination and Type-safety, credit
 www.typesafe.ai</div>
 </div>
 <p><br></p>
-<p>This makes them great candidates for decision tools as they are only
-allowed to respond with specific options for example: Yes or No, Left,
-right or straight. Or for a more abstract example, they respond like
-traffic lights. Defined conditions determine whether the signal is red,
-amber or green. The system doesn’t suddenly invent a fourth colour
-because it thinks it might be useful.</p>
+<p>This makes them great candidates for decision tools because they can
+only respond with specific options, for example: Yes or No, Left, right
+or straight. Or for a more abstract example, they respond like traffic
+lights. Defined conditions determine whether the signal is red, amber or
+green. The system doesn’t suddenly invent a fourth colour because it
+thinks it might be useful.</p>
 <p><br></p>
 <blockquote>
 <p>So are AI decision models useful for making management decisions in
@@ -456,18 +461,18 @@ agriculture?</p>
 playground</a> allowed me to evaluate this exact question.</p>
 <p>I decided to test Jev’s ability by presenting the model with a
 scenario which could be faced by a vineyard manager observing downy
-mildew for the first time in their vineyard. The farm manager is posed
-with the consideration should they apply a fungicide application and
-when should they apply the fungicide spray for maximum efficacy.</p>
+mildew for the first time in their vineyard. The grower must decide
+whether to apply a fungicide and, if so, when to spray for maximum
+efficacy.</p>
 <p><br></p>
 </div>
 <div id="why-downy-mildew-in-grape-vines" class="section level2">
-<h2>Why Downy Mildew in grape vines?</h2>
+<h2>Why downy mildew in grape vines?</h2>
 <p>In the 2023-24 growing season I undertook an experiment on downy
-mildew at a vineyard on Mount Tamborine in Queensland Australia. With
+mildew at a vineyard on Mount Tamborine in Queensland, Australia. With
 this work I was evaluating the performance of a mechanistic
 epidemiological model which I translated from the academic literature
-into R, <a
+into R as <a
 href="https://github.com/PaulMelloy/viticolR"><code>viticolR</code></a>.
 Dissecting this model gave me insight into the risk factors leading to
 problematic downy mildew epidemics.</p>
@@ -483,14 +488,14 @@ mildew</div>
 <p><br></p>
 </div>
 <div id="downy-mildew-risk-factors" class="section level2">
-<h2>Downy Mildew risk factors</h2>
+<h2>Downy mildew risk factors</h2>
 Downy mildew (<em>Plasmopara viticola</em>) is an oomycete, which can
-over-winter in leaf litter from infected leaves from previous seasons.
-The contaminated leaf litter material contains oospores which, with
-suitable temperature and moisture conditions promote germination and
-macrosporangia which, in turn are triggered to release zoospores through
-rain splash. Oospores, and macrosporangia are the most likely source of
-primary infections in vineyards.<br />
+overwinter in leaf litter from infected plants of previous seasons. The
+contaminated leaf litter contains oospores which, with suitable
+temperature and moisture conditions, promote germination and
+macrosporangia which, in turn, are triggered to release zoospores
+through rain splash. Oospores and macrosporangia are the most likely
+source of primary infections in vineyards.<br />
 
 <center>
 <img
@@ -501,35 +506,34 @@ href="https://www.sciencedirect.com/science/article/pii/S0304380007005881">‘A
 mechanistic model simulating primary infections of downy mildew in
 grapevine’</a>
 </center>
-<p>Once the disease is in the canopy, the disease can spread rapidly.
-Infected leaves produce sporangia which spread more zoospores through
-rain splash and sometimes wind and heavy dew. Weather conditions that
-facilitate rapid disease cycles are typified by warm weather and
-rain.</p>
+<p>Once in the canopy, the disease can spread rapidly. Infected leaves
+produce sporangia which spread more zoospores through rain splash and
+sometimes wind and heavy dew. Weather conditions that facilitate rapid
+disease cycles are typified by warm weather and rain.</p>
 <p><br></p>
 </div>
 <div id="management-strategies" class="section level2">
 <h2>Management strategies</h2>
 <p>The ideal management strategy is to protect the crop with a fungicide
 spray ahead of any potential dispersal events and prior to bunch
-closure. However the value and permitted timing of another application
+closure. However, the value and permitted timing of another application
 depend on the product, crop stage, previous applications,
-resistance-management requirements and forecast conditions. In general
-synthetic fungicides, such as strobilurins and DMIs are used early in
-the season, with organic permissible fungicides like Copper and
-Bi-Carbonate applied in between synthetic applications and later in the
+resistance-management requirements and forecast conditions. In general,
+synthetic fungicides such as strobilurins and DMIs are used early in the
+season, with organically permissible fungicides like copper and
+bicarbonate applied in between synthetic applications and later in the
 season. This requires constant vigilance with an eye on weather
 forecasts and any potential primary infections.</p>
-<p>With this knowledge under our belt lets see how Jev will perform.</p>
+<p>With this knowledge under our belt, let’s see how Jev performs.</p>
 <p><br><br />
 <br></p>
 </div>
 <div id="inputs-always-included" class="section level2">
-<h2>Inputs always included:</h2>
+<h2>Inputs always included</h2>
 <div id="state-context-for-the-model" class="section level3">
 <h3><strong>State</strong>: context for the model</h3>
 <blockquote>
-<p>It is the 1st of November, A vineyard grower in Stanthorpe in
+<p>It is the 1st of November, a vineyard grower in Stanthorpe in
 Australia notices one plant in their vineyard shows signs of downy
 mildew. Downy mildew, caused by the oomycete Plasmopara viticola, is a
 major disease of grapevines that infects leaves, shoots, flowers and
@@ -595,14 +599,14 @@ style="float: center;width:50.0%" /></p>
 <div id="interpretation" class="section level3">
 <h3>Interpretation</h3>
 <p>The output assigns a relative score to each predefined option.
-Generally he highest-scoring option indicates the preferred decision,
+Generally, the highest-scoring option indicates the preferred decision,
 but the scores should not necessarily be treated as calibrated
-probabilities weighted by agronomic correctness.</p>
+probabilities or as a measure of agronomic correctness.</p>
 <p>In this scenario, Jev’s preferred option broadly matches my
 assessment of the most defensible response.</p>
-<p>A fungicide spray at the earliest convenience is the best option
-ahead of wet conditions to limit the spread of the disease. Considering
-a follow-up spray in 20 days is also an option worth considering.</p>
+<p>A fungicide spray at the earliest opportunity is the best option
+ahead of wet conditions to limit the spread of the disease. A follow-up
+spray in 20 days is also worth considering.</p>
 <p><em>I am suddenly a bit nervous …</em></p>
 <p><br></p>
 <hr />
@@ -615,7 +619,7 @@ a follow-up spray in 20 days is also an option worth considering.</p>
 <blockquote>
 <p>The last fungicide application was metalaxyl <strong>7 days
 ago</strong>.<br />
-The remainder of the season is forecast to be drier and cooler than than
+The remainder of the season is forecast to be drier and cooler than
 average.</p>
 </blockquote>
 </div>
@@ -628,7 +632,7 @@ style="float: center;width:50.0%" /></p>
 <h3>Interpretation</h3>
 <p>The model does not provide ideal recommendations here.</p>
 <p>The fungicide 7 days ago is still likely to be providing protection
-and with cool dry conditions in the future, the farm manager is best
+and with cool dry conditions in the future, the grower is best off
 delaying their fungicide spray.</p>
 <p><em>No longer questioning my career choices …</em></p>
 <p><br></p>
@@ -652,11 +656,11 @@ style="float: center;width:50.0%" /></p>
 </div>
 <div id="interpretation-2" class="section level3">
 <h3>Interpretation</h3>
-<p>While no Fungicide is increasing in confidence, immediate fungicide
-application is still the most confident response</p>
+<p>Although confidence in “no fungicide” is increasing, immediate
+fungicide application is still the highest-scoring response.</p>
 <p>Despite downy mildew being present in the canopy, this is not a good
-recommendation. The most risk averse farm manager may consider an single
-application in 20 - 30 days, but not immediately.</p>
+recommendation. The most risk-averse grower may consider a single
+application in 20–30 days, but not immediately.</p>
 <p><em>Hold my beer Jev!</em></p>
 <p><br></p>
 <hr />
@@ -682,45 +686,45 @@ style="float: center;width:50.0%" /></p>
 </div>
 <div id="interpretation-3" class="section level3">
 <h3>Interpretation</h3>
-<p>A good response. Finally the decision model does not recommend a
+<p>A good response. Finally, the decision model does not recommend a
 fungicide application. Under this deliberately low-risk scenario, Jev
 appropriately ranks “no fungicide spray” as the preferred option.</p>
-<p><em>There maybe some hope for you yet Jev</em></p>
+<p><em>There may be some hope for you yet Jev</em></p>
 <hr />
 </div>
 </div>
 <div id="final-thoughts" class="section level2">
 <h2>Final thoughts</h2>
-<p>Models like <code>Jev</code> are very new and the whole pace of
-change in AI development is dizzyingly fast. In this small test, Jev did
-not respond consistently enough to changing disease risk to be relied
-upon as a stand-alone agricultural decision-support system, there is
+<p>Models like Jev are very new and the whole pace of change in AI
+development is dizzyingly fast. In this small test, Jev did not respond
+consistently enough to changing disease risk to be relied upon as a
+stand-alone agricultural decision-support system. However, there is
 potential to use this approach in future research and development
 frameworks.</p>
-<p>Additionally I should also be fair and indicate that <a
+<p>I should also be fair and note that <a
 href="https://jevplayground.com/what-is-jev#limits">clear inputs and
 non-adversarial options are stated as highly important</a> for getting
-good answers with Jev. So perhaps my hastily prepared example here might
-be too disingenuous for a real world example, and the state input needs
-more specific guidance towards what are important guardrails to making
-accurate decisions. However frequently we lack real world examples of
-what are the important thresholds that guide our decision making and
-decision models are no difference. Where models like this will provide
-specific benefits to agricultural decision making is the ability to
-consider a large number of dependant variables when estimating the
-optimum choice.</p>
+good answers with Jev. So perhaps my hastily prepared example here is
+too disingenuous for a real world example, and the state input needs
+more specific guidance towards what are important guardrails for making
+accurate decisions. However, we frequently lack real world examples of
+the important thresholds that guide our decision making, and decision
+models are no different. Where models like this will provide specific
+benefits to agricultural decision making is in their ability to consider
+a large number of dependent variables when estimating the optimum
+choice.</p>
 <blockquote>
 <p>Regardless of how good AI models will get at providing advice, in the
 end AI models are not accountable for the actions taken.</p>
 </blockquote>
 <p>And for this reason humans will need to remain in the loop for all
-final decision no matter how intelligent the AI support will be.</p>
+final decisions no matter how intelligent the AI support will be.</p>
 <p>While Jev remains closed source, some open-weight system one decision
 models such as <a
 href="https://www.together.ai/models/tev1-4b-experimental">Tev1</a> have
-been released to the publicly. So who knows when we might be able to
-fine-tune these models to provide better decision support for integrated
-pest management.</p>
+been released publicly. Who knows when we might be able to fine-tune
+these models to provide better decision support for integrated pest
+management.</p>
 </div>
 
 

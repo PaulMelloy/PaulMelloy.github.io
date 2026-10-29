@@ -6,6 +6,10 @@ navbar:
       href: https://paulmelloy.com.au/index.html
     - text: "Blogs"
       menu:
+      - text: "AI decision models - a first look"
+        href: https://paulmelloy.com.au/blog/2026/2610_DecisionModels.html
+      - text: "Sky to Soil - sensing disease risk"
+        href: https://research.csiro.au/agroecology/from-sky-to-soil-mapping-disease-risk-before-it-starts/
       - text: "arcgis R package"
         href: https://paulmelloy.com.au/blog/2025/2503_aRcgis.html
       - text: "EvokeAg 2025"
