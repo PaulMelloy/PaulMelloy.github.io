@@ -31,7 +31,8 @@ in their vineyard.
 The farm manager is posed with the consideration should they apply a fungicide 
 application and when should they apply the fungicide spray for maximum efficacy.  
 
-![Students inspecting leaves for downy mildew](https://github.com/PaulMelloy/downy_dst/blob/main/viticolR_dst/www/InspectingLeaves.jpg)
+
+<br>
 
 ## Why Downy Mildew in grape vines?  
 
@@ -42,6 +43,10 @@ model which I translated from the academic literature into R, [`viticolR`](https
 Dissecting this model gave me insight into the risk factors leading to problematic
 downy mildew epidemics.  
 
+![Students inspecting leaves for downy mildew](https://raw.githubusercontent.com/PaulMelloy/downy_dst/main/viticolR_dst/www/InspectingLeaves.jpg)
+
+<br>
+
 ## Downy Mildew risk factors  
 
 Downy mildew (*Plasmopara viticola*) is an oomycete, which can over-winter in 
@@ -49,10 +54,10 @@ leaf litter from infected leaves from previous seasons.
 The contaminated leaf litter material contains oospores which, with suitable 
 temperature and moisture conditions promote germination and macrosporangia
 which, in turn are triggered to release zoospores through rain splash. 
-Oospores, and macroporangia are the most likely source of primary infections in 
+Oospores, and macrosporangia are the most likely source of primary infections in 
 vineyards.  
 
-![Downy mildew infection cycle Rossi et al (2008)](https://github.com/PaulMelloy/downy_dst/blob/main/viticolR_dst/www/2008_Rossi_DownyPrimaryInfection.png)
+![Downy mildew infection cycle Rossi et al (2008)](https://raw.githubusercontent.com/PaulMelloy/downy_dst/main/viticolR_dst/www/2008_Rossi_DownyPrimaryInfection.png)
 ['A mechanistic model simulating primary infections of downy mildew in grapevine'](https://www.sciencedirect.com/science/article/pii/S0304380007005881)
 
 Once the disease is in the canopy, the disease can spread rapidly. 
@@ -60,6 +65,8 @@ Infected leaves produce sporangia which spread more zoospores through rain splas
 and sometimes wind and heavy dew.
 Weather conditions that facilitate rapid disease cycles are typified by warm 
 weather and rain.
+
+<br>  
 
 ## Management strategies  
 
