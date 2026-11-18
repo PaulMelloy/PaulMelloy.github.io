@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>You're invited! Matilda's Box Party</title>
+<style>
+  :root{
+    --card:#e8c39e; --card-dark:#d4a878; --card-edge:#b58a5e;
+    --ink:#4a3520; --tape:rgba(255,255,255,.55);
+    --accent:#e2557b; --accent2:#4b9fb5; --bg:#f6efe4;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{background:var(--bg); color:var(--ink); font-family:Verdana,Geneva,'DejaVu Sans',sans-serif; line-height:1.5; padding:24px 12px 64px;}
+  .wrap{max-width:720px; margin:0 auto;}
+  .card{background:var(--card); border:6px dashed var(--card-edge); border-radius:18px; padding:34px 26px; position:relative; box-shadow:0 10px 26px rgba(74,53,32,.18);}
+  .tape{position:absolute; width:110px; height:30px; background:var(--tape); transform:rotate(-4deg); top:-12px; left:34px; border-radius:4px; box-shadow:0 2px 5px rgba(0,0,0,.12);}
+  .tape.r{left:auto; right:34px; transform:rotate(5deg);}
+  h1{font-size:2.1rem; text-align:center; color:var(--accent); letter-spacing:.5px; margin-bottom:6px;}
+  .kick{text-align:center; font-weight:bold; text-transform:uppercase; letter-spacing:2px; font-size:.8rem; color:var(--card-edge); margin-bottom:14px;}
+  .age{text-align:center; font-size:1.15rem; margin-bottom:18px;}
+  .big{text-align:center; font-size:1.25rem; margin:10px 0 4px;}
+  .boxemoji{text-align:center; font-size:2.6rem; margin:8px 0 2px; letter-spacing:6px;}
+  .cardblock{background:rgba(255,255,255,.42); border-radius:12px; padding:16px 18px; margin-top:18px;}
+  .cardblock h2{font-size:1.05rem; text-transform:uppercase; letter-spacing:1.5px; color:var(--ink); margin-bottom:8px;}
+  p{margin-bottom:8px;}
+  .whenwhere{display:flex; flex-wrap:wrap; gap:14px;}
+  .ww{flex:1 1 240px;}
+  .ww strong{color:var(--accent);}
+  ul.plan{list-style:none;}
+  ul.plan li{padding:3px 0 3px 4px; border-bottom:1px dotted rgba(74,53,32,.25);}
+  ul.plan li:last-child{border-bottom:none;}
+  ul.plan .time{display:inline-block; min-width:56px; font-weight:bold; color:var(--accent2);}
+  .bring li{margin-left:20px; padding:2px 0;}
+  .rsvp{background:#fbe9df; border:3px dashed var(--accent); text-align:center;}
+  .rsvp p{margin:4px 0;}
+  a{color:var(--accent2); text-decoration:none; font-weight:bold;}
+  a:hover{text-decoration:underline;}
+  .foot{text-align:center; font-size:.85rem; margin-top:16px; color:var(--card-edge);}
+  @media print{
+    body{background:#fff; padding:0;}
+    .card{box-shadow:none;}
+    .rsvp{background:#fff;}
+  }
+  #lock{display:flex; min-height:60vh; align-items:center; justify-content:center;}
+  #lock .box{background:var(--card); border:6px dashed var(--card-edge); border-radius:18px; padding:30px; text-align:center; max-width:360px;}
+  #lock h2{color:var(--accent); margin-bottom:12px;}
+  #lock input{width:100%; padding:10px; border-radius:8px; border:2px solid var(--card-edge); font-size:1rem; margin-bottom:10px;}
+  #lock button{width:100%; padding:10px; border-radius:8px; border:none; background:var(--accent); color:#fff; font-weight:bold; font-size:1rem; cursor:pointer;}
+  #lock button:hover{background:var(--accent2);}
+  #lockerr{color:var(--accent); font-size:.85rem; margin-top:8px; min-height:1.1em;}
+  #invite{display:none;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div id="lock">
+    <div class="box">
+      <h2>🔒 Enter password</h2>
+      <input type="password" id="pw" placeholder="Password" autofocus>
+      <button onclick="checkPw()">Unlock invite</button>
+      <div id="lockerr"></div>
+    </div>
+  </div>
+
+  <div id="invite">
+  <div class="card">
+    <div class="tape"></div><div class="tape r"></div>
+
+    <div class="kick">You are invited to</div>
+    <h1>Matilda's Box Party 📦</h1>
+    <div class="age">Matilda is turning <strong>12</strong>!</div>
+    <p class="big"><strong>A 'box party' <em>and</em> a sleepover</strong> — to celebrate her birthday</p>
+    <div class="boxemoji">📦🏠🎨📦🏠🎨</div>
+
+    <div class="cardblock">
+      <h2>What's a box party?</h2>
+      <p>Save up and bring along your <strong>old cardboard boxes</strong> — we are going to build a <strong>cardboard box city</strong> and decorate it!!!</p>
+    </div>
+
+    <div class="cardblock whenwhere">
+      <div class="ww">
+        <h2>When</h2>
+        <p><strong>Saturday, 21st</strong></p>
+        <p>Kick-off 1:30 pm &nbsp;·&nbsp; Pick-up 10:00 am Sunday</p>
+      </div>
+      <div class="ww">
+        <h2>Where</h2>
+        <p><strong>26 Glenlyon Dve, Ashgrove</strong></p>
+        <p><a href="https://www.google.com/maps/search/?api=1&query=26+Glenlyon+Drive+Ashgrove+QLD+4060">Open in Maps →</a></p>
+      </div>
+    </div>
+
+    <div class="cardblock">
+      <h2>The plan</h2>
+      <ul class="plan">
+        <li><span class="time">1:30</span> Box party start 📦</li>
+        <li><span class="time">3:00</span> Swim in the pool 🏊</li>
+        <li><span class="time">3:30</span> Snacks 🍿</li>
+        <li><span class="time">5:30</span> Cake 🎂</li>
+        <li><span class="time">6:00</span> Dinner 🌭</li>
+        <li><span class="time">6:30</span> Prep beds for the sleepover 🛏</li>
+        <li><span class="time">7:00</span> Movie 🎬</li>
+        <li><span class="time">8:30</span> Bed 🌙</li>
+        <li><span class="time">9:00</span> Lights out — <strong>no talking!</strong> 🤫</li>
+      </ul>
+      <p style="margin-top:10px"><strong>Sunday:</strong> 7:30 Breakfast 🥞 &nbsp;·&nbsp; 10:00 Pick-up 🚗</p>
+    </div>
+
+    <div class="cardblock">
+      <h2>What to bring</h2>
+      <ul class="bring">
+        <li>Your <strong>old cardboard boxes</strong> — as many as you can save up!</li>
+        <li><strong>Swimmers + towel</strong> (we're swimming)</li>
+        <li><strong>Pillow &amp; sleeping bag</strong> for the sleepover</li>
+      </ul>
+    </div>
+
+    <div class="cardblock rsvp">
+      <h2>Questions? 💌</h2>
+      <p>Call or text <strong>Paul</strong> on 📞 <strong>0432 601 403</strong></p>
+      <p style="font-size:.9rem;margin-top:8px">Let us know if you can stay for the sleepover or just the party!</p>
+    </div>
+
+    <p class="foot">Can't wait to build a whole city with you! — from Matilda 🎉</p>
+  </div>
+  </div>
+</div>
+
+<script>
+  var CORRECT_HASH = "d1a749ad879b6c07e1f356b260ba81f9cb5b4376072280c9994a5c125165b701";
+
+  async function sha256Hex(text) {
+    var buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
+    return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
+  }
+
+  async function checkPw() {
+    var val = document.getElementById("pw").value;
+    var hash = await sha256Hex(val);
+    if (hash === CORRECT_HASH) {
+      sessionStorage.setItem("matilda_unlocked", "1");
+      document.getElementById("lock").style.display = "none";
+      document.getElementById("invite").style.display = "block";
+    } else {
+      document.getElementById("lockerr").textContent = "Wrong password, try again.";
+    }
+  }
+
+  document.getElementById("pw").addEventListener("keydown", function(e) {
+    if (e.key === "Enter") checkPw();
+  });
+
+  if (sessionStorage.getItem("matilda_unlocked") === "1") {
+    document.getElementById("lock").style.display = "none";
+    document.getElementById("invite").style.display = "block";
+  }
+</script>
+</body>
+</html>
